@@ -8,7 +8,6 @@ import Skills from "../components/Skills"
  
 const Home = () => {
   return ( 
-    <>
     <main>
       <Nav/>
       <Introduction/>
@@ -17,7 +16,6 @@ const Home = () => {
       <Contact/>
       <Footer/>
     </main>
-    </>
   )
 }
 

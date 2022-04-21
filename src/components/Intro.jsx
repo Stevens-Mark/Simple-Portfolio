@@ -3,18 +3,18 @@ import portrait from '../assets/images/portrait.jpg'
 
 const Introduction = () => {
   return ( 
-    <section className="py-5">
+    <section id="johndoe" className="py-5">
       <div className= "container">
 
-        <div className="row">
+        <div className="row gy-4 gy-md-0 align-items-center">
 
-          <div className="col">
-            <h1>I'm John Doe, Web Developer and Designer</h1>
-            <p>Welcome to my creative universe</p>
-            <button>My web skills</button>
+          <div className="col-12 col-md-6 ">
+            <h1 className="fw-bold">I'm John Doe, Web Developer and Designer</h1>
+            <h2 className="fw-light">Welcome to my creative universe</h2>
+            <button type="button" className="btn btn-primary mt-5">My web skills</button>
           </div>
 
-          <div className="col">
+          <div className="col-12 col-md-6">
             <img src={portrait} alt='The author' className='rounded-3 shadow'/>
           </div>
 
