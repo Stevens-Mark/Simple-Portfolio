@@ -1,6 +1,4 @@
 import React from "react"
-// import 'bootstrap/dist/js/bootstrap.bundle';
-
 
 const Navigation = () => {
 
