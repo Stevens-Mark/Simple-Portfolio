@@ -1,0 +1,31 @@
+/**
+ * Main Sass file
+ */
+
+@import './utils/variables';
+
+@import "./utils/functions";
+@import "utils/mixins";
+@import "utils/keyframes";
+
+@import "base/base";
+@import "base/typography";
+
+@import "components/form";
+
+@import "components/loader";
+@import "components/buttons";
+
+@import "layout/header";
+@import "layout/banner";
+@import "layout/footer";
+
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+
+
+
+

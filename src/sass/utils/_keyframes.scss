@@ -1,0 +1,24 @@
+/*fade in */
+@keyframes fade {
+    from { opacity: 0;}
+    to   { opacity: 1;}
+}
+
+/*animation to fade in */
+@keyframes fadein {
+    from { opacity: 0; transform: translateY(10%);}
+    to   { opacity: 1;  transform: translateY(0);}
+}
+
+/*fade out */
+@keyframes fadeout {
+    0% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+/*pulsing loading */
+@keyframes wave {
+    50%, 75% { transform: scale(2.5); }
+    80%, 100% {opacity: 0; }
+  }

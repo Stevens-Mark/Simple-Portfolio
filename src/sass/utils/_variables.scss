@@ -1,0 +1,38 @@
+
+/*********************************************/
+/*          CUSTOMIZED DEFAULTS         */
+/*********************************************/
+// Overide bootstrap default variables before the import
+
+// $body-bg: #cccccc;
+// $body-color: #999999;
+
+
+
+// $primary: #000000;
+// $secondary: #FF79DA;
+$tertiary: #99E2D0;
+$quaternary: #7e7e7e;
+$primary-text:#000;
+$secondary-text: #ffff;
+$card-color:#ffff;
+
+
+/*********************************************/
+/*           MARGIN CUSTOM UTILITY           */
+/*********************************************/
+ 
+$utilities: ( 
+  "custom-margin-top": 
+  ( property: margin-top, 
+    class: mt,
+    values: ( 
+      0: 0,
+      1: 0.4rem, 
+      2: 0.8rem, 
+      3: 1.2rem, 
+      4: 1.6rem, 
+      5: 2rem, 
+      ), 
+  ),
+);
