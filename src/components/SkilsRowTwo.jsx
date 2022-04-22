@@ -1,7 +1,7 @@
 import React from "react"
 import design from '../assets/images/design.jpg'
 import { FaFigma } from "react-icons/fa"
-import { FaImages } from "react-icons/fa" 
+import { FaPhotoVideo } from "react-icons/fa" 
 import { FaPalette } from "react-icons/fa" 
 import { FaVial } from "react-icons/fa" 
 import { FaVideo } from "react-icons/fa"
@@ -16,7 +16,7 @@ const SkillsRowTwo = () => {
         </div>
 
         <div className="col-12 col-md-7 offset-md-1">
-            <div className="bg-white mb-3 p-3 rounded-3 shadow-sm">
+            <div className="bg-white mb-3 px-3 py-4 rounded-3 shadow-sm">
               <div className="row align-items-center">
                 <div className="col-5 col-sm-4 col-lg-3 col-xl-2">
                   <div className="d-flex align-items-center">
@@ -26,8 +26,8 @@ const SkillsRowTwo = () => {
 
                 </div>
                 <div className="col">
-                  <div class="progress m-1">
-                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress m-1">
+                    <div className="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
 
@@ -38,14 +38,14 @@ const SkillsRowTwo = () => {
               <div className="row align-items-center">
                 <div className="col-5 col-sm-4 col-lg-3 col-xl-2">
                   <div className="d-flex align-items-center">
-                    <FaImages className="text-primary fa-2x me-3" />
+                    <FaPhotoVideo className="text-primary fa-3x me-3" />
                     <p className=" fw-bold m-0">Adobe Suites</p>
                   </div>
 
                 </div>
                 <div className="col">
-                  <div class="progress m-1">
-                    <div class="progress-bar w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress m-1">
+                    <div className="progress-bar w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
               </div>
@@ -61,8 +61,8 @@ const SkillsRowTwo = () => {
 
                 </div>
                 <div className="col">
-                  <div class="progress m-1">
-                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress m-1">
+                    <div className="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
               </div>
@@ -78,14 +78,14 @@ const SkillsRowTwo = () => {
 
                 </div>
                 <div className="col">
-                  <div class="progress m-1">
-                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress m-1">
+                    <div className="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
               </div>
             </div>
             
-            <div className="bg-white mb-3 p-3 rounded-3 shadow-sm">
+            <div className="bg-white mb-3 px-3 py-4 rounded-3 shadow-sm">
               <div className="row align-items-center">
                 <div className="col-5 col-sm-4 col-lg-3 col-xl-2">
                   <div className="d-flex align-items-center">
@@ -95,8 +95,8 @@ const SkillsRowTwo = () => {
 
                 </div>
                 <div className="col">
-                  <div class="progress m-1">
-                    <div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress m-1">
+                    <div className="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
               </div>

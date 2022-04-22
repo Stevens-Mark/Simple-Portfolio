@@ -3,12 +3,10 @@ import coffee from '../assets/images/coffee.jpg'
 
 const Contact = () => {
     return (
-      <section id="contact details" className="py-5 bg-light">
-
+      <section  id="contact details" className="py-5 bg-light">
         <div className="container" >
-
           <div className="row mt-5 ">
-            <div className="col">
+            <div  className="col">
               <h2>Have a web design project in mind?</h2>
               <h3 className="fs-5 fw-light">Let's discuss it over a coffee!</h3>
             </div>

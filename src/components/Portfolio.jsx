@@ -1,4 +1,6 @@
 import React from "react"
+import Card from "./Card"
+import { projects } from "../assets/data/projects"
 
 const Portfolio = () => {
     return ( 
@@ -7,26 +9,12 @@ const Portfolio = () => {
           <h2>My Portfolio</h2>
           <h3 className="fs-5 fw-light">Personal and professional projects</h3>
    
-          <div className="row mt-5 gy-4 gy-md-0">
-            <div className="col-12 col-md-3">
-              <div className="bg-secondary h-100 w-100 py-5">
-              </div>
-            </div>
-
-            <div className="col-12 col-md-3">
-              <div className="bg-secondary h-100 w-100 py-5">
-              </div>
-            </div>
-
-            <div className="col-12 col-md-3">
-              <div className="bg-secondary h-100 w-100 py-5">
-              </div>
-            </div>
-
-            <div className="col-12 col-md-3">
-              <div className="bg-secondary h-100 w-100 py-5">
-              </div>
-            </div>
+          <div className="row mt-5 gy-4">
+              {projects.map((project) => 
+                <div key={project.id}  className="col-12 col-sm-6 col-md-4 col-lg-3">
+                  <Card project={project}/>
+                </div>
+              )}
 
           </div>
         </div>

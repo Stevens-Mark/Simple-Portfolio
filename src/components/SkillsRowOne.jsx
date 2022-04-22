@@ -23,8 +23,8 @@ const SkillsRowOne = () => {
 
                 </div>
                 <div className="col">
-                  <div class="progress m-1">
-                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress m-1">
+                    <div className="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
 
@@ -41,8 +41,8 @@ const SkillsRowOne = () => {
 
                 </div>
                 <div className="col">
-                  <div class="progress m-1">
-                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress m-1">
+                    <div className="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
               </div>
@@ -58,8 +58,8 @@ const SkillsRowOne = () => {
 
                 </div>
                 <div className="col">
-                  <div class="progress m-1">
-                    <div class="progress-bar w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress m-1">
+                    <div className="progress-bar w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
               </div>
@@ -75,8 +75,8 @@ const SkillsRowOne = () => {
 
                 </div>
                 <div className="col">
-                  <div class="progress m-1">
-                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress m-1">
+                    <div className="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
               </div>
@@ -92,8 +92,8 @@ const SkillsRowOne = () => {
 
                 </div>
                 <div className="col">
-                  <div class="progress m-1">
-                    <div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress m-1">
+                    <div className="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
               </div>
