@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import PropTypes from "prop-types"
 // import components
 import Nav from "../components/Nav"
@@ -20,10 +20,11 @@ import LegalModal from "../components/Modal"
 const Home = ( { siteData } ) => {
 
   useEffect(() => {
-    document.title = 'Home'
     window.scrollTo(0, 0)
   }, [])
 
+  // state passed between footer & modal compnent
+  const [show, setShow] = useState(false)
 
   return ( 
     <main>
@@ -32,8 +33,8 @@ const Home = ( { siteData } ) => {
       <Skills/>
       <Portfolio projects={siteData} />
       <Contact/>
-      <Footer/>
-      <LegalModal/>
+        <Footer setShow={setShow}/>
+      <LegalModal show={show} setShow={setShow} />
       <OffCanvas projects={siteData} />
     </main>
   )

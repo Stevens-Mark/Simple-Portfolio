@@ -1,25 +1,20 @@
 
 import Modal from 'react-bootstrap/Modal'
-import { useState } from 'react'
+import PropTypes from 'prop-types'
 
 /**
  * Renders a Modal for the legal notice when user clicks on it
  * @function LegalModal
+ * @param {boolean} show (state: true/false) to display modal
+ * @param {function} setShow (function to set modals state)
  * @returns {JSX}
  */
- const LegalModal = () => {
+ const LegalModal = ( { show, setShow } ) => {
 
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false)
 
   return (
     <>
-      <button variant="primary" onClick={handleShow}>
-        Launch demo modal
-      </button>
-
       <Modal centered show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Legal Notice</Modal.Title>
@@ -43,3 +38,9 @@ import { useState } from 'react'
 }
 
 export default LegalModal
+
+// Prototypes
+LegalModal.propTypes = {
+  show: PropTypes.bool.isRequired,
+  setShow: PropTypes.func.isRequired,
+}

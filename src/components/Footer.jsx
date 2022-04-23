@@ -1,9 +1,14 @@
+import PropTypes from 'prop-types'
+
 /**
  * Renders the Footer on the page
  * @function Footer
+ * @param {function} setShow (function to set modals state)
  * @returns {JSX}
  */
-const Footer = () => {
+const Footer = ( { setShow } ) => {
+
+    const handleShow = () => setShow(true)
 
     return ( 
       <footer className="border-top">
@@ -24,9 +29,7 @@ const Footer = () => {
             <div className="col-12 col-md-4 text-md-center">
               <ul className="list-inline list-unstyled mb-0">
                 <li className="list-inline-item">
-                  <a href='Legal Notice link' className='text-decoration-none text-dark' aria-label="Link to Instagram" rel="noreferrer" target='_blank'>
-                    Legal Notice
-                  </a>
+                  <button type="button" aria-label="Open Legal Notice" class="btn btn-white text-dark" variant="primary" onClick={handleShow}> Legal Notice</button>
                 </li>
               </ul>
             </div>
@@ -61,3 +64,8 @@ const Footer = () => {
 }
 
 export default Footer
+
+// Prototypes
+Footer.propTypes = {
+  setShow: PropTypes.func.isRequired,
+}
