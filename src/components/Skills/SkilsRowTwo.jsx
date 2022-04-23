@@ -18,11 +18,11 @@ const SkillsRowTwo = () => {
     return (
       <div className="row mt-5 gy-4 gy-md-0 align-items-center">
 
-        <div className="coll-12  col-md-4 ">
+        <div className="coll-12 col-md-4">
           <img src={design} alt="screen showing design" className="rounded-3 shadow w-100"/>
         </div>
 
-        <div className="col-12 col-md-7 offset-md-1">
+        <div className="col-12 order-first col-md-7 offset-md-1 order-md-last">
             <div className="bg-white mb-3 px-3 py-4 rounded-3 shadow-sm">
               <div className="row align-items-center">
                 <div className="col-5 col-sm-4 col-lg-3 col-xl-2">

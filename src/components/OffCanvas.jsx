@@ -8,7 +8,7 @@ import ProjectCarousel from './ProjectCarousel'
  * @param {array} projects : data
  * @returns {JSX}
  */
-const OffCanvas = ( { projects }  ) => {
+const OffCanvas = ( { projects } ) => {
 
   return (
     <>

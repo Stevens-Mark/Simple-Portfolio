@@ -8,6 +8,7 @@ import Portfolio from "../components/Portfolio"
 import Contact from "../components/Contact"
 import Footer from "../components/Footer"
 import OffCanvas from "../components/OffCanvas"
+import LegalModal from "../components/Modal"
 
 /**
  * Renders main page
@@ -23,6 +24,7 @@ const Home = ( { siteData } ) => {
     window.scrollTo(0, 0)
   }, [])
 
+
   return ( 
     <main>
       <Nav/>
@@ -31,6 +33,7 @@ const Home = ( { siteData } ) => {
       <Portfolio projects={siteData} />
       <Contact/>
       <Footer/>
+      <LegalModal/>
       <OffCanvas projects={siteData} />
     </main>
   )
