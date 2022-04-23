@@ -1,23 +1,24 @@
-import React from "react"
-import Contact from "../components/Contact"
-import Footer from "../components/Footer"
-import Introduction from "../components/Intro"
+import React, { useEffect } from "react"
 import Nav from "../components/Nav"
-import Portfolio from "../components/Portfolio"
+import Introduction from "../components/Intro"
 import Skills from "../components/Skills"
-import Test from "../components/Test"
+import Portfolio from "../components/Portfolio"
+import Contact from "../components/Contact"
 
- 
-const Home = () => {
+const Home = ( { siteData } ) => {
+
+  useEffect(() => {
+    document.title = 'Home'
+    window.scrollTo(0, 0)
+  }, [])
+
   return ( 
     <main>
       <Nav/>
       <Introduction/>
-<Test/>
       <Skills/>
-      <Portfolio/>
+      <Portfolio projects={siteData} />
       <Contact/>
-      <Footer/>
     </main>
   )
 }

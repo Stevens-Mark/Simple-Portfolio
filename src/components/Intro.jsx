@@ -3,7 +3,7 @@ import portrait from '../assets/images/portrait.jpg'
 
 const Introduction = () => {
   return ( 
-    <section id="johndoe" className="py-5">
+    <section id="top" className="py-5">
       <div className= "container">
 
         <div className="row gy-4 gy-md-0 align-items-center">

@@ -1,8 +1,8 @@
 import React from "react"
 import Card from "./Card"
-import { projects } from "../assets/data/projects"
 
-const Portfolio = () => {
+
+const Portfolio = ( { projects } ) => {
     return ( 
       <section id="portfolio" className="py-5">
         <div className="container">

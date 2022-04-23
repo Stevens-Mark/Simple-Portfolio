@@ -1,16 +1,18 @@
 import React from "react"
+import { Link } from 'react-router-dom'
 
 const Navigation = () => {
-
   
   return ( 
     <header className="py-4" >
       <nav className="navbar navbar-expand-md bg-light navbar-light fixed-top">
 
       <div className="container">
-        <a className="navbar-brand text-uppercase fw-bold" href="/index.html">
+        {/* <a className="navbar-brand text-uppercase fw-bold" href="/index.html">
           <span className="bg-primary bg-gradient p-1 rounded-3 text-light">John</span> Doe
-        </a>
+        </a> */}
+        <Link className="navbar-brand text-uppercase fw-bold" to={`/`}>
+            <span className="bg-primary bg-gradient p-1 rounded-3 text-light">John</span> Doe</Link>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

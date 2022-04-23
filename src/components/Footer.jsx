@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="col-12 col-md-4">
               <ul className="list-inline list-unstyled mb-0">
                 <li className="list-inline-item ">
-                  <a href='#johndoe' className='text-decoration-none text-uppercase fw-bold text-dark' aria-label="Link to Top">
+                  <a href='#top' className='text-decoration-none text-uppercase fw-bold text-dark' aria-label="Link to Top">
                     <span className="bg-primary bg-gradient p-1 rounded-3 text-light">John</span> Doe
                   </a>
                 </li>
