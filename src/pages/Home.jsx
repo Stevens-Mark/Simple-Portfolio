@@ -33,7 +33,7 @@ const Home = ( { siteData } ) => {
       <Skills/>
       <Portfolio projects={siteData} />
       <Contact/>
-        <Footer setShow={setShow}/>
+      <Footer setShow={setShow}/>
       <LegalModal show={show} setShow={setShow} />
       <OffCanvas projects={siteData} />
     </main>
