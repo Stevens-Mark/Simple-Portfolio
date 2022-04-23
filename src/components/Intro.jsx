@@ -1,6 +1,12 @@
 import portrait from '../assets/images/portrait.jpg'
 
+/**
+ * Renders the authors photo/Intro section on page
+ * @function Introduction
+ * @returns {JSX}
+ */
 const Introduction = () => {
+  
   return ( 
     <section id="top" className="py-5">
       <div className= "container">

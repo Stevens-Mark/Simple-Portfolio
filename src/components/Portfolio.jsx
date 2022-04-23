@@ -1,5 +1,13 @@
+import PropTypes from 'prop-types'
+// import component
 import Card from "./Card"
 
+/**
+ * Renders Portfolio section on page
+ * @function Portfolio
+ * @param {array} projects : data
+ * @returns {JSX}
+ */
 const Portfolio = ( { projects } ) => {
 
   return ( 
@@ -22,3 +30,8 @@ const Portfolio = ( { projects } ) => {
 }
 
 export default Portfolio
+
+// Prototypes
+Portfolio.propTypes = {
+  projects: PropTypes.array.isRequired,
+}

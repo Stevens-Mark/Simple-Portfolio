@@ -1,4 +1,8 @@
-
+/**
+ * Renders top page navigation section
+ * @function Navigation
+ * @returns {JSX}
+ */
 const Navigation = () => {
   
   return ( 

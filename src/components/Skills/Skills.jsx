@@ -1,7 +1,13 @@
 import React from "react"
+// import components
 import SkillsRowOne from "./SkillsRowOne"
 import SkillsRowTwo from "./SkilsRowTwo"
 
+/**
+ * Renders the skills section on page
+ * @function Skills
+ * @returns {JSX}
+ */
 const Skills = () => {
 
   return ( 

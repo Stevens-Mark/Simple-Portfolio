@@ -1,12 +1,18 @@
 import React from "react"
+// import image
 import code from '../../assets/images/code.jpg'
-// import icons from reat-icons (npm react Icons package installed)
+// import icons from react-icons (npm react Icons package installed)
 import { FaHtml5 } from "react-icons/fa"
 import { FaCss3Alt } from "react-icons/fa" 
 import { FaJsSquare } from "react-icons/fa" 
 import { FaSass } from "react-icons/fa" 
 import { FaPhp } from "react-icons/fa"
 
+/**
+ * Renders the first row in the skills section
+ * @function SkillsRowOne
+ * @returns {JSX}
+ */
 const SkillsRowOne = () => {
 
     return (

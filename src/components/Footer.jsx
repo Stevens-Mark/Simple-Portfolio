@@ -1,4 +1,8 @@
-
+/**
+ * Renders the Footer on the page
+ * @function Footer
+ * @returns {JSX}
+ */
 const Footer = () => {
 
     return ( 

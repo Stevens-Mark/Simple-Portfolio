@@ -1,5 +1,10 @@
 import coffee from '../assets/images/coffee.jpg'
 
+/**
+ * Renders the contact section on page
+ * @function Contact
+ * @returns {JSX}
+ */
 const Contact = () => {
 
     return (

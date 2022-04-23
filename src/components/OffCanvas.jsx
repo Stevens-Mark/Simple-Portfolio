@@ -1,4 +1,12 @@
+import PropTypes from 'prop-types'
 
+/**
+ * Renders (offcanvas page) additional information for each project
+ * when user clicks on 'Find out more' button
+ * @function OffCanvas
+ * @param {array} projects : data
+ * @returns {JSX}
+ */
 const OffCanvas = ( { projects }  ) => {
 
   return (
@@ -24,3 +32,8 @@ const OffCanvas = ( { projects }  ) => {
 }
 
 export default OffCanvas
+
+// Prototypes
+OffCanvas.propTypes = {
+  projects: PropTypes.array.isRequired,
+}

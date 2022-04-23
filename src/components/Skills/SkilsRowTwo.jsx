@@ -1,11 +1,18 @@
 import React from "react"
+// import image
 import design from '../../assets/images/design.jpg'
+// import icons from react-icons (npm react Icons package installed)
 import { FaFigma } from "react-icons/fa"
 import { FaPhotoVideo } from "react-icons/fa" 
 import { FaPalette } from "react-icons/fa" 
 import { FaVial } from "react-icons/fa" 
 import { FaVideo } from "react-icons/fa"
 
+/**
+ * Renders the second row in the skills section
+ * @function SkillsRowTwo
+ * @returns {JSX}
+ */
 const SkillsRowTwo = () => {
 
     return (

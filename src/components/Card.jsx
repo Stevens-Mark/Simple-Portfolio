@@ -1,4 +1,11 @@
+import PropTypes from 'prop-types'
 
+/**
+ * Renders a card for each project
+ * @function Card
+ * @param {object} projects : data
+ * @returns {JSX}
+ */
 const Card = ( { project } ) => {
 
   const { id, title, description, cover, alt } = project
@@ -18,3 +25,8 @@ const Card = ( { project } ) => {
 }
 
 export default Card
+
+// Prototypes
+Card.propTypes = {
+  projects: PropTypes.object,
+}
