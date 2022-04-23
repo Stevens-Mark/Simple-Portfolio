@@ -1,0 +1,41 @@
+/*********************************************/
+/*               CAROUSEL CSS                "/
+/*********************************************/
+
+
+.slide {
+    object-fit: cover;
+    height: 25vh;
+}
+
+@media (min-width: 425px) {  
+  .slide { height: 40vh;} 
+}
+
+@media (min-width: 576px) {  
+  .slide { height: 50vh;} 
+}
+
+@media (min-width: 768px) {  
+  .slide { height: 75vh;} 
+}
+
+@media (min-width: 992px) {  
+  .slide { height: 90vh;} 
+}
+
+.projectHeading {
+  font-size: clamp(0.7rem, 2.5vw, 2rem); 
+}
+.projectText {
+  font-size: clamp(0.9rem, 1.8vw, 1.4rem); 
+}
+
+.carousel-indicators [data-bs-target] {
+  border-bottom: unset;
+}
+
+.carousel-caption {
+  padding-top: 0.5em;
+  padding-bottom: 0.5rem;
+}

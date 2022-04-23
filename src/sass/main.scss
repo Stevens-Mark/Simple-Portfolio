@@ -11,19 +11,16 @@
 @import "base/base";
 @import "base/typography";
 
-
-
-@import "components/card";
-
 @import "layout/header";
 @import "layout/banner";
 @import "layout/footer";
 
+@import "components/card";
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
 
-
+@import "components/projectCarousel";
 
 
 
