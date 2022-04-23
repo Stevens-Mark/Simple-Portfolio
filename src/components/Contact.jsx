@@ -1,7 +1,7 @@
-import React from "react"
 import coffee from '../assets/images/coffee.jpg'
 
 const Contact = () => {
+
     return (
       <section  id="contact details" className="py-5 bg-light">
         <div className="container" >

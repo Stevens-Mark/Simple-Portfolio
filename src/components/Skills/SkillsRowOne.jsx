@@ -1,5 +1,5 @@
 import React from "react"
-import code from '../assets/images/code.jpg'
+import code from '../../assets/images/code.jpg'
 // import icons from reat-icons (npm react Icons package installed)
 import { FaHtml5 } from "react-icons/fa"
 import { FaCss3Alt } from "react-icons/fa" 

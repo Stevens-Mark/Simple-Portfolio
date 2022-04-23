@@ -1,5 +1,3 @@
-import React from "react"
-import { Link } from 'react-router-dom'
 
 const Card = ( { project } ) => {
 
@@ -11,7 +9,9 @@ const Card = ( { project } ) => {
         <div className="card-body text-dark">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{description}</p>
-          <Link className="btn btn-primary" to={`/project/${id}`}>Find out More</Link>
+
+          <a href={`#project${id}Info`} className="btn btn-primary" data-bs-toggle="offcanvas" role="button"
+              aria-controls={`project${id}Info`}>Find out More</a>
         </div>
     </div>
   )

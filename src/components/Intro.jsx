@@ -1,4 +1,3 @@
-import React from "react"
 import portrait from '../assets/images/portrait.jpg'
 
 const Introduction = () => {

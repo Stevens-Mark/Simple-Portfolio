@@ -1,6 +1,6 @@
-import React from "react"
 
 const Footer = () => {
+
     return ( 
       <footer className="border-top">
         <div className="container py-5">
@@ -29,7 +29,6 @@ const Footer = () => {
 
             <div className="col-12 col-md-4 text-md-end">
               <ul className="list-inline list-unstyled mb-0">
-
                 <li className="list-inline-item">
                   <a href='my linkedin link' className='text-decoration-none text-dark' aria-label="Link to LinkedIn" rel="noreferrer" target='_blank'>
                   <i className="fab fa-linkedin fa-2x"></i>
@@ -47,9 +46,7 @@ const Footer = () => {
                   <i className="fab fa-twitter-square fa-2x"></i>
                   </a>
                 </li>
-
               </ul>
-
             </div>
 
           </div>

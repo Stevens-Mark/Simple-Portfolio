@@ -1,9 +1,11 @@
 import React, { useEffect } from "react"
 import Nav from "../components/Nav"
 import Introduction from "../components/Intro"
-import Skills from "../components/Skills"
+import Skills from "../components/Skills/Skills"
 import Portfolio from "../components/Portfolio"
 import Contact from "../components/Contact"
+import Footer from "../components/Footer"
+import OffCanvas from "../components/OffCanvas"
 
 const Home = ( { siteData } ) => {
 
@@ -19,6 +21,8 @@ const Home = ( { siteData } ) => {
       <Skills/>
       <Portfolio projects={siteData} />
       <Contact/>
+      <Footer/>
+      <OffCanvas projects={siteData} />
     </main>
   )
 }

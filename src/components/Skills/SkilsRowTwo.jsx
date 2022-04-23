@@ -1,5 +1,5 @@
 import React from "react"
-import design from '../assets/images/design.jpg'
+import design from '../../assets/images/design.jpg'
 import { FaFigma } from "react-icons/fa"
 import { FaPhotoVideo } from "react-icons/fa" 
 import { FaPalette } from "react-icons/fa" 
