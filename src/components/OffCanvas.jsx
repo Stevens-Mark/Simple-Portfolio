@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import ProjectCarousel from './Carousel'
+import ProjectCarousel from './ProjectCarousel'
 
 /**
  * Renders (offcanvas page) additional information for each project

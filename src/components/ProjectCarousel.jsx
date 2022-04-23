@@ -12,17 +12,17 @@ const ProjectCarousel = ( { project } ) => {
 
   return (
 
-    <Carousel pause='hover'>
-      {project.slides.map((proj) => 
-        <Carousel.Item interval={10000} >
+    <Carousel  pause='hover' className='shadow'>
+      {project.slides.map((projSlide) => 
+        <Carousel.Item key={projSlide.alt} interval={10000}>
           <img
-            className="d-block w-100 slide"
-            src={proj.path}
-            alt={proj.alt}
+            className="d-block w-100 slide rounded"
+            src={projSlide.path}
+            alt={projSlide.alt}
           />
           <Carousel.Caption>
-            <h3 className='projectHeading mb-0'>{proj.heading}</h3>
-            <p className='projectText d-none d-sm-block mb-0'>{proj.text}</p>
+            <h3 className='projectHeading mb-0 '>{projSlide.heading}</h3>
+            <p className='projectText d-none d-sm-block mb-0'>{projSlide.text}</p>
           </Carousel.Caption>
         </Carousel.Item> 
       )}  
@@ -34,5 +34,5 @@ export default ProjectCarousel
 
 // Prototypes
 ProjectCarousel.propTypes = {
-  project: PropTypes.array.isRequired,
+  project: PropTypes.object.isRequired,
 }

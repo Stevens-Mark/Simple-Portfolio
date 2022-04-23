@@ -108,7 +108,7 @@ const SkillsRowOne = () => {
           </div>
 
           <div className="col-12 offset-md-1 col-md-4">
-            <img src={code} alt="screen showing php code"  className="rounded-3 shadow w-100 h-50"/>
+            <img src={code} alt="screen showing php code"  className="rounded-3 shadow w-100"/>
           </div>
       </div>
   )
