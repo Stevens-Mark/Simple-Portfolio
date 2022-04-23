@@ -7,6 +7,8 @@ import { FaPhotoVideo } from "react-icons/fa"
 import { FaPalette } from "react-icons/fa" 
 import { FaVial } from "react-icons/fa" 
 import { FaVideo } from "react-icons/fa"
+// import for react/Bootstrap5 tooltips
+import { OverlayTrigger, Tooltip } from 'react-bootstrap'
 
 /**
  * Renders the second row in the skills section
@@ -34,7 +36,11 @@ const SkillsRowTwo = () => {
                 </div>
                 <div className="col">
                   <div className="progress m-1">
-                    <div className="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    <OverlayTrigger 
+                      placement={'top'} 
+                      overlay={<Tooltip>75%</Tooltip>} >
+                      <div className="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </OverlayTrigger>                    
                   </div>
                 </div>
 
@@ -52,7 +58,11 @@ const SkillsRowTwo = () => {
                 </div>
                 <div className="col">
                   <div className="progress m-1">
-                    <div className="progress-bar w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    <OverlayTrigger 
+                      placement={'top'} 
+                      overlay={<Tooltip>100%</Tooltip>} >
+                      <div className="progress-bar w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </OverlayTrigger>                       
                   </div>
                 </div>
               </div>
@@ -69,7 +79,11 @@ const SkillsRowTwo = () => {
                 </div>
                 <div className="col">
                   <div className="progress m-1">
-                    <div className="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    <OverlayTrigger 
+                      placement={'top'} 
+                      overlay={<Tooltip>75%</Tooltip>} >
+                      <div className="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </OverlayTrigger>                      
                   </div>
                 </div>
               </div>
@@ -86,7 +100,11 @@ const SkillsRowTwo = () => {
                 </div>
                 <div className="col">
                   <div className="progress m-1">
-                    <div className="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    <OverlayTrigger 
+                      placement={'top'} 
+                      overlay={<Tooltip>75%</Tooltip>} >
+                        <div className="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </OverlayTrigger>    
                   </div>
                 </div>
               </div>
@@ -103,7 +121,11 @@ const SkillsRowTwo = () => {
                 </div>
                 <div className="col">
                   <div className="progress m-1">
-                    <div className="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  <OverlayTrigger 
+                      placement={'top'} 
+                      overlay={<Tooltip>50%</Tooltip>} >
+                      <div className="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </OverlayTrigger>  
                   </div>
                 </div>
               </div>

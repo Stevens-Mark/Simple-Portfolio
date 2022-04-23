@@ -1,4 +1,7 @@
 import PropTypes from 'prop-types'
+// import 'bootstrap/dist/css/bootstrap.min.css'
+// import for react/Bootstrap5 tooltips
+import { OverlayTrigger, Tooltip } from 'react-bootstrap'
 
 /**
  * Renders the Footer on the page
@@ -38,19 +41,31 @@ const Footer = ( { setShow } ) => {
               <ul className="list-inline list-unstyled mb-0">
                 <li className="list-inline-item">
                   <a href='my linkedin link' className='text-decoration-none text-dark' aria-label="Link to LinkedIn" rel="noreferrer" target='_blank'>
-                  <i className="fab fa-linkedin fa-2x"></i>
+                    <OverlayTrigger 
+                      placement={'top'} 
+                      overlay={<Tooltip>LinkedIn</Tooltip>} >
+                        <i className="fab fa-linkedin fa-2x"></i>
+                    </OverlayTrigger>
                   </a>
                 </li>
 
                 <li className="list-inline-item">
                   <a href='my Instagram link' className='text-decoration-none text-dark' aria-label="Link to Instagram" rel="noreferrer" target='_blank'>
-                  <i className="fab fa-instagram-square fa-2x"></i>
+                    <OverlayTrigger 
+                      placement={'top'} 
+                      overlay={<Tooltip>Instgram</Tooltip>} >
+                        <i className="fab fa-instagram-square fa-2x"></i>
+                    </OverlayTrigger>
                   </a>
                 </li>
 
                 <li className="list-inline-item">
-                  <a href='my Twitter link' className='text-decoration-none text-dark' aria-label="Link to Twitter" rel="noreferrer" target='_blank'>
-                  <i className="fab fa-twitter-square fa-2x"></i>
+                    <a href='my Twitter link' className='text-decoration-none text-dark' aria-label="Link to Twitter" rel="noreferrer" target='_blank'>
+                    <OverlayTrigger 
+                      placement={'top'} 
+                      overlay={<Tooltip>Twitter</Tooltip>} >
+                        <i className="fab fa-twitter-square fa-2x"></i>
+                    </OverlayTrigger>
                   </a>
                 </li>
               </ul>
