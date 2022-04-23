@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types'
 import { Carousel } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 /**
  * Renders (carousel on offcanvas page) for each project
