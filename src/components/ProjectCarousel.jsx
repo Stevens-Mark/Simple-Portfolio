@@ -10,9 +10,11 @@ import { Carousel } from 'react-bootstrap';
  */
 const ProjectCarousel = ( { project } ) => {
 
+  const mode = project.textColor==='dark'? 'carousel-dark' : null 
+
   return (
 
-    <Carousel  pause='hover' className='shadow carousel-dark'>
+    <Carousel pause='hover' className={`shadow ${mode}`}>
       {project.slides.map((projSlide) => 
         <Carousel.Item key={projSlide.alt} interval={10000}>
           <img
@@ -21,8 +23,8 @@ const ProjectCarousel = ( { project } ) => {
             alt={projSlide.alt}
           />
           <Carousel.Caption>
-            <h3 className='projectHeading  d-none d-sm-block mb-0'>{projSlide.heading}</h3>
-            <p className='projectText mb-0'>{projSlide.text}</p>
+            <h3 className={`projectHeading d-none d-sm-block mb-0 text-${project.textColor}`}>{projSlide.heading}</h3>
+            <p className={`projectText mb-0 text-${project.textColor}`}>{projSlide.text}</p>
           </Carousel.Caption>
         </Carousel.Item> 
       )}  
