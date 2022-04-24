@@ -10,7 +10,7 @@ const Navigation = () => {
       <nav className="navbar navbar-expand-md bg-light navbar-light fixed-top">
         <div className="container">
           <a className="navbar-brand text-uppercase fw-bold" href="/index.html">
-            <span className="bg-primary bg-gradient p-1 rounded-3 text-light">John</span> Doe
+            <span className="bg-primary bg-gradient p-1 rounded-3 text-light">Mark</span> Stevens
           </a>
 
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

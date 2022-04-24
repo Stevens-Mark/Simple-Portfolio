@@ -1,12 +1,12 @@
 import React from "react"
 // import image
-import design from '../../assets/images/design.jpg'
+import design from '../../assets/images/designThree.jpg'
 // import icons from react-icons (npm react Icons package installed)
 import { FaFigma } from "react-icons/fa"
-import { FaPhotoVideo } from "react-icons/fa" 
-import { FaPalette } from "react-icons/fa" 
-import { FaVial } from "react-icons/fa" 
-import { FaVideo } from "react-icons/fa"
+import { SiRedux } from "react-icons/si" 
+import { BsBootstrapFill } from "react-icons/bs" 
+import { SiJest } from "react-icons/si" 
+import { SiAdobephotoshop } from "react-icons/si"
 // import for react/Bootstrap5 tooltips
 import { OverlayTrigger, Tooltip } from 'react-bootstrap'
 
@@ -29,8 +29,8 @@ const SkillsRowTwo = () => {
               <div className="row align-items-center">
                 <div className="col-5 col-sm-4 col-lg-3 col-xl-2">
                   <div className="d-flex align-items-center">
-                    <FaFigma className="text-primary fa-2x me-3" />
-                    <p className=" fw-bold m-0">Figma</p>
+                    <SiRedux className="text-primary fa-2x me-3" />
+                    <p className=" fw-bold m-0">Redux</p>
                   </div>
 
                 </div>
@@ -47,12 +47,54 @@ const SkillsRowTwo = () => {
               </div>
             </div>
 
+            <div className="bg-white mb-3 px-3 py-4 rounded-3 shadow-sm">
+              <div className="row align-items-center">
+                <div className="col-5 col-sm-4 col-lg-3 col-xl-2">
+                  <div className="d-flex align-items-center">
+                    <BsBootstrapFill className="text-primary fa-3x me-3" />
+                    <p className=" fw-bold m-0">Boot Strap</p>
+                  </div>
+
+                </div>
+                <div className="col">
+                  <div className="progress m-1">
+                  <OverlayTrigger 
+                      placement={'top'} 
+                      overlay={<Tooltip>50%</Tooltip>} >
+                      <div className="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </OverlayTrigger>  
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="bg-white mb-3 p-3 rounded-3 shadow-sm">
               <div className="row align-items-center">
                 <div className="col-5 col-sm-4 col-lg-3 col-xl-2">
                   <div className="d-flex align-items-center">
-                    <FaPhotoVideo className="text-primary fa-3x me-3" />
-                    <p className=" fw-bold m-0">Adobe Suites</p>
+                    <SiJest className="text-primary fa-2x me-3" />
+                    <p className=" fw-bold m-0">Jest</p>
+                  </div>
+
+                </div>
+                <div className="col">
+                  <div className="progress m-1">
+                    <OverlayTrigger 
+                      placement={'top'} 
+                      overlay={<Tooltip>50%</Tooltip>} >
+                        <div className="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </OverlayTrigger>    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white mb-3 p-3 rounded-3 shadow-sm">
+              <div className="row align-items-center">
+                <div className="col-5 col-sm-4 col-lg-3 col-xl-2">
+                  <div className="d-flex align-items-center">
+                    <FaFigma className="text-primary fa-2x me-3" />
+                    <p className=" fw-bold m-0">Figma</p>
                   </div>
 
                 </div>
@@ -72,8 +114,8 @@ const SkillsRowTwo = () => {
               <div className="row align-items-center">
                 <div className="col-5 col-sm-4 col-lg-3 col-xl-2">
                   <div className="d-flex align-items-center">
-                    <FaPalette className="text-primary fa-2x me-3" />
-                    <p className=" fw-bold m-0">UI design</p>
+                    <SiAdobephotoshop className="text-primary fa-3x me-3" />
+                    <p className=" fw-bold m-0">Photo Shop</p>
                   </div>
 
                 </div>
@@ -88,49 +130,7 @@ const SkillsRowTwo = () => {
                 </div>
               </div>
             </div>
-
-            <div className="bg-white mb-3 p-3 rounded-3 shadow-sm">
-              <div className="row align-items-center">
-                <div className="col-5 col-sm-4 col-lg-3 col-xl-2">
-                  <div className="d-flex align-items-center">
-                    <FaVial className="text-primary fa-2x me-3" />
-                    <p className=" fw-bold m-0">UX design</p>
-                  </div>
-
-                </div>
-                <div className="col">
-                  <div className="progress m-1">
-                    <OverlayTrigger 
-                      placement={'top'} 
-                      overlay={<Tooltip>75%</Tooltip>} >
-                        <div className="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                    </OverlayTrigger>    
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div className="bg-white mb-3 px-3 py-4 rounded-3 shadow-sm">
-              <div className="row align-items-center">
-                <div className="col-5 col-sm-4 col-lg-3 col-xl-2">
-                  <div className="d-flex align-items-center">
-                    <FaVideo className="text-primary fa-2x me-3" />
-                    <p className=" fw-bold m-0">Video</p>
-                  </div>
-
-                </div>
-                <div className="col">
-                  <div className="progress m-1">
-                  <OverlayTrigger 
-                      placement={'top'} 
-                      overlay={<Tooltip>50%</Tooltip>} >
-                      <div className="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                    </OverlayTrigger>  
-                  </div>
-                </div>
-              </div>
-            </div>
-
+           
           </div>
     </div>
   )

@@ -12,7 +12,7 @@ const ProjectCarousel = ( { project } ) => {
 
   return (
 
-    <Carousel  pause='hover' className='shadow'>
+    <Carousel  pause='hover' className='shadow carousel-dark'>
       {project.slides.map((projSlide) => 
         <Carousel.Item key={projSlide.alt} interval={10000}>
           <img
@@ -21,8 +21,8 @@ const ProjectCarousel = ( { project } ) => {
             alt={projSlide.alt}
           />
           <Carousel.Caption>
-            <h3 className='projectHeading mb-0 '>{projSlide.heading}</h3>
-            <p className='projectText d-none d-sm-block mb-0'>{projSlide.text}</p>
+            <h3 className='projectHeading  d-none d-sm-block mb-0'>{projSlide.heading}</h3>
+            <p className='projectText mb-0'>{projSlide.text}</p>
           </Carousel.Caption>
         </Carousel.Item> 
       )}  

@@ -1,34 +1,40 @@
 export const projects = [
     {
       "id": "1",
-      "title": "Project 1",
-      "description": "Project 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin.",
-      "cover": "../images/projects/jelly.jpg",
-      "alt": "Project 1",
+      "title": "Reservia",
+      "description": "Reservia - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin.",
+      "cover": "../images/projects/reservia/001_reserviaFullBlue.webp",
+      "alt": "Reservia Website Full Page",
       "slides": [
         {
-          "path": "../images/projects/jelly.jpg",
-          "alt": "slide 1",
-          "heading": "Project 1 heading 1",
-          "text": "Project 1 text 1"
+          "path": "../images/projects/reservia/001_reserviaFullBlue.webp",
+          "alt": "Full web page screen shot - slide 1 of 5",
+          "heading": "Reservia",
+          "text": "Full Page"
         },
         {
-          "path": "../images/projects/leaf.jpg",
-          "alt": "slide 2",
-          "heading": "Project 1 heading 2",
-          "text": "Project 1 text 2"
+          "path": "../images/projects/reservia/002_reserviaTopBlue.webp",
+          "alt": "Top half of web page screen shot - slide 2 of 5",
+          "heading": "Reservia",
+          "text": "Accomodation Section"
         },        
         {
-          "path": "../images/projects/mountain.jpg",
-          "alt": "slide 3",
-          "heading": "Project 1 heading 3",
-          "text": "Project 1 text 3"
+          "path": "../images/projects/reservia/003_reserviaBottomBlue.webp",
+          "alt": "Bottom half of web page screen shot - slide 3 of 5",
+          "heading": "Reservia",
+          "text": "Activities Section"
         },
         {
-          "path": "../images/projects/valley.jpg",
-          "alt": "slide 4",
-          "heading": "Project 1 heading 4",
-          "text": "Project 1 text 4"
+          "path": "../images/projects/reservia/004_reserviaTopBottomBlue.webp",
+          "alt": "Both top and bottom of web page screen shots - slide 4 of 5",
+          "heading": "Reservia",
+          "text": "Panoramic"
+        },
+        {
+          "path": "../images/projects/reservia/005_reserviaMobileBlue.webp",
+          "alt": "Mobile view screen shot - slide 5 of 5",
+          "heading": "Reservia",
+          "text": "Mobile View"
         },
       ]
     },

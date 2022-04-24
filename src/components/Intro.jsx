@@ -1,4 +1,4 @@
-import portrait from '../assets/images/portrait.jpg'
+import portrait from '../assets/images/portraitM.jpg'
 
 /**
  * Renders the authors photo/Intro section on page
@@ -14,7 +14,7 @@ const Introduction = () => {
         <div className="row gy-4 gy-md-0 align-items-center">
 
           <div className="col-12 col-md-6 ">
-            <h1 className="fw-bold title">I'm John Doe, Web Developer and Designer</h1>
+            <h1 className="fw-bold title">I'm Mark Stevens, Web Developer and Designer</h1>
             <h2 className="fw-light slogan">Welcome to my creative universe</h2>
             {/* <button type="button" className="btn btn-primary mt-5">My web skills</button> */}
             <a className="btn btn-primary mt-5" href="#skills">My web skills</a>

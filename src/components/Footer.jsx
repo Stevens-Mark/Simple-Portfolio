@@ -23,7 +23,7 @@ const Footer = ( { setShow } ) => {
               <ul className="list-inline list-unstyled mb-0">
                 <li className="list-inline-item ">
                   <a href='#top' className='text-decoration-none text-uppercase fw-bold text-dark' aria-label="Link to Top">
-                    <span className="bg-primary bg-gradient p-1 rounded-3 text-light">John</span> Doe
+                    <span className="bg-primary bg-gradient p-1 rounded-3 text-light">Mark</span> Stevens
                   </a>
                 </li>
               </ul>
@@ -32,7 +32,7 @@ const Footer = ( { setShow } ) => {
             <div className="col-12 col-md-4 text-md-center">
               <ul className="list-inline list-unstyled mb-0">
                 <li className="list-inline-item">
-                  <button type="button" aria-label="Open Legal Notice" class="btn btn-white text-dark" variant="primary" onClick={handleShow}> Legal Notice</button>
+                  <button type="button" aria-label="Open Legal Notice" className="btn btn-white text-dark" variant="primary" onClick={handleShow}> Legal Notice</button>
                 </li>
               </ul>
             </div>

@@ -1,12 +1,12 @@
 import React from "react"
 // import image
-import code from '../../assets/images/code.jpg'
+import code from '../../assets/images/react.jpg'
 // import icons from react-icons (npm react Icons package installed)
 import { FaHtml5 } from "react-icons/fa"
 import { FaCss3Alt } from "react-icons/fa" 
 import { FaJsSquare } from "react-icons/fa" 
 import { FaSass } from "react-icons/fa" 
-import { FaPhp } from "react-icons/fa"
+import { FaReact } from "react-icons/fa"
 // import for react/Bootstrap5 tooltips
 import { OverlayTrigger, Tooltip } from 'react-bootstrap'
 
@@ -89,8 +89,8 @@ const SkillsRowOne = () => {
               <div className="row align-items-center">
                 <div className="col-5 col-sm-4 col-lg-3 col-xl-2">
                   <div className="d-flex align-items-center">
-                    <FaPhp className="text-primary fa-2x me-3" />
-                    <p className=" fw-bold m-0">PHP</p>
+                    <FaReact className="text-primary fa-2x me-3" />
+                    <p className=" fw-bold m-0 ">React</p>
                   </div>
 
                 </div>
