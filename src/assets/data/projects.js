@@ -37,7 +37,9 @@ export const projects = [
           "heading": "Reservia",
           "text": "Mobile View"
         },
-      ]
+      ],
+			"website": "https://reservia2021.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/StevensMark_P2_30032021"
     },
     {
       "id": "2",
@@ -77,7 +79,9 @@ export const projects = [
           "heading": "Ohmyfood",
           "text": "Menu Four"
         },
-      ]
+      ],
+      "website": "https://ohmyfood2021.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/StevensMark_P3_21042021"
     },
     {
       "id": "3",
@@ -123,7 +127,9 @@ export const projects = [
           "heading": "GameOn",
           "text": "Mobile View"
         },
-      ]
+      ],
+      "website": "https://stevens-mark.github.io/StevensMark_P4_06052021/",
+			"github": "https://github.com/Stevens-Mark/StevensMark_P4_06052021"
     },
     {
       "id": "4",
@@ -163,7 +169,9 @@ export const projects = [
           "heading": "Fisheye",
           "text": "Mobile View"
         },
-      ]
+      ],
+      "website": "https://fisheye2021.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/StevensMark_P6_09062021"
     },
 
 ]
