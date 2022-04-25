@@ -13,9 +13,11 @@
     /* 1 pixel black shadow to left, top, right and bottom */
     // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
 .projectText {
+  display: none;
   font-size: clamp(0.9rem, 1.8vw, 1.4rem);
-  // -webkit-text-stroke: 0.4px black;
+  -webkit-text-stroke: 0.2px black;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -28,9 +30,9 @@
 }
 
 
-
 @media (min-width: 425px) {  
-  .slide { height: 40vh;} 
+  .slide { height: 40vh;}
+  .projectText { display: block;}
 }
 
 @media (min-width: 576px) {  

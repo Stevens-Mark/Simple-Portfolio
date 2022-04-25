@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import { Carousel } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap'
 
 /**
  * Renders (carousel on offcanvas page) for each project
@@ -23,7 +23,7 @@ const ProjectCarousel = ( { project } ) => {
             alt={projSlide.alt}
           />
           <Carousel.Caption>
-            <h3 className={`projectHeading d-none d-sm-block mb-0 text-${project.textColor}`}>{projSlide.heading}</h3>
+            {/* <h3 className={`projectHeading d-none d-sm-block mb-0 text-${project.textColor}`}>{projSlide.heading}</h3> */}
             <p className={`projectText mb-0 text-${project.textColor}`}>{projSlide.text}</p>
           </Carousel.Caption>
         </Carousel.Item> 
