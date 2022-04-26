@@ -3,6 +3,7 @@
  */
 
 @import './utils/variables';
+@import './utils/utilities_custom';
 
 // @import "./utils/functions";
 // @import "utils/mixins";
@@ -19,7 +20,7 @@
 @import "components/links";
 
 // Import Bootstrap and its default variables
-@import '~bootstrap/scss/bootstrap.scss';
+// @import '~bootstrap/scss/bootstrap.scss';
 
 @import "components/projectCarousel";
 

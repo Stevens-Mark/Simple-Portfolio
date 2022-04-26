@@ -12,7 +12,9 @@ const Card = ( { project } ) => {
 
   return ( 
     <div className="card">
+        
       <img src={cover} alt={alt} className="card-img-top" />
+
         <div className="card-body text-dark">
           <div className='d-flex justify-content-between align-items-center'>
             <h5 className="card-title mb-0">{title}</h5>

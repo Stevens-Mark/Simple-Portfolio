@@ -26,7 +26,7 @@ const SkillsRowOne = () => {
                 <div className="col-5 col-sm-4 col-lg-3 col-xl-2">
                   <div className="d-flex align-items-center">
                     <FaHtml5 className="text-primary fa-2x me-3" />
-                    <p className=" fw-bold m-0">HTML5</p>
+                    <p className="fw-bold m-0">HTML5</p>
                   </div>
 
                 </div>
