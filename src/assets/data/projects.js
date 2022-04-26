@@ -173,5 +173,88 @@ export const projects = [
       "website": "https://fisheye2021.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P6_09062021"
     },
-
+    {
+      "id": "5",
+      "title": "Les Petits Plats",
+      "description": "Les Petits Plats - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin.",
+      "cover": "../images/projects/petitsplats/001_petitsplatsFull.webp",
+      "alt": "Les Petits Plats On Website Full Page",
+      "textColor": "white",
+      "slides": [
+        {
+          "path": "../images/projects/petitsplats/001_petitsplatsFull.webp",
+          "alt": "Full web page screen shot - slide 1 of 5",
+          "heading": "Les Petits Plats",
+          "text": "Full Page"
+        },
+        {
+          "path": "../images/projects/petitsplats/002_petitsplatssearchmain.webp",
+          "alt": "Main search input screen shot - slide 2 of 5",
+          "heading": "Les Petits Plats",
+          "text": "Main search"
+        },          
+        {
+          "path": "../images/projects/petitsplats/003_petitsplatssearchadvanced.webp",
+          "alt": "Advanced search input screen shot - slide 3 of 5",
+          "heading": "Les Petits Plats",
+          "text": "Advanced search"
+        },
+        {
+          "path": "../images/projects/petitsplats/004_petitsplatssearchboth.webp",
+          "alt": "Main & advanceed search screen shot - slide 4 of 5",
+          "heading": "Les Petits Plats",
+          "text": "Main & Advanced Search"
+        },
+        {
+          "path": "../images/projects/petitsplats/005_petitsplatsmobile.webp",
+          "alt": "Les Petits Plats Mobile View screen shot - slide 5 of 5",
+          "heading": "Les Petits Plats",
+          "text": "Mobile View"
+        },
+      ],
+			"website": "https://stevens-mark.github.io/StevensMark_P7_12072021/",
+			"github": "https://github.com/Stevens-Mark/StevensMark_P7_12072021"
+    },
+    {
+      "id": "6",
+      "title": "Billed",
+      "description": "Billed - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin.",
+      "cover": "../images/projects/billed/billed_1.webp",
+      "alt": "Billed login Page",
+      "textColor": "white",
+      "slides": [
+        {
+          "path": "../images/projects/billed/billed_1.webp",
+          "alt": "Login page screen shot - slide 1 of 5",
+          "heading": "Billed",
+          "text": "Login Page"
+        },
+        {
+          "path": "../images/projects/billed/billed_2.webp",
+          "alt": "Employee interface screen shot - slide 2 of 5",
+          "heading": "Billed",
+          "text": "Employee Invoice Interface"
+        },          
+        {
+          "path": "../images/projects/billed/billed_4.webp",
+          "alt": "Admin Invoice screen shot - slide 3 of 5",
+          "heading": "Billed",
+          "text": "Admin Interface "
+        },
+        {
+          "path": "../images/projects/billed/billed_3.webp",
+          "alt": "Admin interface screen shot - slide 4 of 5",
+          "heading": "Billed",
+          "text": "Admin Invoice Check"
+        },
+        {
+          "path": "../images/projects/billed/billed_5.webp",
+          "alt": "Test Coverage screen shot - slide 5 of 5",
+          "heading": "Billed",
+          "text": "Test Coverage"
+        },
+      ],
+			"website": "https://billed.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/StevensMark_P9_09082021"
+    },
 ]

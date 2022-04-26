@@ -8,13 +8,13 @@ import portrait from '../assets/images/portraitM.jpg'
 const Introduction = () => {
 
   return ( 
-    <section id="top" className="py-5">
+    <section id="top" className="py-4">
       <div className= "container">
 
         <div className="row gy-4 gy-md-0 align-items-center">
 
           <div className="col-12 col-md-6 ">
-            <h1 className="fw-bold mb-5">I'm Mark Stevens, Web Developer and Designer</h1>
+            <h1 className="fw-bold">I'm Mark Stevens, Web Developer and Designer</h1>
             <h2 className="fw-light">Welcome to my creative universe</h2>
             <a className="btn btn-primary mt-5" href="#skills">My web skills</a>
           </div>
