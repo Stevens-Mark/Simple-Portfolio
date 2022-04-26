@@ -16,6 +16,7 @@ const ProjectCarousel = ( { project } ) => {
 
     <Carousel pause='hover' className={`shadow ${mode}`}>
       {project.slides.map((projSlide) => 
+      
         <Carousel.Item key={projSlide.alt} interval={10000}>
           <img
             className="d-block w-100 slide rounded"

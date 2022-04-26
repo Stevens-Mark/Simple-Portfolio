@@ -23,7 +23,7 @@ const Home = ( { siteData } ) => {
     window.scrollTo(0, 0)
   }, [])
 
-  // state passed between footer & modal compnent
+  // state passed between footer & modal component
   const [show, setShow] = useState(false)
 
   return ( 

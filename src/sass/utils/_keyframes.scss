@@ -16,9 +16,3 @@
     90% {opacity: 1;}
     100% {opacity: 0;}
 }
-
-/*pulsing loading */
-@keyframes wave {
-    50%, 75% { transform: scale(2.5); }
-    80%, 100% {opacity: 0; }
-  }
