@@ -20,7 +20,7 @@ Develop a example CV whilst following the Bootstrap 5 course from Openclassrooms
 - [x] Utility Classes 
 
 ## Additional
-Although I have listed all the dependencies, not all were used in the final version as I played with fontawesome, Bootstrap icons & react icons. I have experimented with using these, as well as storing the svg's locally to get a feel of the implemntation differences. Also, tooltips did not work as per the documentation, so I had to find another way to implement them. This is why I have booth bootstrap & react-bootstrap. For example, there are alignment issues if used in conjonction with <img> instead of <i> . The course uses html, bootstrap & sass. As I have used React, bootstrap & sass I have had to adapt the code. There are a few folders & files that are not needed for production such as Old, layout, pages, functions keyframes, mixins etc
+Although I have listed all the dependencies, not all were used in the final version as I played with fontawesome, Bootstrap icons & react icons. I have experimented with using these, as well as storing the svg's locally to get a feel of the implemntation differences. Also, tooltips did not work as per the documentation, so I had to find another way to implement them. This is why I have booth bootstrap & react-bootstrap. For example, there are alignment issues if used in conjonction with `<img>` instead of `<i>` . The course uses html, bootstrap & sass. As I have used React, bootstrap & sass I have had to adapt the code. There are a few folders & files that are not needed for production such as Old, layout, pages, functions keyframes, mixins etc
 
 
 # Installation *(English)*
