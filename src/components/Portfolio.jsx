@@ -34,7 +34,7 @@ const Portfolio = ( { projects } ) => {
 
         <div className="row mt-5 gy-4">
             {data.map((project) => 
-              <div key={project.id}  className="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div key={project.id}  className="col-12 col-sm-6 col-lg-4 col-xl-3">
                 <Card project={project}/>
               </div>
             )}
