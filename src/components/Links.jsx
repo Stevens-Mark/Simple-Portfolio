@@ -17,7 +17,7 @@ import git from '../assets/icons/github.svg'
 const Links = ({ website, github }) => {
   return (
     <>
-    <div>
+    <div className='text-nowrap'>
       {website ?
         ( 
           <a href={website} aria-label="Link to project website" rel="noreferrer" target="_blank">

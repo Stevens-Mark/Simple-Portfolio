@@ -17,7 +17,7 @@ const Card = ( { project } ) => {
 
         <div className="card-body text-dark">
           <div className='d-flex justify-content-between align-items-center'>
-            <h5 className="card-title mb-0">{title}</h5>
+            <h5 className="card-title mb-0 text-truncate">{title}</h5>
             <Links website={website} github={github} />
           </div>
           <p className="card-text mt-1">{description}</p>
