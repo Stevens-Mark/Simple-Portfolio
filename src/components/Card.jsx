@@ -20,7 +20,7 @@ const Card = ( { project } ) => {
             <h5 className="card-title mb-0 text-truncate">{title}</h5>
             <Links website={website} github={github} />
           </div>
-          <p className="card-text mt-1">{description}</p>
+          <p className="card-text mt-1 customTruncate">{description}</p>
 
           <a href={`#project${id}Info`} className="btn btn-primary" data-bs-toggle="offcanvas" role="button"
           aria-controls={`project${id}Info`}>See More</a>
