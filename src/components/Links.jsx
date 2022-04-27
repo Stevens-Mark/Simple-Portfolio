@@ -24,7 +24,7 @@ const Links = ({ website, github }) => {
             <OverlayTrigger 
             placement={'top'} 
             overlay={<Tooltip>Go To website</Tooltip>} >
-              <img className='links' src={preview} alt="Link to website"/>
+              <img className='icons' src={preview} alt="Link to website"/>
             </OverlayTrigger>
           </a>
         ) : 
@@ -32,7 +32,7 @@ const Links = ({ website, github }) => {
           <OverlayTrigger 
           placement={'top'} 
           overlay={<Tooltip>No Preview</Tooltip>} >
-            <img className='links links--none' src={preview} alt="No website"/> 
+            <img className='icons icons--none' src={preview} alt="No website"/> 
           </OverlayTrigger>
         )}
 
@@ -42,7 +42,7 @@ const Links = ({ website, github }) => {
             <OverlayTrigger 
             placement={'top'} 
             overlay={<Tooltip>Project Git Repo</Tooltip>} >
-              <img className='links' src={git} alt="Link to project repo"/>  
+              <img className='icons' src={git} alt="Link to project repo"/>  
             </OverlayTrigger>
           </a>
         ) : 
@@ -50,7 +50,7 @@ const Links = ({ website, github }) => {
           <OverlayTrigger 
           placement={'top'} 
           overlay={<Tooltip>No Project Repo</Tooltip>} >
-            <img className='links links--none' src={git} alt="No Project Repo"/> 
+            <img className='icons icons--none' src={git} alt="No Project Repo"/> 
           </OverlayTrigger>
         )}
 

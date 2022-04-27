@@ -26,7 +26,7 @@ const SkillsRowTwo = ( { skillsList } ) => {
               <div className="row align-items-center">
                 <div className="col-5 col-sm-4 col-lg-3 col-xl-2">
                   <div className="d-flex align-items-center">
-                    <img className='icons m-0 me-3' src={skill.path} alt={skill.title}/>  
+                    <img className='skillIcons m-0 me-3' src={skill.path} alt={skill.title}/>  
                     <p className="fw-bold m-0">{skill.title}</p>
                   </div>
 
