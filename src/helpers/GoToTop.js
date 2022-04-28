@@ -32,7 +32,7 @@ const GoToTop = () => {
     <>       
       {showButton && (
         <span className='position-fixed top-90 start-50 translate-middle rounded-circle bg-danger shadow'>
-        <img className='icons m-2 ' onClick={scrollToTop} src={upArrow} alt="Back to top arrow" title="Back To Top"/>
+        <img className='icons m-2 cursor-pointer' onClick={scrollToTop} src={upArrow} alt="Back to top arrow" title="Back To Top"/>
         </span>
       )}
   </>

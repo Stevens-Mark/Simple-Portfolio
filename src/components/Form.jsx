@@ -1,3 +1,5 @@
+import emailjs from 'emailjs-com'
+
 /**
  * Renders the contact form in the contact section
  * (submit button disabled)
@@ -6,29 +8,41 @@
  */
 const ContactForm = () => {
 
+  const sendEmail = (e) => {
+      e.preventDefault()
+      emailjs.sendForm ('service_8qn8ghr', 'template_w9casrx', 
+          e.target, 'rNFxVJaeHZGL2769x')
+      .then(function(response) {
+        console.log('SUCCESS!', response.status, response.text);
+        e.target.reset()
+     }, function(error) {
+        console.log('FAILED...', error);
+     });      
+  }
+
   return (
-    <form  className="row gy-4">
+    <form id='formData' className="row gy-4" onSubmit={sendEmail}>
      
         <div className="col-12 col-sm-6">
-          <label htmlFor="inputFirstName" className="form-label">First Name</label>
-          <input name="inputFirstName" type="text" className="form-control" id="inputFirstName" aria-describedby="NameHelp"/>
+          <label htmlFor="name" className="form-label">First Name</label>
+          <input name="name" type="text" className="form-control" id="name" aria-describedby="NameHelp"/>
           <div id="NameHelp" className="form-text">Use only letters</div>
         </div>
 
         <div className="col-12 col-sm-6">
-          <label htmlFor="inputLastName" className="form-label">Last Name</label>
-          <input name="inputLastName" type="text" className="form-control" id="inputLastName" aria-describedby="NameHelp"/>
+          <label htmlFor="lastName" className="form-label">Last Name</label>
+          <input name="lastName" type="text" className="form-control" id="lastName" aria-describedby="NameHelp"/>
         </div>
 
         <div className="col-12">
-          <label htmlFor="inputEmail" className="form-label">Email address</label>
-          <input name="inputEmail" type="email" className="form-control" id="inputEmail" aria-describedby="emailHelp"/>
+          <label htmlFor="userEmail" className="form-label">Email address</label>
+          <input name="userEmail" type="email" className="form-control" id="userEmail" aria-describedby="emailHelp"/>
           <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
         </div>
 
         <div className="col-12">
-          <label htmlFor="formControlTextarea" className="form-label" aria-describedby="textareaHelp">Message</label>
-          <textarea name="formControlTextarea" className="form-control" id="formControlTextarea" rows="3"></textarea>
+          <label htmlFor="message" className="form-label" aria-describedby="textareaHelp">Message</label>
+          <textarea name="message" className="form-control" id="message" rows="3"></textarea>
           <div id="textareaHelp" className="form-text">Write a short message</div>
         </div>
 
