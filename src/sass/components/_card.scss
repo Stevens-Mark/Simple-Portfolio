@@ -15,12 +15,13 @@
 
 .customTruncate {
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;    // text truncated if needed
+  -webkit-line-clamp: 3;    
   display: -webkit-box;
   // font-size: clamp(0.9rem, 1vw, 1rem);
   overflow: hidden;
   text-overflow: ellipsis;
   
+  // truncate if more than 3 lines
   @media screen and (min-width: 576px) {
     -webkit-line-clamp: 2;
   }

@@ -9,6 +9,7 @@ import Contact from "../components/Contact"
 import Footer from "../components/Footer"
 import OffCanvas from "../components/OffCanvas"
 import LegalModal from "../components/Modal"
+import GoToTop from "../helpers/GoToTop"
 
 /**
  * Renders main page
@@ -36,6 +37,7 @@ const Home = ( { siteData } ) => {
       <Footer setShow={setShow}/>
       <LegalModal show={show} setShow={setShow} />
       <OffCanvas projects={siteData} />
+      <GoToTop />
     </main>
   )
 }

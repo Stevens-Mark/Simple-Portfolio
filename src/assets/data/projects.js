@@ -90,7 +90,7 @@ export const projects = [
       "id": "3",
       "date": "2021-05-06",
       "title": "GameOn",
-      "description": "Creation of the registration form - JavaScipt.",
+      "description": "Creation of an events registration form - JavaScipt.",
       "cover": "../images/projects/gameon/001_gameOnFull.webp",
       "alt": "Game On Website Full Page",
       "textColor": "white",
@@ -219,7 +219,7 @@ export const projects = [
       "id": "6",
       "date": "2021-08-09",
       "title": "Billed",
-      "description": "Debugging and testing an HR SaaS - Jest & JavaScript.",
+      "description": "Debugging and testing an HR SaaS - JavaScript & Jest.",
       "cover": "../images/projects/billed/billed_1.webp",
       "alt": "Billed login Page",
       "textColor": "white",
@@ -524,9 +524,63 @@ export const projects = [
           "heading": "Wealth Health",
           "text": "Night Mode"
         },
-
       ],
 			"website": "https://reactcustommodal.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/react-custom-modal-by-msparkystevens"
+    },
+    {
+      "id": "13",
+      "date": "2022-03-31",
+      "title": "Portfolio",
+      "description": "Project features, constraints & skills learned - React.",
+      "cover": "../images/projects/portfolio/portfolio1.webp",
+      "alt": "Portfolio Home Page",
+      "textColor": "white",
+      "slides": [
+        {
+          "path": "../images/projects/portfolio/portfolio1.webp",
+          "alt": "Portfolio Home Page in French - slide 1 of 7",
+          "heading": "Portfolio",
+          "text": "Home Page (FR)"
+        },
+        {
+          "path": "../images/projects/portfolio/portfolio2.webp",
+          "alt": "Individual Project Page in French - slide 2 of 7",
+          "heading": "Portfolio",
+          "text": "Project Page (FR)"
+        },        
+        {
+          "path": "../images/projects/portfolio/portfolio3.webp",
+          "alt": "About Page in french - slide 3 of 7",
+          "heading": "Portfolio",
+          "text": "About Page (FR)"
+        },
+        {
+          "path": "../images/projects/portfolio/portfolio4.webp",
+          "alt": "Portfolio Home Page in English & night mode - slide 4 of 7",
+          "heading": "Portfolio",
+          "text": "Home Page (Eng) - Night Mode"
+        },
+        {
+          "path": "../images/projects/portfolio/portfolio5.webp",
+          "alt": "Individual Project Page in English - night mode - slide 5 of 7",
+          "heading": "Portfolio",
+          "text": "Project Page (Eng) - Night Mode"
+        },
+        {
+          "path": "../images/projects/portfolio/portfolio6.webp",
+          "alt": "About Page in English - night mode - slide 6 of 7",
+          "heading": "Portfolio",
+          "text": "About Page (Eng) - Night Mode"
+        },
+        {
+          "path": "../images/projects/portfolio/portfolio7.webp",
+          "alt": "Mobile View day & night mode - slide 7 of 7",
+          "heading": "Portfolio",
+          "text": "Mobile View"
+        },
+      ],
+			"website": "https://stevensmarkportfolio.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/Portfolio"
     },
 ]
