@@ -1,6 +1,5 @@
 import coffee from '../assets/images/coffee.jpg'
-import ContactForm from './Form'
-
+import ContactForm from './FormCopy'
 /**
  * Renders the contact section on page
  * @function Contact

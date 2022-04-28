@@ -3,8 +3,8 @@ import React from "react"
 import SkillsRowOne from "./SkillsRowOne"
 import SkillsRowTwo from "./SkilsRowTwo"
 // import data for skills rows
-import { skillsListOne } from "../../assets/data/skillsData"
-import { skillsListTwo } from "../../assets/data/skillsData"
+import { skillsListOne } from "../../assets/data/siteData"
+import { skillsListTwo } from "../../assets/data/siteData"
 /**
  * Renders the skills section on page
  * @function Skills

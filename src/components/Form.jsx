@@ -24,30 +24,30 @@ const ContactForm = () => {
     <form id='formData' className="row gy-4" onSubmit={sendEmail}>
      
         <div className="col-12 col-sm-6">
-          <label htmlFor="name" className="form-label">First Name</label>
-          <input name="name" type="text" className="form-control" id="name" aria-describedby="NameHelp"/>
+          <label htmlFor="name" className="form-label">Full Name</label>
+          <input name="name" type="text" className="form-control" id="name" aria-describedby="NameHelp" required/>
           <div id="NameHelp" className="form-text">Use only letters</div>
         </div>
 
         <div className="col-12 col-sm-6">
           <label htmlFor="lastName" className="form-label">Last Name</label>
-          <input name="lastName" type="text" className="form-control" id="lastName" aria-describedby="NameHelp"/>
+          <input name="lastName" type="text" className="form-control" id="lastName" aria-describedby="NameHelp" required/>
         </div>
 
         <div className="col-12">
-          <label htmlFor="userEmail" className="form-label">Email address</label>
-          <input name="userEmail" type="email" className="form-control" id="userEmail" aria-describedby="emailHelp"/>
+          <label htmlFor="email" className="form-label">Email address</label>
+          <input name="email" type="email" className="form-control" id="userEmail" aria-describedby="emailHelp" required/>
           <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
         </div>
 
         <div className="col-12">
           <label htmlFor="message" className="form-label" aria-describedby="textareaHelp">Message</label>
-          <textarea name="message" className="form-control" id="message" rows="3"></textarea>
-          <div id="textareaHelp" className="form-text">Write a short message</div>
+          <textarea name="message" className="form-control" id="message" rows="3" required></textarea>
+          <div id="textareaHelp" className="form-text" >Write a short message</div>
         </div>
 
         <div className="col-12">
-          <button type="submit"  disabled className="btn btn-primary w-100">Submit</button>
+          <button type="submit"  className="btn btn-primary w-100">Submit</button>
         </div>
 
     </form>
