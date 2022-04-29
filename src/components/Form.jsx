@@ -1,4 +1,7 @@
 import emailjs from 'emailjs-com'
+import { useState } from 'react'
+import Form from 'react-bootstrap/Form'
+import { validRegex } from '../assets/data/siteData'
 
 /**
  * Renders the contact form in the contact section
@@ -8,50 +11,122 @@ import emailjs from 'emailjs-com'
  */
 const ContactForm = () => {
 
-  const sendEmail = (e) => {
-      e.preventDefault()
-      emailjs.sendForm ('service_8qn8ghr', 'template_w9casrx', 
-          e.target, 'rNFxVJaeHZGL2769x')
-      .then(function(response) {
-        console.log('SUCCESS!', response.status, response.text);
-        e.target.reset()
-     }, function(error) {
-        console.log('FAILED...', error);
-     });      
+   // local states
+  const initialState = { name: "", email: "", message: "", }
+  const errorState = { name: false, email: false, message: false, }
+  const [input, setInput] = useState(initialState)
+  const [disabledStatus, setDisabledStatus] = useState(false)
+  const [error, setError] = useState(errorState)
+
+  /**
+   * Restricts what the user can enter in the TEXT input fields & saves to state
+   * @function handleText
+   * @param {object} the targeted input 
+   */
+  const handleText = (e) => { // permits letters only
+    setInput({
+      ...input,
+      [e.target.id]: (e.target.value.replace(/[^a-zA-ZÀ-ÿ-.\s]/g, '')).trimStart(),
+    })
+  }
+  
+  /**
+   * Simple validation check
+   * @function ValidateForm
+   * @returns {boolean}
+   */
+  const validateForm = () => {
+
+    let name, email, message
+
+    if (input.name.trim().length<2) { name = true }
+    if (!input.email.trim().match(validRegex)) { email = true }
+    if (input.message.trim().length<10) { message = true }
+      
+    if ( name || email|| message ) 
+      {
+        setError({ name, email, message })
+        return false
+      }
+    return true
   }
 
+    /**
+   * Emails the user's form data (via emailjs) if
+   * it passes the simple form validation checks
+   * @function handleSubmit
+   * @returns
+   */
+  const handleSubmit = (event) => {
+    event.preventDefault()
+    if (validateForm()) {
+      setDisabledStatus(true)
+      emailjs.send('service_8qn8ghr', 'template_w9casrx', input, 'rNFxVJaeHZGL2769x')
+        .then(function(response) {
+          console.log('SUCCESS!', response.status, response.text);
+          setInput(initialState)
+          setError(errorState)
+          setDisabledStatus(false)
+        }, function(error) {
+            console.log('FAILED...', error)
+            setDisabledStatus(false)
+        }) 
+    } else 
+    { 
+      return
+    }
+  }
+  
+
   return (
-    <form id='formData' className="row gy-4" onSubmit={sendEmail}>
-     
-        <div className="col-12 col-sm-6">
-          <label htmlFor="name" className="form-label">Full Name</label>
-          <input name="name" type="text" className="form-control" id="name" aria-describedby="NameHelp" required/>
-          <div id="NameHelp" className="form-text">Use only letters</div>
-        </div>
+    <Form className="row gy-4"onSubmit={handleSubmit}>
+        <Form.Group controlId="name">
+          <Form.Label>Full Name</Form.Label>
+          <Form.Control
+            required 
+            name='name' 
+            type="text" 
+            value={input.name}
+            maxLength={30} 
+            onChange={(e) => handleText(e)}/>
+            {!error.name && <Form.Text className="text-muted">Minimum 2 letters...</Form.Text>}
+            {error.name && <p>⚠️ Enter a valid name</p>}       
+        </Form.Group>
+            
+        <Form.Group controlId="email">
+          <Form.Label>Email address</Form.Label>
+          <Form.Control
+            required
+            name='email'
+            type="email"
+            placeholder="name@example.com"
+            value={input.email}
+            onChange={(e) => setInput({...input, email: e.target.value})} />
+            {!error.email && <Form.Text className="text-muted">I'll never share your email with anyone...</Form.Text>}
+            {error.email && <p>⚠️ Enter a valid email address</p>} 
+        </Form.Group>
 
-        <div className="col-12 col-sm-6">
-          <label htmlFor="lastName" className="form-label">Last Name</label>
-          <input name="lastName" type="text" className="form-control" id="lastName" aria-describedby="NameHelp" required/>
-        </div>
+        <Form.Group  controlId="message">
+          <Form.Label>Message</Form.Label>
+          <Form.Control
+            required
+            name='message'
+            as="textarea"
+            placeholder=''
+            value={input.message}
+            rows={3}
+            maxLength={400}
+            onChange={(e) => setInput({...input, message: e.target.value})} />
+            {!error.message && <Form.Text className="text-muted">Write a short message...</Form.Text>}
+            {error.message && <p>⚠️ Please add a real message ?</p>} 
+        </Form.Group>
 
         <div className="col-12">
-          <label htmlFor="email" className="form-label">Email address</label>
-          <input name="email" type="email" className="form-control" id="userEmail" aria-describedby="emailHelp" required/>
-          <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
+        <button variant="primary" disabled={disabledStatus} type="submit" className="btn btn-primary w-100 ">
+                Submit
+        </button>
         </div>
-
-        <div className="col-12">
-          <label htmlFor="message" className="form-label" aria-describedby="textareaHelp">Message</label>
-          <textarea name="message" className="form-control" id="message" rows="3" required></textarea>
-          <div id="textareaHelp" className="form-text" >Write a short message</div>
-        </div>
-
-        <div className="col-12">
-          <button type="submit"  className="btn btn-primary w-100">Submit</button>
-        </div>
-
-    </form>
-
+      </Form>
   )
 }
 

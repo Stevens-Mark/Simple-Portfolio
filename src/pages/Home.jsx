@@ -38,6 +38,7 @@ const Home = ( { siteData } ) => {
       <LegalModal show={show} setShow={setShow} />
       <OffCanvas projects={siteData} />
       <GoToTop />
+      
     </main>
   )
 }

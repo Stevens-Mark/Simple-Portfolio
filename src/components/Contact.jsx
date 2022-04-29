@@ -1,5 +1,5 @@
 import coffee from '../assets/images/coffee.jpg'
-import ContactForm from './FormCopy'
+import ContactForm from './Form'
 /**
  * Renders the contact section on page
  * @function Contact
@@ -19,7 +19,7 @@ const Contact = () => {
 
           <div className="row mt-5 gy-4 gy-md-0 align-items-center">
             <div className="col-12 col-md-5">
-              <img src={coffee} alt="screen showing php code" className="rounded-3 shadow w-100"/>
+              <img src={coffee} alt="screen showing react code" className="rounded-3 shadow w-100"/>
             </div>
 
             <div className="col-12 col-md-6 offset-md-1">
