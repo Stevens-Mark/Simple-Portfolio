@@ -1,12 +1,11 @@
-# Bootstrap5 course exercise from the Openclassrooms course
 ![Mark Stevens](/src/screenshot/screenshot.png)
 
-Using React, Bootsrap5 & Sass 
+Realised with React, Bootsrap5 & Sass 
 
-# CV *(English)*
+# Simple Portfolio website *(English)*
 
 ## Objective
-Develop a example CV whilst following the Bootstrap 5 course from Openclassrooms
+Develop a simple portfolio whilst following the Bootstrap 5 course from Openclassrooms
 
 ## Features
 - [x] Layout Responsive
@@ -17,10 +16,11 @@ Develop a example CV whilst following the Bootstrap 5 course from Openclassrooms
 - [x] Carousel
 - [x] Contact Form
 - [x] Modal and Tooltips
-- [x] Utility Classes 
+- [x] Utility Classes
+- [x] Toast Notifications
 
 ## Additional
-Although I have listed all the dependencies, not all were used in the final version as I played with fontawesome, Bootstrap icons & react icons. I have experimented with using these, as well as storing the svg's locally to get a feel of the implemntation differences. Also, tooltips did not work as per the documentation, so I had to find another way to implement them. This is why I have booth bootstrap & react-bootstrap. For example, there are alignment issues if used in conjonction with `<img>` instead of `<i>` . The course uses html, bootstrap & sass. As I have used React, bootstrap & sass I have had to adapt the code. There are a few folders & files that are not needed for production such as Old, layout, pages, functions keyframes, mixins etc
+Although I have listed all the dependencies, not all were used in the final version as I played with fontawesome, Bootstrap icons & react icons. I have experimented with using these, as well as storing the svg's locally to get a feel of the implemntation differences. Also, tooltips did not work as per the documentation, so I had to find another way to implement them. This is why I have booth bootstrap & react-bootstrap. For example, there are sometimes alignment issues if used in conjonction with `<img>` instead of `<i>` . The Bootstrap5 course exercise from the Openclassrooms uses html, bootstrap & sass. As I have used React, bootstrap & sass I have had to adapt the code. There are a few folders & files that are not needed for production such as Old, layout, pages, functions keyframes, mixins etc
 
 
 # Installation *(English)*
@@ -39,8 +39,10 @@ Although I have listed all the dependencies, not all were used in the final vers
 - [Bootstrap-icons](https://icons.getbootstrap.com/) Version 1.8.1
 - [React-bootstrap](https://react-bootstrap.github.io/) Version 2.3.0
 - [React-icons](https://react-icons.github.io/react-icons/) Version 4.3.1
+- [React-toastify](https://www.npmjs.com/package/react-toastify) Version 8.2.0
 - [Sass](https://sass-lang.com/) Version 1.46.0
 - [Prop-types](https://www.npmjs.com/package/prop-types) Version 15.8.1
+- [Emailjs-com](https://www.npmjs.com/package/emailjs-com) Version 3.2.0
 
 ## Installing and running the project
 
