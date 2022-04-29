@@ -2,6 +2,9 @@ import emailjs from 'emailjs-com'
 import { useState } from 'react'
 import Form from 'react-bootstrap/Form'
 import { validRegex } from '../assets/data/siteData'
+// import Toast Notification component
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 /**
  * Renders the contact form in the contact section
@@ -51,6 +54,14 @@ const ContactForm = () => {
     return true
   }
 
+    const notifySuccess = () => toast.success('Success! Email Sent.', {
+      theme: "colored"
+      });
+
+    const notifyError = () => toast.error('Error ! Email not Sent !', {
+      theme: "colored"
+      });
+
     /**
    * Emails the user's form data (via emailjs) if
    * it passes the simple form validation checks
@@ -67,9 +78,11 @@ const ContactForm = () => {
           setInput(initialState)
           setError(errorState)
           setDisabledStatus(false)
+          notifySuccess()
         }, function(error) {
             console.log('FAILED...', error)
             setDisabledStatus(false)
+            notifyError()
         }) 
     } else 
     { 
@@ -77,8 +90,8 @@ const ContactForm = () => {
     }
   }
   
-
   return (
+    <>
     <Form className="row gy-4"onSubmit={handleSubmit}>
         <Form.Group controlId="name">
           <Form.Label>Full Name</Form.Label>
@@ -127,6 +140,20 @@ const ContactForm = () => {
         </button>
         </div>
       </Form>
+
+      <ToastContainer
+        position="bottom-right"
+        autoClose={4000}
+        hideProgressBar={true}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        style={{ fontSize: "20px" }}
+        />
+    </>
   )
 }
 
