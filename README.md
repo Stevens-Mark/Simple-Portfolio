@@ -1,6 +1,6 @@
 ![Mark Stevens](/src/screenshot/screenshot.png)
 
-Realised with React, Bootsrap5 & Sass 
+Realised with React, Bootstrap5 & Sass 
 
 # Simple Portfolio website *(English)*
 
