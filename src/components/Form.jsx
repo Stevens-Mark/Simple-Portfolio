@@ -54,15 +54,20 @@ const ContactForm = () => {
     return true
   }
 
-    const notifySuccess = () => toast.success('Success! Email Sent.', {
-      theme: "colored"
-      });
+  /**
+   * Displays success or fail toast notification
+   * @functions notifySuccess & notifyError
+   * @returns {JSX} Toast Notification
+   */
+  const notifySuccess = () => toast.success('Success! Email Sent.', {
+    theme: "colored"
+    });
 
-    const notifyError = () => toast.error('Error ! Email not Sent !', {
-      theme: "colored"
-      });
+  const notifyError = () => toast.error('Error ! Email not Sent !', {
+    theme: "colored"
+    });
 
-    /**
+  /**
    * Emails the user's form data (via emailjs) if
    * it passes the simple form validation checks
    * @function handleSubmit
@@ -92,7 +97,7 @@ const ContactForm = () => {
   
   return (
     <>
-    <Form className="row gy-4"onSubmit={handleSubmit}>
+      <Form className="row gy-4"onSubmit={handleSubmit}>
         <Form.Group controlId="name">
           <Form.Label>Full Name</Form.Label>
           <Form.Control
@@ -151,8 +156,7 @@ const ContactForm = () => {
         pauseOnFocusLoss
         draggable
         pauseOnHover
-        style={{ fontSize: "20px" }}
-        />
+        style={{ fontSize: "20px" }} />
     </>
   )
 }
