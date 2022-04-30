@@ -21,6 +21,9 @@ import GoToTop from "../helpers/GoToTop"
 
 const Home = ( props ) => {
 
+  const [value, setValue] = useState(false)
+  console.log(value)
+
   const { projects, aboutMe } = props
 
   useEffect(() => {
@@ -32,7 +35,7 @@ const Home = ( props ) => {
 
   return ( 
     <main>
-      <Nav/>
+      <Nav value={value} setValue={setValue}/>
       <AboutMe aboutMe={aboutMe} />
       <Introduction/>
       <Skills/>
