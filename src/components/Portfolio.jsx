@@ -14,6 +14,8 @@ import DESC from '../assets/icons/descending.svg'
 */
 const Portfolio = ( { siteData, siteText } ) => {
 
+  console.log(siteData)
+
   const projects = siteData.projects
   const { title, subheading1 } = siteText.portfolio
 
@@ -25,6 +27,7 @@ const Portfolio = ( { siteData, siteText } ) => {
     const sorted = desc ? [...projects].sort((a, b) => (a.date > b.date ? -1 : 1)) : [...projects].sort((a, b) => (a.date < b.date ? -1 : 1))
     setData(sorted)
   }
+
 
   return ( 
     <section id="portfolio" className="py-5">

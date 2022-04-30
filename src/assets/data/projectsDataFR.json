@@ -47,34 +47,34 @@
       "id": "1",
       "date": "2021-03-30",
       "title": "Reservia",
-      "description": "Transforming a model into a website - HTML 5 & CSS3.",
+      "description": "Transformer un modèle en site web - HTML 5 & CSS3.",
       "cover": "../images/projects/reservia/001_reserviaFull.webp",
-      "alt": "Reservia Website Full Page",
+      "alt": "Page complète du site web de Reservia",
       "textColor": "white",
       "slides": [
         {
           "path": "../images/projects/reservia/001_reserviaFull.webp",
-          "alt": "Full web page  - slide 1 of 4",
+          "alt": "Page web complète - diapositive 1 de 4",
           "heading": "Reservia",
-          "text": "Full Page"
+          "text": "Page entière"
         },
         {
           "path": "../images/projects/reservia/002_reserviaTop.webp",
-          "alt": "Top half of web page  - slide 2 of 4",
+          "alt": "Partie supérieure de la page web - diapositive 2 de 4",
           "heading": "Reservia",
-          "text": "Accomodation Section"
+          "text": "Section hébergement"
         },        
         {
           "path": "../images/projects/reservia/003_reserviaBottom.webp",
-          "alt": "Bottom half of web page  - slide 3 of 4",
+          "alt": "Moitié inférieure de la page web - diapositive 3 de 4",
           "heading": "Reservia",
-          "text": "Activities Section"
+          "text": "Section des activités"
         },
         {
           "path": "../images/projects/reservia/004_reserviaMobile1.webp",
-          "alt": "Both top and bottom of web page screen shots - slide 4 of 4",
+          "alt": "Captures d'écran du haut et du bas de la page Web - diapositive 4 de 4",
           "heading": "Reservia",
-          "text": "Mobile View"
+          "text": "Vue mobile"
         }
 
       ],
@@ -85,46 +85,46 @@
       "id": "2",
       "date": "2021-04-21",
       "title": "Ohmyfood",
-      "description": "Creation of a dynamic website using animation - Sass.",
+      "description": "Création d'un site web dynamique utilisant l'animation - Sass.",
       "cover": "../images/projects/ohmyfood/001_ohmyfoodFull.webp",
-      "alt": "Ohmyfood Website Full Page",
+      "alt": "Page complète du site web de Ohmyfood",
       "textColor": "white",
       "slides": [
         {
           "path": "../images/projects/ohmyfood/001_ohmyfoodFull.webp",
-          "alt": "Full web page  - slide 1 of 6",
+          "alt": "Page web complète - diapositive 1 de 6",
           "heading": "Ohmyfood",
-          "text": "Full Page"
+          "text": "Page entière"
         },
         {
           "path": "../images/projects/ohmyfood/002_ohmyfoodMenu1.webp",
-          "alt": "Ohmyfood Menu 1  - slide 2 of 6",
+          "alt": "Ohmyfood Menu 1 - diapositive 2 de 6",
           "heading": "Ohmyfood",
-          "text": "Menu One"
+          "text": "Menu un"
         },        
         {
           "path": "../images/projects/ohmyfood/003_ohmyfoodMenu2.webp",
-          "alt": "Ohmyfood Menu 2  - slide 3 of 6",
+          "alt": "Ohmyfood Menu 2 - diapositive 3 de 6",
           "heading": "Ohmyfood",
-          "text": "Menu Two"
+          "text": "Menu deux"
         },
         {
           "path": "../images/projects/ohmyfood/004_ohmyfoodMenu3.webp",
-          "alt": "Ohmyfood Menu 3  - slide 4 of 6",
+          "alt": "Ohmyfood Menu 3  - diapositive 4 de 6 ",
           "heading": "Ohmyfood",
-          "text": "Menu Three"
+          "text": "Menu trois"
         },
         {
           "path": "../images/projects/ohmyfood/005_ohmyfoodMenu4.webp",
-          "alt": "Ohmyfood Menu 3  - slide 5 of 6",
+          "alt": "Ohmyfood Menu 3  - diapositive 5 de 6",
           "heading": "Ohmyfood",
-          "text": "Menu Four"
+          "text": "Menu quatre"
         },
         {
           "path": "../images/projects/ohmyfood/006_ohmyfoodMobile.webp",
-          "alt": "Ohmyfood Mobile View  - slide 6 of 6",
+          "alt": "Vue mobile - diapositive 6 de 6",
           "heading": "Ohmyfood",
-          "text": "Mobile View"
+          "text": "Vue mobile"
         }
       ],
       "website": "https://ohmyfood2021.netlify.app/",
@@ -134,40 +134,40 @@
       "id": "3",
       "date": "2021-05-06",
       "title": "GameOn",
-      "description": "Creation of an events registration form - JavaScipt.",
+      "description": "Création d'un formulaire d'inscription aux événements - JavaScipt.",
       "cover": "../images/projects/gameon/001_gameOnFull.webp",
-      "alt": "Game On Website Full Page",
+      "alt": "Page complète du site web de GameOn",
       "textColor": "white",
       "slides": [
         {
           "path": "../images/projects/gameon/001_gameOnFull.webp",
-          "alt": "Full web page  - slide 1 of 5",
+          "alt": "Page web complète - diapositive 1 de 5",
           "heading": "GameOn",
-          "text": "Full Page"
+          "text": "Page entière"
         },
         {
           "path": "../images/projects/gameon/002_gameOnForm.webp",
-          "alt": "Game On input form  - slide 2 of 5",
+          "alt": "Formulaire de saisie de GameOn - diapositive 2 de 5",
           "heading": "GameOn",
-          "text": "Input Form"
+          "text": "Formulaire de saisie"
         },        
         {
           "path": "../images/projects/gameon/003_gameOnControl.webp",
-          "alt": "Game On input form error control  - slide 3 of 5",
+          "alt": "Contrôle des erreurs du formulaire de saisie de GameOn - diapositive 3 de 5",
           "heading": "GameOn",
-          "text": "Input Error Control"
+          "text": "Contrôle des erreurs d'entrée"
         },
         {
           "path": "../images/projects/gameon/004_gameOnSuccess.webp",
-          "alt": "Game On Thank you message  - slide 4 of 5",
+          "alt": "Message de remerciement de GameOn - diapositive 4 de 5",
           "heading": "GameOn",
-          "text": "Success Message"
+          "text": "Message de réussite"
         },
         {
           "path": "../images/projects/gameon/005_gameOnMobile1.webp",
-          "alt": "Game On Mobile View 1  - slide 5 of 5",
+          "alt": "Vue mobile1 - diapositive 5 de 5",
           "heading": "GameOn",
-          "text": "Mobile View"
+          "text": "Vue mobile"
         }
       ],
       "website": "https://stevens-mark.github.io/StevensMark_P4_06052021/",
@@ -177,40 +177,40 @@
       "id": "4",
       "date": "2021-06-09",
       "title": "Fisheye",
-      "description": "Creation of an accessible website - Sass & JavaScript.",
+      "description": "Création d'un site web accessible - Sass & JavaScript.",
       "cover": "../images/projects/fisheye/001_fisheyeFull.webp",
-      "alt": "Fisheye On Website Full Page",
+      "alt": "Page complète du site web Fisheye",
       "textColor": "white",
       "slides": [
         {
           "path": "../images/projects/fisheye/001_fisheyeFull.webp",
-          "alt": "Full web page  - slide 1 of 5",
+          "alt": "Page web complète - diapositive 1 de 5",
           "heading": "Fisheye",
-          "text": "Full Page"
+          "text": "Page entière"
         },
         {
           "path": "../images/projects/fisheye/002_fisheyePhotographer.webp",
-          "alt": "Fisheye individual photographer page - slide 2 of 5",
+          "alt": "Page du photographe individuel Fisheye - diapositive 2 of 5",
           "heading": "Fisheye",
-          "text": "A photographer's page"
+          "text": "La page d'un photographe"
         },          
         {
           "path": "../images/projects/fisheye/003_fisheyeCarousel.webp",
-          "alt": "Carousel - Black & white of a black woman  - slide 3 of 5",
+          "alt": "Carrousel - Noir et blanc d'une femme noire - diapositive 3 of 5",
           "heading": "Fisheye",
-          "text": "Carousel image"
+          "text": "Image du carrousel"
         },
         {
           "path": "../images/projects/fisheye/004_fisheyeForm.webp",
-          "alt": "Fisheye photographer's contact form  - slide 4 of 5",
+          "alt": "Formulaire de contact du photographe Fisheye  - diapositive 4 of 5",
           "heading": "Fisheye",
-          "text": "Contact Form"
+          "text": "Formulaire de contact"
         },
         {
           "path": "../images/projects/fisheye/005_fisheyeMobile.webp",
-          "alt": "Fisheye Mobile View  - slide 5 of 5",
+          "alt": "Vue mobile Fisheye  - diapositive 5 of 5",
           "heading": "Fisheye",
-          "text": "Mobile View"
+          "text": "Vue mobile"
         }
       ],
       "website": "https://fisheye2021.netlify.app/",
@@ -220,40 +220,40 @@
       "id": "5",
       "date": "2021-07-12",
       "title": "Les Petits Plats",
-      "description": "Develop a search algorithm - JavaScript.",
+      "description": "Développer un algorithme de recherche - JavaScript.",
       "cover": "../images/projects/petitsplats/001_petitsplatsFull.webp",
-      "alt": "Les Petits Plats On Website Full Page",
+      "alt": "Page complète du site web de Les Petits Plats",
       "textColor": "white",
       "slides": [
         {
           "path": "../images/projects/petitsplats/001_petitsplatsFull.webp",
-          "alt": "Full web page  - slide 1 of 5",
+          "alt": "Page web complète - diapositive 1 of 5",
           "heading": "Les Petits Plats",
-          "text": "Full Page"
+          "text": "Page entière"
         },
         {
           "path": "../images/projects/petitsplats/002_petitsplatssearchmain.webp",
-          "alt": "Main search input  - slide 2 of 5",
+          "alt": "Entrée de recherche principale - diapositive 2 of 5",
           "heading": "Les Petits Plats",
-          "text": "Main search"
+          "text": "Recherche principale"
         },          
         {
           "path": "../images/projects/petitsplats/003_petitsplatssearchadvanced.webp",
-          "alt": "Advanced search input  - slide 3 of 5",
+          "alt": "Saisie de la recherche avancée - diapositive 3 of 5",
           "heading": "Les Petits Plats",
-          "text": "Advanced search"
+          "text": "Recherche avancée"
         },
         {
           "path": "../images/projects/petitsplats/004_petitsplatssearchboth.webp",
-          "alt": "Main & advanceed search  - slide 4 of 5",
+          "alt": "Recherche principale et avancée - diapositive 4 of 5",
           "heading": "Les Petits Plats",
-          "text": "Main & Advanced Search"
+          "text": "Recherche principale et avancée"
         },
         {
           "path": "../images/projects/petitsplats/005_petitsplatsmobile.webp",
-          "alt": "Les Petits Plats Mobile View  - slide 5 of 5",
+          "alt": "Les Petits Plats Vue mobile - diapositive 5 of 5",
           "heading": "Les Petits Plats",
-          "text": "Mobile View"
+          "text": "Vue mobile"
         }
       ],
 			"website": "https://stevens-mark.github.io/StevensMark_P7_12072021/",
@@ -263,40 +263,40 @@
       "id": "6",
       "date": "2021-08-09",
       "title": "Billed",
-      "description": "Debugging and testing an HR SaaS - JavaScript & Jest.",
+      "description": "Déboguer et tester un SaaS RH - JavaScript & Jest.",
       "cover": "../images/projects/billed/billed_1.webp",
-      "alt": "Billed login Page",
+      "alt": "Page de connexion",
       "textColor": "white",
       "slides": [
         {
           "path": "../images/projects/billed/billed_1.webp",
-          "alt": "Login page  - slide 1 of 5",
+          "alt": "Page de connexion - diapositive 1 of 5",
           "heading": "Billed",
-          "text": "Login Page"
+          "text": "Page de connexion"
         },
         {
           "path": "../images/projects/billed/billed_2.webp",
-          "alt": "Employee interface  - slide 2 of 5",
+          "alt": "Interface pour les employés  - diapositive 2 of 5",
           "heading": "Billed",
-          "text": "Employee Invoice Interface"
+          "text": "Interface d'employée"
         },          
         {
           "path": "../images/projects/billed/billed_4.webp",
-          "alt": "Admin Invoice  - slide 3 of 5",
+          "alt": "L'interface d'administration - diapositive 3 of 5",
           "heading": "Billed",
-          "text": "Admin Interface "
+          "text": "L'interface d'administration"
         },
         {
           "path": "../images/projects/billed/billed_3.webp",
-          "alt": "Admin interface  - slide 4 of 5",
+          "alt": "Contrôle des factures  - diapositive 4 of 5",
           "heading": "Billed",
-          "text": "Admin Invoice Check"
+          "text": "Contrôle des factures"
         },
         {
           "path": "../images/projects/billed/billed_5.webp",
-          "alt": "Test Coverage  - slide 5 of 5",
+          "alt": "Couverture des tests - diapositive 5 of 5",
           "heading": "Billed",
-          "text": "Test Coverage"
+          "text": "Couverture des tests"
         }
       ],
 			"website": "https://billed.netlify.app/",
@@ -306,52 +306,52 @@
       "id": "7",
       "date": "2021-09-20",
       "title": "Learn At Home",
-      "description": "Define the needs of a tutoring app - User Stories, Use Case Diagrams & Figma.",
+      "description": "Définir les besoins d'une application de soutien scolaire - User Stories, Use Case Diagrams & Figma.",
       "cover": "../images/projects/learn/001_learnLogin.webp",
-      "alt": "Learn At Home login Page",
+      "alt": "Page de connexion",
       "textColor": "white",
       "slides": [
         {
           "path": "../images/projects/learn/001_learnLogin.webp",
-          "alt": "Login page  - slide 1 of 7",
+          "alt": "Page de connexion  - diapositive 1 of 7",
           "heading": "Learn At Home",
-          "text": "Login Page"
+          "text": "Page de connexion"
         },
         {
           "path": "../images/projects/learn/002_learnDashBoard.webp",
-          "alt": "DashBoard  - slide 2 of 7",
+          "alt": "Tableau de bord - diapositive 2 of 7",
           "heading": "Learn At Home",
-          "text": "DashBoard"
+          "text": "Tableau de bord"
         },          
         {
           "path": "../images/projects/learn/003_learnTasks.webp",
-          "alt": "Tasks  - slide 3 of 7",
+          "alt": "Tâches  - diapositive 3 of 7",
           "heading": "Learn At Home",
-          "text": "Tasks"
+          "text": "Tâches"
         },
         {
           "path": "../images/projects/learn/004_learnCalendar.webp",
-          "alt": "Calendar  - slide 4 of 7",
+          "alt": "Calendrier - diapositive 4 of 7",
           "heading": "Learn At Home",
-          "text": "Calendar"
+          "text": "Calendrier"
         },
         {
           "path": "../images/projects/learn/005_learnMessages.webp",
-          "alt": "Messages  - slide 5 of 7",
+          "alt": "Messages  - diapositive 5 of 7",
           "heading": "Learn At Home",
           "text": "Messages"
         },
         {
           "path": "../images/projects/learn/006_learnMobile1.webp",
-          "alt": "Mobile View  - slide 6 of 7",
+          "alt": "Vue mobile 1  - diapositive 6 of 7",
           "heading": "Learn At Home",
-          "text": "Mobile View"
+          "text": "Vue mobile"
         },
         {
           "path": "../images/projects/learn/007_learnMobile2.webp",
-          "alt": "Mobile View  - slide 7 of 7",
+          "alt": "Vue mobile 2 - diapositive 7 of 7",
           "heading": "Learn At Home",
-          "text": "Mobile View"
+          "text": "Vue mobile"
         }
       ],
 			"website": "https://www.figma.com/file/K8QF42xb6EzUyqDOvKHAXW/Learn-at-home",
@@ -361,40 +361,40 @@
       "id": "8",
       "date": "2021-10-18",
       "title": "Kasa",
-      "description": "Development of a Single Page Application (SPA) - React.",
+      "description": "Développement d'une application à page unique (SPA) - React.",
       "cover": "../images/projects/kasa/001_kasaTop.webp",
-      "alt": "Kasa Home Page - Top",
+      "alt": "Page d'accueil de Kasa - Haut",
       "textColor": "white",
       "slides": [
         {
           "path": "../images/projects/kasa/001_kasaTop.webp",
-          "alt": "Kasa Home Page - Top - slide 1 of 5",
+          "alt": "Page d'accueil de Kasa - Haut - diapositive 1 of 5",
           "heading": "Kasa",
-          "text": "Home Page - Top"
+          "text": "Page d'accueil de Kasa - Haut"
         },
         {
           "path": "../images/projects/kasa/002_kasaBottom.webp",
-          "alt": "Kasa Home Page - Bottom - slide 2 of 5",
+          "alt": "Page d'accueil de Kasa - Bas - diapositive 2 of 5",
           "heading": "Kasa",
-          "text": "Home Page - Bottom"
+          "text": "Page d'accueil de Kasa - Bas"
         },          
         {
           "path": "../images/projects/kasa/003_kasaAccom.webp",
-          "alt": "Accomodation Page  - slide 3 of 5",
+          "alt": "Page hébergement  - diapositive 3 of 5",
           "heading": "Kasa",
-          "text": "Accomodation Page"
+          "text": "Page hébergement "
         },
         {
           "path": "../images/projects/kasa/004_kasaAbout.webp",
-          "alt": "Calendar  - slide 4 of 5",
+          "alt": "la page 'à propos'  - diapositive 4 of 5",
           "heading": "Kasa",
-          "text": "About Page"
+          "text": "La page 'à propos'"
         },
         {
           "path": "../images/projects/kasa/005_kasaMobile.webp",
-          "alt": "Messages  - slide 5 of 5",
+          "alt": "Vue mobile - diapositive 5 of 5",
           "heading": "Kasa",
-          "text": "Mobile View"
+          "text": "Vue mobile"
         }
       ],
 			"website": "https://kasa2021.netlify.app/",
@@ -404,34 +404,34 @@
       "id": "9",
       "date": "2021-11-08",
       "title": "SportSee",
-      "description": "Develop an analytical dashboard - React & Recharts.",
+      "description": "Développer un tableau de bord analytique - React & Recharts.",
       "cover": "../images/projects/sportsee/sportsee2.webp",
-      "alt": "SportSee Website Full Page",
+      "alt": "Page complète du site web de SportSee",
       "textColor": "white",
       "slides": [
         {
           "path": "../images/projects/sportsee/sportsee1.webp",
-          "alt": "Select User page  - slide 1 of 4",
+          "alt": "Page Sélectionner un utilisateur - diapositive 1 of 4",
           "heading": "SportSee",
-          "text": "Select A User"
+          "text": "Sélectionner l'utilisateur "
         },
         {
           "path": "../images/projects/sportsee/sportsee2.webp",
-          "alt": "User's Statistics page  - slide 2 of 4",
+          "alt": "Page des statistiques de l'utilisateur (karl) - diapositive 2 of 4",
           "heading": "SportSee",
-          "text": "User's Statistics (Karl)"
+          "text": "Page des statistiques de l'utilisateur (Karl)"
         },        
         {
           "path": "../images/projects/sportsee/sportsee3.webp",
-          "alt": "User's Statistics page  - slide 3 of 4",
+          "alt": "Page des statistiques de l'utilisateur (cecelia]  - diapositive 3 of 4",
           "heading": "SportSee",
-          "text": "User's Statistics (Cecilia)"
+          "text": "Page des statistiques de l'utilisateur (Cecilia)"
         },
         {
           "path": "../images/projects/sportsee/sportsee4.webp",
-          "alt": "Mobile View screen shots - slide 4 of 4",
+          "alt": "Vue mobile  - diapositive 4 of 4",
           "heading": "SportSee",
-          "text": "Mobile View"
+          "text": "Vue mobile"
         }
       ],
 			"website": "https://sportsee2021.netlify.app/",
@@ -441,40 +441,40 @@
       "id": "10",
 			"date": "2021-12-02",
       "title": "Argent Bank",
-      "description": "Using an API for a bank account - React, Redux & Swagger.",
+      "description": "Utilisation d'une API pour un compte bancaire - React, Redux & Swagger.",
       "cover": "../images/projects/argentbank/argentbank1.webp",
-      "alt": "Argent Bank Website Full Page",
+      "alt": "Page complète du site Web d'Argent Bank",
       "textColor": "white",
       "slides": [
         {
           "path": "../images/projects/argentbank/argentbank1.webp",
-          "alt": "Login Page - slide 1 of 5",
+          "alt": "Page de connexion - diapositive 1 of 5",
           "heading": "Argent Bank",
-          "text": "Login Page"
+          "text": "Page de connexion"
         },
         {
           "path": "../images/projects/argentbank/argentbank2.webp",
-          "alt": "Transaction Page - slide 2 of 5",
+          "alt": "Page de transaction - diapositive 2 of 5",
           "heading": "Argent Bank",
-          "text": "Transaction Page"
+          "text": "Page de transaction"
         },        
         {
           "path": "../images/projects/argentbank/argentbank3.webp",
-          "alt": "User's Statistics page  - slide 3 of 5",
+          "alt": "Page de connexion - Mode nuit - diapositive 3 of 5",
           "heading": "Argent Bank",
-          "text": "Login Page - Night Mode"
+          "text": "Page de connexion - Mode nuit"
         },
         {
           "path": "../images/projects/argentbank/argentbank4.webp",
-          "alt": "Transaction Page - Night Mode - slide 4 of 5",
+          "alt": "Page de transaction - Mode nuit - diapositive 4 of 5",
           "heading": "Argent Bank",
-          "text": "Transaction Page - Night Mode"
+          "text": "Page de transaction - Mode nuit"
         },
         {
           "path": "../images/projects/argentbank/argentbank5.webp",
-          "alt": "Mobile View - slide 5 of 5",
+          "alt": "Vue mobile - diapositive 5 of 5",
           "heading": "Argent Bank",
-          "text": "Mobile View"
+          "text": "Vue mobile"
         }
       ],
 			"website": "https://stevens-mark.github.io/StevensMark_P13_02122021/",
@@ -484,46 +484,46 @@
       "id": "11",
       "date": "2022-03-29",
       "title": "Wealth Health",
-      "description": "Switch an old jQuery library into React.",
+      "description": "Transformez une ancienne bibliothèque jQuery en React.",
       "cover": "../images/projects/wealth/wealth1.webp",
-      "alt": "Wealth Health Website Full Page",
+      "alt": "Page complète du site web de Wealth Health",
       "textColor": "white",
       "slides": [
         {
           "path": "../images/projects/wealth/wealth1.webp",
-          "alt": "Create Employee Page - slide 1 of 6",
+          "alt": "Créer une page pour les employés - diapositive 1 of 6",
           "heading": "Wealth Health",
-          "text": "Create Employee Page"
+          "text": "Créer une page pour les employés"
         },
         {
           "path": "../images/projects/wealth/wealth2.webp",
-          "alt": "Form Error Handling - slide 2 of 6",
+          "alt": "Gestion des erreurs de formulaire - diapositive 2 of 6",
           "heading": "Wealth Health",
-          "text": "Form Error Handling"
+          "text": "Gestion des erreurs de formulaire"
         },        
         {
           "path": "../images/projects/wealth/wealth3.webp",
-          "alt": "Current Employee Page - slide 3 of 6",
+          "alt": "Page des employés actuels - diapositive 3 of 6",
           "heading": "Wealth Health",
-          "text": "Current Employee Page"
+          "text": "Page des employés actuels"
         },
         {
           "path": "../images/projects/wealth/wealth4.webp",
-          "alt": "Create Employee Page - Night Mode - slide 4 of 6",
+          "alt": "Créer une page pour les employés - Mode nuit - diapositive 4 of 6",
           "heading": "Wealth Health",
-          "text": "Create Employee Page - Night Mode"
+          "text": "Créer une page pour les employés - Mode nuit"
         },
         {
           "path": "../images/projects/wealth/wealth5.webp",
-          "alt": "Current Employee Page - Night Mode - slide 5 of 6",
+          "alt": "Page de l'employé actuel - Mode nuit - diapositive 5 of 6",
           "heading": "Wealth Health",
-          "text": "Current Employee Page - Night Mode"
+          "text": "Page de l'employé actuel - Mode nuit"
         },
         {
           "path": "../images/projects/wealth/wealth6.webp",
-          "alt": "Mobile View - slide 6 of 6",
+          "alt": "Vue mobile - diapositive 6 of 6",
           "heading": "Wealth Health",
-          "text": "Mobile View"
+          "text": "Vue mobile"
         }
       ],
 			"website": "https://wealthhealth.netlify.app/",
@@ -533,40 +533,40 @@
       "id": "12",
       "date": "2022-03-29",
       "title": "NPM Package",
-      "description": "Create an NPM package - React, Styled Components & NPM.",
+      "description": "Créer un paquet NPM - React, Styled Components & NPM.",
       "cover": "../images/projects/wealthnpmplugin/wealthmodal1.webp",
-      "alt": "Wealth Health Modal",
+      "alt": "Modal",
       "textColor": "white",
       "slides": [
         {
           "path": "../images/projects/wealthnpmplugin/wealthmodal1.webp",
-          "alt": "NPM website - slide 1 of 5",
+          "alt": "Site web du NPM - diapositive 1 of 5",
           "heading": "Wealth Health",
-          "text": "NPM Package - Custom Modal"
+          "text": "Paquet NPM - Modal personnalisé"
         },
         {
           "path": "../images/projects/wealthnpmplugin/wealthmodal2.webp",
-          "alt": "Default Modal - slide 2 of 5",
+          "alt": "Modal par défaut - diapositive 2 of 5",
           "heading": "Wealth Health",
-          "text": "Default Modal"
+          "text": "Modal par défaut"
         },        
         {
           "path": "../images/projects/wealthnpmplugin/wealthmodal3.webp",
-          "alt": "User Defined with Additional Message - slide 3 of 5",
+          "alt": "Défini par l'utilisateur avec un message supplémentaire - diapositive 3 of 5",
           "heading": "Wealth Health",
-          "text": "User Defined with Additional Message"
+          "text": "Défini par l'utilisateur avec un message supplémentaire"
         },
         {
           "path": "../images/projects/wealthnpmplugin/wealthmodal4.webp",
-          "alt": "User Defined with Additional Message & Logo - slide 4 of 5",
+          "alt": "Défini par l'utilisateur avec un message et un logo supplémentaires - diapositive 4 of 5",
           "heading": "Wealth Health",
-          "text": "Additional Message & Logo"
+          "text": "Message et logo supplémentaires"
         },
         {
           "path": "../images/projects/wealthnpmplugin/wealthmodal5.webp",
-          "alt": "Current Employee Page - Night Mode - slide 5 of 5",
+          "alt": "Modal - Mode nuit - diapositive 5 of 5",
           "heading": "Wealth Health",
-          "text": "Night Mode"
+          "text": "Mode nuit"
         }
       ],
 			"website": "https://reactcustommodal.netlify.app/",
@@ -576,52 +576,52 @@
       "id": "13",
       "date": "2022-03-31",
       "title": "Portfolio",
-      "description": "Project features, constraints & skills learned - React.",
+      "description": "Caractéristiques du projet, contraintes et compétences acquises - React.",
       "cover": "../images/projects/portfolio/portfolio1.webp",
-      "alt": "Portfolio Home Page",
+      "alt": "Page d'accueil du portfolio",
       "textColor": "white",
       "slides": [
         {
           "path": "../images/projects/portfolio/portfolio1.webp",
-          "alt": "Portfolio Home Page in French - slide 1 of 7",
+          "alt": "Page d'accueil du portfolio en français - diapositive 1 of 7",
           "heading": "Portfolio",
-          "text": "Home Page (FR)"
+          "text": "Page d'accueil (FR)"
         },
         {
           "path": "../images/projects/portfolio/portfolio2.webp",
-          "alt": "Individual Project Page in French - slide 2 of 7",
+          "alt": "Page du projet individuel en français - diapositive 2 of 7",
           "heading": "Portfolio",
-          "text": "Project Page (FR)"
+          "text": "Page du projet (FR)"
         },        
         {
           "path": "../images/projects/portfolio/portfolio3.webp",
-          "alt": "About Page in french - slide 3 of 7",
+          "alt": "Page à propos en français - diapositive 3 of 7",
           "heading": "Portfolio",
-          "text": "About Page (FR)"
+          "text": "Page à propos (FR)"
         },
         {
           "path": "../images/projects/portfolio/portfolio4.webp",
-          "alt": "Portfolio Home Page in English & night mode - slide 4 of 7",
+          "alt": "Page d'accueil en anglais et mode nuit - diapositive 4 of 7",
           "heading": "Portfolio",
-          "text": "Home Page (Eng) - Night Mode"
+          "text": "Page d'accueil (Eng) - Mode nuit"
         },
         {
           "path": "../images/projects/portfolio/portfolio5.webp",
-          "alt": "Individual Project Page in English - night mode - slide 5 of 7",
+          "alt": "Page du projet individuel en anglais - mode nuit - diapositive 5 of 7",
           "heading": "Portfolio",
-          "text": "Project Page (Eng) - Night Mode"
+          "text": "Page du projet (Eng) - Mode nuit"
         },
         {
           "path": "../images/projects/portfolio/portfolio6.webp",
-          "alt": "About Page in English - night mode - slide 6 of 7",
+          "alt": "Page à propos en anglais - mode nuit - diapositive 6 of 7",
           "heading": "Portfolio",
-          "text": "About Page (Eng) - Night Mode"
+          "text": "Page à propos (Eng) - Mode nuit"
         },
         {
           "path": "../images/projects/portfolio/portfolio7.webp",
-          "alt": "Mobile View day & night mode - slide 7 of 7",
+          "alt": "Vue mobile - mode jour et nuit - diapositive 7 of 7",
           "heading": "Portfolio",
-          "text": "Mobile View"
+          "text": "Vue mobile"
         }
       ],
 			"website": "https://stevensmarkportfolio.netlify.app/",

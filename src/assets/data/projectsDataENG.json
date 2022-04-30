@@ -179,7 +179,7 @@
       "title": "Fisheye",
       "description": "Creation of an accessible website - Sass & JavaScript.",
       "cover": "../images/projects/fisheye/001_fisheyeFull.webp",
-      "alt": "Fisheye On Website Full Page",
+      "alt": "Fisheye Website Full Page",
       "textColor": "white",
       "slides": [
         {
@@ -222,7 +222,7 @@
       "title": "Les Petits Plats",
       "description": "Develop a search algorithm - JavaScript.",
       "cover": "../images/projects/petitsplats/001_petitsplatsFull.webp",
-      "alt": "Les Petits Plats On Website Full Page",
+      "alt": "Les Petits Plats Website Full Page",
       "textColor": "white",
       "slides": [
         {
@@ -386,13 +386,13 @@
         },
         {
           "path": "../images/projects/kasa/004_kasaAbout.webp",
-          "alt": "Calendar  - slide 4 of 5",
+          "alt": "About Page  - slide 4 of 5",
           "heading": "Kasa",
           "text": "About Page"
         },
         {
           "path": "../images/projects/kasa/005_kasaMobile.webp",
-          "alt": "Messages  - slide 5 of 5",
+          "alt": "Mobile View  - slide 5 of 5",
           "heading": "Kasa",
           "text": "Mobile View"
         }
@@ -411,7 +411,7 @@
       "slides": [
         {
           "path": "../images/projects/sportsee/sportsee1.webp",
-          "alt": "Select User page  - slide 1 of 4",
+          "alt": "Select a User page  - slide 1 of 4",
           "heading": "SportSee",
           "text": "Select A User"
         },
@@ -423,13 +423,13 @@
         },        
         {
           "path": "../images/projects/sportsee/sportsee3.webp",
-          "alt": "User's Statistics page  - slide 3 of 4",
+          "alt": "User's Statistics page - slide 3 of 4",
           "heading": "SportSee",
           "text": "User's Statistics (Cecilia)"
         },
         {
           "path": "../images/projects/sportsee/sportsee4.webp",
-          "alt": "Mobile View screen shots - slide 4 of 4",
+          "alt": "Mobile View - slide 4 of 4",
           "heading": "SportSee",
           "text": "Mobile View"
         }
@@ -460,7 +460,7 @@
         },        
         {
           "path": "../images/projects/argentbank/argentbank3.webp",
-          "alt": "User's Statistics page  - slide 3 of 5",
+          "alt": "Login Page - Night Mode - slide 3 of 5",
           "heading": "Argent Bank",
           "text": "Login Page - Night Mode"
         },
@@ -564,7 +564,7 @@
         },
         {
           "path": "../images/projects/wealthnpmplugin/wealthmodal5.webp",
-          "alt": "Current Employee Page - Night Mode - slide 5 of 5",
+          "alt": "Modal - Night Mode - slide 5 of 5",
           "heading": "Wealth Health",
           "text": "Night Mode"
         }
