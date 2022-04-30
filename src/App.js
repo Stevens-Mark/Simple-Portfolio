@@ -24,7 +24,7 @@ import GoToTop from "./helpers/GoToTop"
   }, [])
   
   const [show, setShow] = useState(false) // state passed between footer & modal components
-  const [english, setEnglish] = useState(false) // set language for site
+  const [english, setEnglish] = useState(false) // set language: passed to ToggleButton in Nav component
   const aboutToLoad = english? aboutMeEng : aboutMeFr
   const siteDataToLoad = english? siteDataENG : siteDataFR
 

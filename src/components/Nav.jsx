@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import Switch from "./switch"
+import ToggleButton from './ToogleButton'
 
 /**
 * Renders top page navigation section
@@ -29,7 +29,6 @@ const Navigation = ( { value, setValue, siteText } ) => {
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                {/* <a className="nav-link" href="#top">About me</a> */}
                 <a href="#aboutMe" className="nav-link" data-bs-toggle="offcanvas" role="button"
                     aria-controls="aboutMe">{about}</a>
               </li>
@@ -43,7 +42,7 @@ const Navigation = ( { value, setValue, siteText } ) => {
                 <a className="nav-link" href="#contact details">{contact}</a>
               </li>            
             </ul>
-              <Switch onColor="#fff" isOn={value} handleToggle={() => setValue(!value)} />
+              <ToggleButton handleToggle={() => setValue(!value)} />
           </div>
         </div>
       </nav>

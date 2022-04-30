@@ -5,20 +5,16 @@
 @import './utils/variables';
 @import './utils/utilities_custom';
 
-// @import "./utils/functions";
-// @import "utils/mixins";
-// @import "utils/keyframes";
-
 @import "base/base";
 @import "base/typography";
 
 @import "components/card";
 
+@import "components/projectCarousel";
+@import "components/toggleButton";
+
 // Import Bootstrap and its default variables
 // @import '~bootstrap/scss/bootstrap.scss';
-
-@import "components/projectCarousel";
-@import "components/switch";
 
 
 
