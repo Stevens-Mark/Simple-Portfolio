@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import PropTypes from "prop-types"
 // import components
 import Nav from "../components/Nav"
+import AboutMe from "../components/AboutMe"
 import Introduction from "../components/Intro"
 import Skills from "../components/Skills/Skills"
 import Portfolio from "../components/Portfolio"
@@ -14,11 +15,13 @@ import GoToTop from "../helpers/GoToTop"
 /**
  * Renders main page
  * @function Home
- * @param {array} siteData : projects data
+ * @param {object} props : data for site
  * @returns {JSX}
  */
 
-const Home = ( { siteData } ) => {
+const Home = ( props ) => {
+
+  const { projects, aboutMe } = props
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -30,13 +33,14 @@ const Home = ( { siteData } ) => {
   return ( 
     <main>
       <Nav/>
+      <AboutMe aboutMe={aboutMe} />
       <Introduction/>
       <Skills/>
-      <Portfolio projects={siteData} />
+      <Portfolio projects={projects} />
       <Contact/>
       <Footer setShow={setShow}/>
       <LegalModal show={show} setShow={setShow} />
-      <OffCanvas projects={siteData} />
+      <OffCanvas projects={projects} />
       <GoToTop />    
     </main>
   )
@@ -46,5 +50,5 @@ export default Home
 
 // Prototypes
 Home.propTypes = {
-  siteData: PropTypes.array.isRequired,
+  props: PropTypes.object,
 }

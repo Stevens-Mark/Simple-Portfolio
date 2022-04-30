@@ -1,7 +1,7 @@
 import emailjs from 'emailjs-com'
 import { useState } from 'react'
 import Form from 'react-bootstrap/Form'
-import { validRegex } from '../assets/data/siteData'
+import { validRegex } from '../assets/data/otherData'
 // import Toast Notification component
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'

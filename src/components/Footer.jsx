@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 // import for react/Bootstrap5 tooltips
 import { OverlayTrigger, Tooltip } from 'react-bootstrap'
 // import 'other' website links
-import { gitLink, linkedInLink } from '../assets/data/siteData'
+import { gitLink, linkedInLink } from '../assets/data/otherData'
 
 /**
  * Renders the Footer on the page

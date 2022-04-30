@@ -4,7 +4,7 @@
  * @returns {JSX}
  */
 const Navigation = () => {
-  
+
   return ( 
     <header className="py-4" >
       <nav className="navbar navbar-expand-md bg-light navbar-light fixed-top">
@@ -21,7 +21,9 @@ const Navigation = () => {
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <a className="nav-link" href="#top">About me</a>
+                {/* <a className="nav-link" href="#top">About me</a> */}
+                <a href="#aboutMe" className="nav-link" data-bs-toggle="offcanvas" role="button"
+          aria-controls="aboutMe">About Me</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#skills">Skills</a>

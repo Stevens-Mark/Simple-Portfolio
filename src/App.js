@@ -1,11 +1,12 @@
 import React from "react"
 import Home from './pages/Home'
-import { projects } from './assets/data/projects'
+import { projects } from './assets/data/projectsData'
+import aboutMe from './assets/data/aboutMeData'
  
 const App = () => {
 
   return ( 
-     <Home siteData={projects} />
+     <Home projects={projects} aboutMe={aboutMe} />
   )
 }
 

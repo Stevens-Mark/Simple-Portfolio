@@ -1,0 +1,25 @@
+{
+	"subheading1": "Qui je suis ?",
+	"subheading2": "Mes motivations",
+	"motivations": [
+		"J'aime apprendre de nouvelles compétences, travailler seul, diriger une équipe ou faire partie d'une équipe.", 
+		"J'aime résoudre des problèmes et relever des défis.",
+		"J'éprouve une grande satisfaction lorsque je respecte les délais, les objectifs ou les cibles, surtout lorsque le projet est difficile.", 
+		"J'aime aussi aider les autres."
+	],
+	"subheading3": "Le futur",
+	"future": [
+		"J'aimerais trouver une entreprise où je pourrais développer mes compétences en matière de développement frontend.",
+		"J'aimerais mettre en pratique ce que j'ai déjà appris, comme en témoignent les projets “en situation réelle” que j'ai déjà réalisés au cours de ma formation.",
+		"Comme il y a tellement de domaines dans le domaine du développement, je veux apprendre de nouveaux langages de programmation, des frameworks et des technologies.",
+		"“Le monde est mon huître” (The world is my oyster) comme le dit le dicton..."
+	],
+	"subheading4": "Compétences",
+	"skills": [
+		"Sens du relationnel, de l’écoute, autonome.",
+		"Facilité d’adaptabilité à des univers nouveaux et à des publics variés.",
+		"Respect de l’éthique et de la hiérarchie.",
+		"Capacité à travailler en équipe.",
+		"Loyale, fiable, flexible et toujours prête à apprendre sont quelques-unes de mes qualités."
+	]
+}
