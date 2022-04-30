@@ -1,11 +1,14 @@
+import PropTypes from 'prop-types'
 import Switch from "./switch"
 
 /**
  * Renders top page navigation section
  * @function Navigation
+ * @param {boolean} value
+ * @param {function} setValue
  * @returns {JSX}
  */
-const Navigation = ( {value, setValue} ) => {
+const Navigation = ( { value, setValue } ) => {
 
   return ( 
     <header className="py-4" >
@@ -46,3 +49,9 @@ const Navigation = ( {value, setValue} ) => {
 }
 
 export default Navigation
+
+// Prototypes
+Navigation.propTypes = {
+  value: PropTypes.bool.isRequired,
+  setValue: PropTypes.func.isRequired,
+}
