@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 // import component
 import Card from "./Card"
 import ASC from '../assets/icons/ascending.svg'
@@ -14,20 +14,20 @@ import DESC from '../assets/icons/descending.svg'
 */
 const Portfolio = ( { siteData, siteText } ) => {
 
-  console.log(siteData)
-
   const projects = siteData.projects
   const { title, subheading1 } = siteText.portfolio
-
   const [data, setData] = useState(projects)
   const [desc, setDesc] = useState(true)
+
+  useEffect(() => {
+    setData(projects)
+  }, [projects, siteData])
 
   const HandleSort = () => {    // ascending/descending order function
     setDesc(!desc)
     const sorted = desc ? [...projects].sort((a, b) => (a.date > b.date ? -1 : 1)) : [...projects].sort((a, b) => (a.date < b.date ? -1 : 1))
     setData(sorted)
   }
-
 
   return ( 
     <section id="portfolio" className="py-5">
