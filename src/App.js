@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react"
 // import data
-import { projects } from './assets/data/projectsData'
+import siteDataENG from './assets/data/projectsDataENG.json'
+import siteDataFR from './assets/data/projectsDataFR.json'
 import aboutMeEng from './assets/data/aboutMeDataENG'
 import aboutMeFr from './assets/data/aboutMeDataFR'
 
@@ -25,18 +26,19 @@ import GoToTop from "./helpers/GoToTop"
   const [show, setShow] = useState(false) // state passed between footer & modal components
   const [english, setEnglish] = useState(false) // set language for site
   const aboutToLoad = english? aboutMeEng : aboutMeFr
+  const siteDataToLoad = english? siteDataENG : siteDataFR
 
   return ( 
     <main>
-    <Nav value={english} setValue={setEnglish}/>
+    <Nav value={english} setValue={setEnglish} siteText={siteDataToLoad.siteText} />
     <AboutMe aboutMe={aboutToLoad} />
-    <Introduction/>
-    <Skills/>
-    <Portfolio projects={projects} />
-    <Contact/>
-    <Footer setShow={setShow}/>
+    <Introduction siteText={siteDataToLoad.siteText} />
+    <Skills siteText={siteDataToLoad.siteText}/>
+    <Portfolio siteData={siteDataToLoad} siteText={siteDataToLoad.siteText} />
+    <Contact siteText={siteDataToLoad.siteText}/>
+    <Footer setShow={setShow} siteText={siteDataToLoad.siteText}/>
     <LegalModal show={show} setShow={setShow} />
-    <OffCanvas projects={projects} />
+    <OffCanvas siteData={siteDataToLoad}/>
     <GoToTop />    
   </main>
   )

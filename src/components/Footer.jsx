@@ -9,11 +9,13 @@ import { gitLink, linkedInLink } from '../assets/data/otherData'
  * Renders the Footer on the page
  * @function Footer
  * @param {function} setShow (function to set modals state)
+ * @param {object} siteText
  * @returns {JSX}
  */
-const Footer = ( { setShow } ) => {
+const Footer = ( { setShow, siteText } ) => {
 
     const handleShow = () => setShow(true)
+    const { legal } = siteText.footer
 
     return ( 
       <footer className="border-top">
@@ -34,7 +36,7 @@ const Footer = ( { setShow } ) => {
             <div className="col-12 col-md-4 text-md-center">
               <ul className="list-inline list-unstyled mb-0">
                 <li className="list-inline-item">
-                  <button type="button" aria-label="Open Legal Notice" className="btn btn-white text-dark" variant="primary" onClick={handleShow}> Legal Notice</button>
+                  <button type="button" aria-label="Open Legal Notice" className="btn btn-white text-dark" variant="primary" onClick={handleShow}>{legal}</button>
                 </li>
               </ul>
             </div>
@@ -76,4 +78,5 @@ export default Footer
 // Prototypes
 Footer.propTypes = {
   setShow: PropTypes.func.isRequired,
+  siteText: PropTypes.object.isRequired,
 }

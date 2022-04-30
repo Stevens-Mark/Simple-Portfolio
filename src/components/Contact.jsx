@@ -1,19 +1,23 @@
+import PropTypes from 'prop-types'
 import coffee from '../assets/images/coffee.jpg'
 import ContactForm from './Form'
 /**
  * Renders the contact section on page
  * @function Contact
+ * @param {object} siteText
  * @returns {JSX}
  */
-const Contact = () => {
+const Contact = ( { siteText } ) => {
+
+  const { title, subheading1 } = siteText.portfolio
 
     return (
       <section id="contact details" className="py-5 bg-light">
         <div className="container" >
           <div className="row mt-5">
             <div  className="col">
-              <h2>Have a web design project in mind?</h2>
-              <h3 className="fs-5 fw-light">Let's discuss it over a coffee!</h3>
+              <h2>{title}</h2>
+              <h3 className="fs-5 fw-light">{subheading1}</h3>
             </div>
           </div>
 
@@ -23,7 +27,7 @@ const Contact = () => {
             </div>
 
             <div className="col-12 col-md-6 offset-md-1">
-              <ContactForm />
+              <ContactForm siteText={siteText} />
             </div>
           </div>
 
@@ -33,3 +37,8 @@ const Contact = () => {
 }
 
 export default Contact
+
+// Prototypes
+Contact.propTypes = {
+  siteText: PropTypes.object.isRequired,
+}

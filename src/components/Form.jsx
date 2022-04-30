@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import emailjs from 'emailjs-com'
 import { useState } from 'react'
 import Form from 'react-bootstrap/Form'
@@ -10,9 +11,12 @@ import 'react-toastify/dist/ReactToastify.css'
  * Renders the contact form in the contact section
  * (submit button disabled)
  * @function Form
+ * @param {object} siteText
  * @returns {JSX}
  */
-const ContactForm = () => {
+const ContactForm = ( { siteText } ) => {
+
+  const { name, namePrompt, nameError, email, emailPrompt, emailError, message, messagePrompt, messageError, submit } = siteText.form
 
    // local states
   const initialState = { name: "", email: "", message: "", }
@@ -99,7 +103,7 @@ const ContactForm = () => {
     <>
       <Form className="row gy-4"onSubmit={handleSubmit}>
         <Form.Group controlId="name">
-          <Form.Label>Full Name</Form.Label>
+          <Form.Label>{name}</Form.Label>
           <Form.Control
             required 
             name='name' 
@@ -107,12 +111,12 @@ const ContactForm = () => {
             value={input.name}
             maxLength={30} 
             onChange={(e) => handleText(e)}/>
-            {!error.name && <Form.Text className="text-muted">Minimum 2 letters...</Form.Text>}
-            {error.name && <p>⚠️ Enter a valid name</p>}       
+            {!error.name && <Form.Text className="text-muted">{namePrompt}</Form.Text>}
+            {error.name && <p>{nameError}</p>}       
         </Form.Group>
             
         <Form.Group controlId="email">
-          <Form.Label>Email address</Form.Label>
+          <Form.Label>{email}</Form.Label>
           <Form.Control
             required
             name='email'
@@ -120,12 +124,12 @@ const ContactForm = () => {
             placeholder="name@example.com"
             value={input.email}
             onChange={(e) => setInput({...input, email: e.target.value})} />
-            {!error.email && <Form.Text className="text-muted">I'll never share your email with anyone...</Form.Text>}
-            {error.email && <p>⚠️ Enter a valid email address</p>} 
+            {!error.email && <Form.Text className="text-muted">{emailPrompt}</Form.Text>}
+            {error.email && <p>{emailError}</p>} 
         </Form.Group>
 
         <Form.Group  controlId="message">
-          <Form.Label>Message</Form.Label>
+          <Form.Label>{message}</Form.Label>
           <Form.Control
             required
             name='message'
@@ -135,13 +139,13 @@ const ContactForm = () => {
             rows={3}
             maxLength={400}
             onChange={(e) => setInput({...input, message: e.target.value})} />
-            {!error.message && <Form.Text className="text-muted">Write a short message...</Form.Text>}
-            {error.message && <p>⚠️ Please add a real message ?</p>} 
+            {!error.message && <Form.Text className="text-muted">{messagePrompt}</Form.Text>}
+            {error.message && <p>{messageError}</p>} 
         </Form.Group>
 
         <div className="col-12">
         <button variant="primary" disabled={disabledStatus} type="submit" className="btn btn-primary w-100 ">
-                Submit
+                {submit}
         </button>
         </div>
       </Form>
@@ -162,4 +166,10 @@ const ContactForm = () => {
 }
 
 export default ContactForm
+
+// Prototypes
+ContactForm.propTypes = {
+  siteText: PropTypes.object.isRequired,
+}
+
 

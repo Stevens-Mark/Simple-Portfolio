@@ -5,10 +5,12 @@ import ProjectCarousel from './ProjectCarousel'
  * Renders (offcanvas page) additional information for each project
  * when user clicks on 'Find out more' button
  * @function OffCanvas
- * @param {array} projects : data
+ * @param {object} siteData
  * @returns {JSX}
  */
-const OffCanvas = ( { projects } ) => {
+const OffCanvas = ( { siteData } ) => {
+
+  const projects = siteData.projects
 
   return (
     <>
@@ -35,5 +37,5 @@ export default OffCanvas
 
 // Prototypes
 OffCanvas.propTypes = {
-  projects: PropTypes.array.isRequired,
+  siteData: PropTypes.object.isRequired,
 }

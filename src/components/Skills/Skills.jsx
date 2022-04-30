@@ -8,15 +8,18 @@ import { skillsListTwo } from "../../assets/data/otherData"
 /**
  * Renders the skills section on page
  * @function Skills
+ * @param {object} siteText
  * @returns {JSX}
  */
-const Skills = () => {
+const Skills = ( { siteText } ) => {
+
+  const { title, subheading1 } = siteText.skills
 
   return ( 
     <section id="skills" className="py-5 bg-light">
       <div className="container">
-        <h2>My Skills</h2>
-        <h3 className="fs-5 fw-light">Web development and design</h3>
+        <h2>{title}</h2>
+        <h3 className="fs-5 fw-light">{subheading1}</h3>
         <SkillsRowOne skillsList={skillsListOne}/>
         <SkillsRowTwo skillsList={skillsListTwo}/>
       </div>

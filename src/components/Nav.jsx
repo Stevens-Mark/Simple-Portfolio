@@ -2,13 +2,16 @@ import PropTypes from 'prop-types'
 import Switch from "./switch"
 
 /**
- * Renders top page navigation section
- * @function Navigation
- * @param {boolean} value
- * @param {function} setValue
- * @returns {JSX}
- */
-const Navigation = ( { value, setValue } ) => {
+* Renders top page navigation section
+* @function Navigation
+* @param {boolean} value
+* @param {function} setValue
+* @param {object} siteText
+* @returns {JSX}
+*/
+const Navigation = ( { value, setValue, siteText } ) => {
+
+  const { about, skills, portfolio, contact } = siteText.nav
 
   return ( 
     <header className="py-4" >
@@ -28,16 +31,16 @@ const Navigation = ( { value, setValue } ) => {
               <li className="nav-item active">
                 {/* <a className="nav-link" href="#top">About me</a> */}
                 <a href="#aboutMe" className="nav-link" data-bs-toggle="offcanvas" role="button"
-                    aria-controls="aboutMe">About Me</a>
+                    aria-controls="aboutMe">{about}</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#skills">Skills</a>
+                <a className="nav-link" href="#skills">{skills}</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#portfolio">Portfolio</a>
+                <a className="nav-link" href="#portfolio">{portfolio}</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact details">Contact details</a>
+                <a className="nav-link" href="#contact details">{contact}</a>
               </li>            
             </ul>
               <Switch onColor="#fff" isOn={value} handleToggle={() => setValue(!value)} />
@@ -54,4 +57,5 @@ export default Navigation
 Navigation.propTypes = {
   value: PropTypes.bool.isRequired,
   setValue: PropTypes.func.isRequired,
+  siteText: PropTypes.object.isRequired,
 }
