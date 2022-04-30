@@ -7,9 +7,6 @@
       "portfolio": "Portfolio",
       "contact": "Contact details"
 		},
-		"footer": {
-			"legal": "Legal Notice"
-		},
 		"intro": {
 			"title": "I'm Mark Stevens, Web Developer and Designer",
 			"subheading1": "Welcome to my creative universe",
@@ -23,6 +20,7 @@
 			"title": "My Portfolio",
 			"subheading1": "Personal and professional projects"
 		},
+    "cardButton": "See More",
 		"contactDetails": {
 			"title": "Have a web design project in mind?",
 			"subheading1": "Let's discuss it over a coffee!"
@@ -38,7 +36,10 @@
       "messagePrompt":"Write a short message...",
       "messageError": "⚠️ Please add a real message ?",
       "submit": "Submit"
-    }
+    },
+    "footer": {
+			"legal": "Legal Notice"
+		}
 	},
 
   "projects": [

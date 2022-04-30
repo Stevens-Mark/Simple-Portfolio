@@ -30,16 +30,16 @@ import GoToTop from "./helpers/GoToTop"
 
   return ( 
     <main>
-    <Nav value={english} setValue={setEnglish} siteText={siteDataToLoad.siteText} />
-    <AboutMe aboutMe={aboutToLoad} />
-    <Introduction siteText={siteDataToLoad.siteText} />
-    <Skills siteText={siteDataToLoad.siteText}/>
-    <Portfolio siteData={siteDataToLoad} siteText={siteDataToLoad.siteText} />
-    <Contact siteText={siteDataToLoad.siteText}/>
-    <Footer setShow={setShow} siteText={siteDataToLoad.siteText}/>
-    <LegalModal show={show} setShow={setShow} />
-    <OffCanvas siteData={siteDataToLoad}/>
-    <GoToTop />    
+      <Nav value={english} setValue={setEnglish} siteText={siteDataToLoad.siteText} />
+      <AboutMe aboutMe={aboutToLoad} />
+      <Introduction siteText={siteDataToLoad.siteText} />
+      <Skills siteText={siteDataToLoad.siteText}/>
+      <Portfolio siteData={siteDataToLoad} siteText={siteDataToLoad.siteText} />
+      <Contact siteText={siteDataToLoad.siteText}/>
+      <Footer setShow={setShow} siteText={siteDataToLoad.siteText}/>
+      <LegalModal show={show} setShow={setShow} />
+      <OffCanvas siteData={siteDataToLoad}/>
+      <GoToTop />    
   </main>
   )
 }

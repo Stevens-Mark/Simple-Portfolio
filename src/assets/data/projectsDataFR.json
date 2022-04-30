@@ -7,9 +7,6 @@
       "portfolio": "Portfolio",
       "contact": "Coordonnées"
 		},
-		"footer": {
-			"legal": "Notice légale"
-		},
 		"intro": {
 			"title": "Je m'appelle Mark Stevens, développeur et concepteur de sites Web.",
 			"subtitle1": "Bienvenue dans mon univers créatif",
@@ -23,6 +20,7 @@
 			"title": "Mon Portfolio",
 			"subheading1": "Projets personnels et professionnels"
 		},
+    "cardButton": "Voir plus",
 		"contactDetails": {
 			"title": "Vous avez un projet de conception de site web en tête ?",
 			"subheading1": "Discutons-en autour d'un café !"
@@ -38,7 +36,10 @@
       "messagePrompt":"Écrivez un court message...",
       "messageError": "⚠️ Veuillez ajouter un vrai message ?",
       "submit": "Soumettre"
-    }
+    },
+    "footer": {
+			"legal": "Notice légale"
+		}
 	},
 
   "projects": [

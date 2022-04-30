@@ -3,10 +3,10 @@ import Links from './Links'
 /**
  * Renders a card for each project
  * @function Card
- * @param {object} projects : data
+ * @param {object} project : single project
  * @returns {JSX}
  */
-const Card = ( { project } ) => {
+const Card = ( { project, cardButton } ) => {
 
   const { id, title, description, cover, alt, website, github } = project
 
@@ -23,7 +23,7 @@ const Card = ( { project } ) => {
           <p className="card-text mt-1 customTruncate">{description}</p>
 
           <a href={`#project${id}Info`} className="btn btn-primary" data-bs-toggle="offcanvas" role="button"
-          aria-controls={`project${id}Info`}>See More</a>
+          aria-controls={`project${id}Info`}>{cardButton}</a>
 
         </div>
     </div>

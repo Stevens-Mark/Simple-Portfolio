@@ -39,7 +39,7 @@ const Portfolio = ( { siteData, siteText } ) => {
         <div className="row mt-5 gy-4">
             {data.map((project) => 
               <div key={project.id}  className="col-12 col-sm-6 col-lg-4 col-xl-3">
-                <Card project={project}/>
+                <Card project={project} cardButton={siteText.cardButton}/>
               </div>
             )}
 
