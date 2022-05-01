@@ -14,17 +14,17 @@ import git from '../assets/icons/github.svg'
   * @param {string} github: link to project github repo 
   * @returns {JSX}
   */
-const Links = ({ website, github }) => {
+const Links = ({ website, github, title }) => {
   return (
     <>
     <div className='text-nowrap'>
       {website ?
         ( 
-          <a href={website} aria-label="Link to website" rel="noreferrer" target="_blank">
+          <a href={website} aria-label={`Link to ${title} website`} rel="noreferrer" target="_blank">
             <OverlayTrigger 
             placement={'top'} 
-            overlay={<Tooltip>Website</Tooltip>} >
-              <img className='icons' src={preview} alt="Link to website"/>
+            overlay={<Tooltip>{`${title} Website`}</Tooltip>} >
+              <img className='icons' src={preview} alt={`Link to ${title} website`}/>
             </OverlayTrigger>
           </a>
         ) : 
@@ -38,11 +38,11 @@ const Links = ({ website, github }) => {
 
       {github ?
         ( 
-          <a href={github} aria-label="Link to project Repo" rel="noreferrer" target="_blank">
+          <a href={github} aria-label={`Link to ${title} Repo`} rel="noreferrer" target="_blank">
             <OverlayTrigger 
             placement={'top'} 
-            overlay={<Tooltip>Project GitHub Repo</Tooltip>} >
-              <img className='icons' src={git} alt="Link to project repo"/>  
+            overlay={<Tooltip>{`${title} Repo`}</Tooltip>} >
+              <img className='icons' src={git} alt={`Link to ${title} Repo`}/>  
             </OverlayTrigger>
           </a>
         ) : 
