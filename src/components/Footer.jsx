@@ -27,7 +27,7 @@ const Footer = ( { setShow, siteText } ) => {
               <ul className="list-inline list-unstyled mb-0">
                 <li className="list-inline-item ">
                   <a href='#top' className='text-decoration-none text-uppercase fw-bold text-dark' aria-label="Link to Top">
-                    <span className="bg-primary bg-gradient p-1 rounded-3 text-light">Mark</span> Stevens
+                    <span className="bg-primary p-1 rounded-3 text-light">Mark</span> Stevens
                   </a>
                 </li>
               </ul>

@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types'
 import { useState, useEffect } from 'react'
+// import for react/Bootstrap5 tooltips
+import { OverlayTrigger, Tooltip } from 'react-bootstrap'
 // import component
 import Card from "./Card"
 import ASC from '../assets/icons/ascending.svg'
@@ -15,7 +17,8 @@ import DESC from '../assets/icons/descending.svg'
 const Portfolio = ( { siteData, siteText } ) => {
 
   const projects = siteData.projects
-  const { title, subheading1 } = siteText.portfolio
+  const { title, subheading1, sortDesc, sortAsc } = siteText.portfolio
+
   const [data, setData] = useState(projects)
   const [desc, setDesc] = useState(true)
 
@@ -34,8 +37,27 @@ const Portfolio = ( { siteData, siteText } ) => {
       <div className="container">
         <div className='d-flex justify-content-between'>
           <h2>{title}</h2>
-          <span  aria-label="Sort by date"
-            onClick={() => HandleSort()}>{desc? <img className='icons cursor-pointer' src={DESC} alt='descending'/> : <img className='icons cursor-pointer' src={ASC} alt='ascending'/>}</span>
+             
+            <button type="button" className='btn shadow-none' aria-label="Sort by date" onClick={() => HandleSort()}>
+              { desc?    
+                (
+                  <OverlayTrigger 
+                    placement={'top'} 
+                    overlay={<Tooltip>{sortDesc}</Tooltip>} > 
+                      <img className='icons cursor-pointer' src={DESC} alt='descending'/>
+                  </OverlayTrigger>
+                )
+                  : 
+                (
+                  <OverlayTrigger 
+                  placement={'top'} 
+                  overlay={<Tooltip>{sortAsc}</Tooltip>} > 
+                    <img className='icons cursor-pointer' src={ASC} alt='ascending'/>
+                  </OverlayTrigger>
+                  )
+              }
+            </button>
+
         </div>
         <h3 className="fs-5 fw-light">{subheading1}</h3>
 

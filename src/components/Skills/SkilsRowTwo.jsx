@@ -17,7 +17,7 @@ const SkillsRowTwo = ( { skillsList } ) => {
     <div className="row mt-5 gy-4 gy-md-0 align-items-center">
 
         <div className="coll-12 col-md-4">
-          <img src={design} alt="screen showing design" className="rounded-3 shadow w-100"/>
+          <img src={design} alt="screen showing developer's multiple monitor setup" className="rounded-3 shadow w-100"/>
         </div>
 
         <div className="col-12 order-first col-md-7 offset-md-1 order-md-last">
@@ -36,7 +36,7 @@ const SkillsRowTwo = ( { skillsList } ) => {
                     <OverlayTrigger 
                       placement={'top'} 
                       overlay={<Tooltip>{skill.progress}%</Tooltip>} >
-                        <div className={`progress-bar w-${skill.progress}`} role="progressbar" aria-valuenow={skill.progress} aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className={`progress-bar w-${skill.progress}`} role="progressbar" aria-valuenow={skill.progress} aria-label={skill.title} aria-valuemin="0" aria-valuemax="100"></div>
                     </OverlayTrigger>
                   </div>
                 </div>

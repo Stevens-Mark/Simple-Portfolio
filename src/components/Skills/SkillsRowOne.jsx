@@ -32,7 +32,7 @@ const SkillsRowOne = ( { skillsList } ) => {
                     <OverlayTrigger 
                       placement={'top'} 
                       overlay={<Tooltip>{skill.progress}%</Tooltip>} >
-                        <div className={`progress-bar w-${skill.progress}`} role="progressbar" aria-valuenow={skill.progress} aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className={`progress-bar w-${skill.progress}`} role="progressbar" aria-valuenow={skill.progress} aria-label={skill.title} aria-valuemin="0" aria-valuemax="100"></div>
                     </OverlayTrigger>
                   </div>
                 </div>

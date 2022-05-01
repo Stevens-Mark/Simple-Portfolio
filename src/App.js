@@ -35,10 +35,10 @@ import GoToTop from "./helpers/GoToTop"
       <Introduction siteText={siteDataToLoad.siteText} />
       <Skills siteText={siteDataToLoad.siteText}/>
       <Portfolio siteData={siteDataToLoad} siteText={siteDataToLoad.siteText} />
-      <Contact siteText={siteDataToLoad.siteText}/>
-      <Footer setShow={setShow} siteText={siteDataToLoad.siteText}/>
-      <LegalModal show={show} setShow={setShow} />
-      <OffCanvas siteData={siteDataToLoad}/>
+      <Contact siteText={siteDataToLoad.siteText} />
+      <Footer setShow={setShow} siteText={siteDataToLoad.siteText} />
+      <LegalModal show={show} setShow={setShow} siteText={siteDataToLoad.siteText} />
+      <OffCanvas siteData={siteDataToLoad} />
       <GoToTop />    
   </main>
   )

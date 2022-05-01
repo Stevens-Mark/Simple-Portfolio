@@ -17,7 +17,7 @@ const Card = ( { project, cardButton } ) => {
 
         <div className="card-body text-dark">
           <div className='d-flex justify-content-between align-items-center'>
-            <h5 className="card-title mb-0 text-truncate">{title}</h5>
+            <h4 className="card-title mb-0 text-truncate">{title}</h4>
             <Links website={website} github={github} />
           </div>
           <p className="card-text mt-1 customTruncate">{description}</p>

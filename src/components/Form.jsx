@@ -16,7 +16,9 @@ import 'react-toastify/dist/ReactToastify.css'
  */
 const ContactForm = ( { siteText } ) => {
 
-  const { name, namePrompt, nameError, email, emailPrompt, emailError, message, messagePrompt, messageError, submit } = siteText.form
+  const { name, namePrompt, nameError, email, emailPrompt, 
+          emailError, message, messagePrompt, messageError, submit } = siteText.form
+  const { success, fail } = siteText.toast
 
    // local states
   const initialState = { name: "", email: "", message: "", }
@@ -63,11 +65,11 @@ const ContactForm = ( { siteText } ) => {
    * @functions notifySuccess & notifyError
    * @returns {JSX} Toast Notification
    */
-  const notifySuccess = () => toast.success('Success! Email Sent.', {
+  const notifySuccess = () => toast.success(`${success}`, {
     theme: "colored"
     });
 
-  const notifyError = () => toast.error('Error ! Email not Sent !', {
+  const notifyError = () => toast.error(`${fail}`, {
     theme: "colored"
     });
 
@@ -75,7 +77,7 @@ const ContactForm = ( { siteText } ) => {
    * Emails the user's form data (via emailjs) if
    * it passes the simple form validation checks
    * @function handleSubmit
-   * @returns
+   * @returns ...
    */
   const handleSubmit = (event) => {
     event.preventDefault()

@@ -8,8 +8,8 @@
       "contact": "Coordonnées"
 		},
 		"intro": {
-			"title": "Je m'appelle Mark Stevens, développeur et concepteur de sites Web.",
-			"subtitle1": "Bienvenue dans mon univers créatif",
+			"title": "Je m'appelle Mark Stevens, Développeur Front-end.",
+			"subheading1": "Bienvenue dans mon univers créatif",
 			"skillsButton": "Mes compétences web"
 		},
 		"skills": {
@@ -18,7 +18,9 @@
 		},
 		"portfolio": {
 			"title": "Mon Portfolio",
-			"subheading1": "Projets personnels et professionnels"
+			"subheading1": "Projets personnels et professionnels",
+      "sortDesc": "Descendant",
+      "sortAsc": "Ascendant"
 		},
     "cardButton": "Voir plus",
 		"contactDetails": {
@@ -37,9 +39,21 @@
       "messageError": "⚠️ Veuillez ajouter un vrai message ?",
       "submit": "Soumettre"
     },
+    "toast": {
+      "success": "L'email a été envoyé.",
+      "fail": "L'email n'a pas été envoyé !"
+    },
     "footer": {
 			"legal": "Notice légale"
-		}
+		},
+    "modal": {
+      "title": "Clause de non-responsabilité du site web",
+      "paragraph1":"Les informations contenues dans ce site Web sont uniquement destinées à des fins d'information générale. Les informations sont fournies par Mark Stevens et, bien que je m'efforce de maintenir les informations à jour et correctes, je ne fais aucune déclaration ni garantie de quelque nature que ce soit, expresse ou implicite, quant à l'exhaustivité, l'exactitude, la fiabilité, la pertinence ou la disponibilité du site Web ou des informations, produits, services ou graphiques connexes contenus sur le site Web à quelque fin que ce soit. Toute confiance que vous accordez à ces informations est donc strictement à vos risques et périls.",
+      "paragraph2":"En aucun cas, je ne pourrai être tenu responsable de toute perte ou de tout dommage, y compris, sans s'y limiter, les pertes ou dommages indirects ou consécutifs, ou toute perte ou tout dommage, quel qu'il soit, résultant de la perte de données ou de bénéfices, découlant de l'utilisation de ce site Web ou en rapport avec celle-ci.",
+      "paragraph3":"Ce site Web vous permet d'accéder à d'autres sites Web qui ne sont pas sous mon contrôle. Je n'ai aucun contrôle sur la nature, le contenu et la disponibilité de ces sites. L'inclusion de tout lien n'implique pas nécessairement une recommandation ou l'approbation des opinions exprimées dans ces sites.",
+      "paragraph4":"Tous les efforts sont faits pour maintenir le site web en bon état de fonctionnement. Toutefois, je n'assume aucune responsabilité et ne pourrai être tenu responsable de l'indisponibilité temporaire du site web en raison de problèmes techniques indépendants de notre volonté.",
+      "thanks": "Merci"
+    }
 	},
 
   "projects": [

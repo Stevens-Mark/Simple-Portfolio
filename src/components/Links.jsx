@@ -20,10 +20,10 @@ const Links = ({ website, github }) => {
     <div className='text-nowrap'>
       {website ?
         ( 
-          <a href={website} aria-label="Link to project website" rel="noreferrer" target="_blank">
+          <a href={website} aria-label="Link to website" rel="noreferrer" target="_blank">
             <OverlayTrigger 
             placement={'top'} 
-            overlay={<Tooltip>Go To website</Tooltip>} >
+            overlay={<Tooltip>Website</Tooltip>} >
               <img className='icons' src={preview} alt="Link to website"/>
             </OverlayTrigger>
           </a>
@@ -41,7 +41,7 @@ const Links = ({ website, github }) => {
           <a href={github} aria-label="Link to project Repo" rel="noreferrer" target="_blank">
             <OverlayTrigger 
             placement={'top'} 
-            overlay={<Tooltip>Project Git Repo</Tooltip>} >
+            overlay={<Tooltip>Project GitHub Repo</Tooltip>} >
               <img className='icons' src={git} alt="Link to project repo"/>  
             </OverlayTrigger>
           </a>
