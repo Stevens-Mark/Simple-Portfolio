@@ -1,9 +1,8 @@
 import PropTypes from 'prop-types'
 // import for react/Bootstrap5 tooltips
 import { OverlayTrigger, Tooltip } from 'react-bootstrap'
-// import link logos
+// import link preview
 import preview from '../assets/icons/preview.svg'
-import git from '../assets/icons/github.svg'
 
 /**
   * Links/icons to Github & Project websites
@@ -15,7 +14,7 @@ import git from '../assets/icons/github.svg'
 const Links = ({ website, github, title }) => {
   return (
     <>
-    <div className='text-nowrap'>
+    <div className='text-nowrap d-flex align-items-center'>
       {website ?
         ( 
           <a href={website} aria-label={`Link to ${title} website`} rel="noreferrer" target="_blank">
@@ -40,8 +39,7 @@ const Links = ({ website, github, title }) => {
             <OverlayTrigger 
             placement={'top'} 
             overlay={<Tooltip>{`${title} Repo`}</Tooltip>} >
-              {/* <i className="fab fa-github fa-2x"></i> */}
-              <img className='icons' src={git} alt={`Link to ${title} Repo`}/>  
+              <i className="fab fa-github icons text-black"></i>
             </OverlayTrigger>
           </a>
         ) : 
@@ -49,8 +47,7 @@ const Links = ({ website, github, title }) => {
           <OverlayTrigger 
           placement={'top'} 
           overlay={<Tooltip>No Project Repo</Tooltip>} >
-            {/* <i className="fab fa-github"></i> */}
-            <img className='icons icons--none' src={git} alt="No Project Repo"/> 
+            <i className="fab fa-github icons text-secondary"></i>
           </OverlayTrigger>
         )}
 

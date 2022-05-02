@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import Links from './Links'
+import Links from './LinksCopy'
 /**
  * Renders a card for each project
  * @function Card
