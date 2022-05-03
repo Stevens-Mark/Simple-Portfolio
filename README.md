@@ -120,16 +120,16 @@ Il y a quelques dossiers et fichiers qui ne sont pas nécessaires à la producti
 
 ## Dépendances
 
-- React](https://reactjs.org/) Version 17.0.2
-- React-router-dom](https://v5.reactrouter.com/web/guides/quick-start) Version 5.2.0
-- Prop-types](https://www.npmjs.com/package/prop-types) Version 15.8.1
-- Bootstrap](https://getbootstrap.com/) Version 5.1.3
+- [React](https://reactjs.org/) Version 17.0.2
+- [React-router-dom](https://v5.reactrouter.com/web/guides/quick-start) Version 5.2.0
+- [Prop-types](https://www.npmjs.com/package/prop-types) Version 15.8.1
+- [Bootstrap](https://getbootstrap.com/) Version 5.1.3
 - [Bootstrap-icons](https://icons.getbootstrap.com/) Version 1.8.1
-- React-bootstrap](https://react-bootstrap.github.io/) Version 2.3.0
-- React-icons](https://react-icons.github.io/react-icons/) Version 4.3.1
-- React-toastify](https://www.npmjs.com/package/react-toastify) Version 8.2.0
-- Sass](https://sass-lang.com/) Version 1.46.0
-- Prop-types](https://www.npmjs.com/package/prop-types) Version 15.8.1
+- [React-bootstrap](https://react-bootstrap.github.io/) Version 2.3.0
+- [React-icons](https://react-icons.github.io/react-icons/) Version 4.3.1
+- [React-toastify](https://www.npmjs.com/package/react-toastify) Version 8.2.0
+- [Sass](https://sass-lang.com/) Version 1.46.0
+- [Prop-types](https://www.npmjs.com/package/prop-types) Version 15.8.1
 - [Emailjs-com](https://www.npmjs.com/package/emailjs-com) Version 3.2.0
 
 ## Installation et exécution du projet
