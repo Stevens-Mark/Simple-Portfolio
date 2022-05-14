@@ -1,5 +1,9 @@
 ![Mark Stevens](/src/screenshot/screenshot.png)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7747c5f0-0db4-4528-9261-944fe117afcd/deploy-status)](https://app.netlify.com/sites/portfoliostevensmark/deploys)
+
+
+[Demo](https://portfoliostevensmark.netlify.app/)
 
 # Simple Portfolio website *(English)*
 
@@ -76,6 +80,9 @@ The App runs on http://localhost:3000/
 
 
 # Site web de portefeuille simple *(français)*
+
+[Demo](https://portfoliostevensmark.netlify.app/)
+
 
 Réalisé avec React, Bootstrap 5 & Sass
 

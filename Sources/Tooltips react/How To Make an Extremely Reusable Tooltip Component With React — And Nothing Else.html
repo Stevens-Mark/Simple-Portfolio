@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!-- saved from url=(0110)https://paladini.dev/posts/how-to-make-an-extremely-reusable-tooltip-component-with-react-%2Dand-nothing-else/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How To Make an Extremely Reusable Tooltip Component With React — And Nothing Else</title>
+    <meta name="description" content="Front-end engineer, writer, cook, photographer.">
+    <link rel="stylesheet" href="./How To Make an Extremely Reusable Tooltip Component With React — And Nothing Else_files/index.css">
+    <link rel="stylesheet" href="./How To Make an Extremely Reusable Tooltip Component With React — And Nothing Else_files/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="https://paladini.dev/feed/feed.xml" type="application/atom+xml" title="Vitor Paladini&#39;s digital garden 🌱">
+    <link rel="alternate" href="https://paladini.dev/feed/feed.json" type="application/json" title="Vitor Paladini&#39;s digital garden 🌱">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://paladini.dev/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://paladini.dev/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://paladini.dev/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://paladini.dev/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="https://paladini.dev/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Panelbear Analytics - We respect your privacy -->
+    <script async="" src="./How To Make an Extremely Reusable Tooltip Component With React — And Nothing Else_files/analytics.js.download"></script>
+    <script>
+      window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
+      panelbear('config', { site: '2hTnHajl7Gd' });
+    </script>
+
+  </head>
+  <body>
+    <main class="tmpl-post">
+      
+<nav class="primary-menu">
+  <a href="https://paladini.dev/">go back home</a>
+</nav>
+<h1>How To Make an Extremely Reusable Tooltip Component With React — And Nothing Else</h1>
+
+<article>
+  <header>
+    <time datetime="2020-08-19">Aug 2020</time>
+    <div class="tags"><a href="https://paladini.dev/tags/react/" class="post-tag">react</a><a href="https://paladini.dev/tags/javascript/" class="post-tag">javascript</a><a href="https://paladini.dev/tags/webdev/" class="post-tag">webdev</a><a href="https://paladini.dev/tags/css/" class="post-tag">css</a>
+    </div>
+  </header>
+  <p><em>This article was <a href="https://dev.to/vtrpldn/how-to-make-an-extremely-reusable-tooltip-component-with-react-and-nothing-else-3pnk">originally published</a> in the DEV Community.</em></p>
+<hr>
+<p>EDIT: Ok, after publishing I realized that "nothing else" is an exaggeration. There is quite a bit of CSS too. But no other JS dependency 🙈</p>
+<hr>
+<p>Tooltips are a fantastic way of adding context to a piece of UI.</p>
+<p>Recently I had to use lots of them at work. And I'm a rather lazy person, so to make it easier I created a <code>&lt;Tooltip /&gt;</code> component that I could use to add tooltips to pretty much anything.</p>
+<p>It is a no-sweat component, with no dependency other than React itself.</p>
+<p>Be aware that most of the patterns applied here are not exclusive to React so you may learn a few new things even React is not your cup of tea. 🙂</p>
+<p>Here's a demo before we move into the details:</p>
+<iframe src="./How To Make an Extremely Reusable Tooltip Component With React — And Nothing Else_files/7opo3.html" style="width:100%; height:calc(300px + 8vw);" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" loading="lazy" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin">
+    </iframe>
+<h2 id="how-to-make-it">How to make it <a class="direct-link" href="https://paladini.dev/posts/how-to-make-an-extremely-reusable-tooltip-component-with-react--and-nothing-else/#how-to-make-it">#</a></h2>
+<p>What makes this component so good is that it leverages good old CSS sorcery with the flexibility of React <code>children</code> prop. We only need two files to make it work: <code>Tooltip.css</code> and <code>Tooltip.js</code>.</p>
+<p>Let's talk about the CSS of it first.</p>
+<h2 id="tooltip.css">Tooltip.css <a class="direct-link" href="https://paladini.dev/posts/how-to-make-an-extremely-reusable-tooltip-component-with-react--and-nothing-else/#tooltip.css">#</a></h2>
+<p>There's a handful of techniques at play here:</p>
+<ol>
+<li>Custom properties (CSS vars) that control color, spacing and arrow size</li>
+<li>CSS border triangles and <code>before</code> pseudo-elements to make the arrows</li>
+<li>Some smart absolute positioning and wrapping to put everything in the right place</li>
+</ol>
+<p>Have a look at the <code>Tooltip.css</code> file.</p>
+<iframe src="./How To Make an Extremely Reusable Tooltip Component With React — And Nothing Else_files/7opo3(1).html" style="width:100%; height:calc(300px + 8vw);" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" loading="lazy" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin">
+    </iframe>
+<p>You can see that half of it is styling to make the tooltip appear in different directions. A CSS preprocessor could make this code leaner but remember, we are keeping it simple.</p>
+<p>The biggest takeaway of <code>Tooltip.css</code> is understanding that by wrapping a React component with <code>&lt;Tooltip&gt;</code> we are also wrapping it with an element styled by the <code>Tooltip-Wrapper</code> class.</p>
+<p>That CSS class anchors the positioning of the tooltips with <code>position: relative</code>. That way we can use <code>position: absolute</code> in each tooltip with its <code>top</code>, <code>right</code>, <code>bottom</code>, and <code>left</code> values relative to the element we are wrapping.</p>
+<p>Now that we understand that <code>Tooltip.css</code> handles how the tooltip looks and where it goes, let's talk about its <code>.js</code> counterpart.</p>
+<h2 id="tooltip.js">Tooltip.js <a class="direct-link" href="https://paladini.dev/posts/how-to-make-an-extremely-reusable-tooltip-component-with-react--and-nothing-else/#tooltip.js">#</a></h2>
+<p><code>Tooltip.js</code> does four important things:</p>
+<ol>
+<li>It takes everything inside a <code>&lt;Tooltip&gt;</code> component and moves it inside a <code>div</code> with <code>Tooltip-Wrapper</code> class by using <code>props.children</code></li>
+<li>It controls <em>what</em> content will be inside the tooltip bubble with <code>props.content</code></li>
+<li>It controls <em>where</em> the bubble will appear using the value passed to <code>props.direction</code> as a class.</li>
+<li>It controls <em>when</em> it shows by listening to <code>onMouseEnter</code> and <code>onMouseLeave</code> events</li>
+</ol>
+<p>Here, have a snoop at <code>Tooltip.js</code>:</p>
+<iframe src="./How To Make an Extremely Reusable Tooltip Component With React — And Nothing Else_files/7opo3(2).html" style="width:100%; height:calc(300px + 8vw);" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" loading="lazy" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin">
+    </iframe>
+<p>Can you see how it works together with <code>Tooltip.css</code>?</p>
+<p>The biggest takeaway of this file is that it has the minimal necessary logic to make CSS shine. All the work it does is moving the props you passed to <code>&lt;Tooltip&gt;</code> into the right places.</p>
+<p>So at the end of the day (or at the end of the reconciliation 😄), all that Tooltip.js does is transforming this:</p>
+<pre class="language-jsx"><code class="language-jsx"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Tooltip</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Hello, I<span class="token punctuation">'</span>m a tooltip<span class="token punctuation">"</span></span> <span class="token attr-name">direction</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>right<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text"><br>  </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span><span class="token punctuation">&gt;</span></span><span class="token plain-text">I'm a button</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span><span class="token plain-text"><br></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">Tooltip</span></span><span class="token punctuation">&gt;</span></span></code></pre>
+<p>Into this:</p>
+<pre class="language-jsx"><code class="language-jsx"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">className</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Tooltip-Wrapper<span class="token punctuation">"</span></span> <span class="token attr-name">onMouseEnter</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>showTip<span class="token punctuation">}</span></span> <span class="token attr-name">onMouseLeave</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>hideTip<span class="token punctuation">}</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text"><br>  </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span><span class="token punctuation">&gt;</span></span><span class="token plain-text">I'm a button</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span><span class="token plain-text"><br>  </span><span class="token punctuation">{</span>active <span class="token operator">&amp;&amp;</span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">className</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Tooltip-Tip right</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">}</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">Hello, I'm a tooltip</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">}</span><span class="token plain-text"><br></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+<h2 id="how-to-use-it">How to use it <a class="direct-link" href="https://paladini.dev/posts/how-to-make-an-extremely-reusable-tooltip-component-with-react--and-nothing-else/#how-to-use-it">#</a></h2>
+<p>After learning how it works, the "how to use it" should be pretty simple to grasp.</p>
+<p>All you need to do is import the <code>Tooltip</code> component and use it as a wrapper. Make it go above anything you want to show a tooltip on hover.</p>
+<p>It takes three props:</p>
+<ol>
+<li><code>content</code>, which will be what's inside the tooltip</li>
+</ol>
+<ul>
+<li>Required, It can be anything JSX, text, images, other components, it's up to you</li>
+</ul>
+<ol start="2">
+<li><code>direction</code>, which controls where the tooltip will show</li>
+</ol>
+<ul>
+<li>Optional, accepts <code>top</code>, <code>right</code>, <code>bottom</code>, and <code>left</code>. Defaults to <code>top</code></li>
+</ul>
+<ol start="3">
+<li><code>delay</code>, how much time, in milliseconds, it takes for the tooltip to show.</li>
+</ol>
+<ul>
+<li>Optional, defaults to 400ms</li>
+</ul>
+<p>Add a simple wrap with a some of these props and <em>bam</em> now every hover on anything that is <em>inside</em> <code>&lt;Tooltip&gt;</code> will show a small balloon of content.</p>
+<p>Here's how I did it in the demo:</p>
+<iframe src="./How To Make an Extremely Reusable Tooltip Component With React — And Nothing Else_files/7opo3(3).html" style="width:100%; height:calc(300px + 8vw);" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" loading="lazy" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin">
+    </iframe>
+<p>Pretty cool, right?</p>
+<p>What I love the most about modern web development is how components make stuff easier to implement after some initial setup.</p>
+<p>Doing the same thing during jQuery times would take a lot of repetition, duplication, and much more elbow grease.</p>
+<p>And as a final reflection, I'm sure that some things in front-end look crazy complex now but these kinds of techniques make me feel that we are moving in the right direction.</p>
+<hr>
+<p>And that's it, thanks for reading. I hope this article is useful on your front-end journey!</p>
+<p>As always, comments and feedback are super welcome, so what would you change or improve in this implementation?</p>
+<p>Cover photo by <a href="https://unsplash.com/@drew_beamer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Drew Beamer</a> on Unsplash</p>
+<hr>
+<h2 id="hey%2C-let&#39;s-connect-%F0%9F%91%8B">Hey, let's connect 👋 <a class="direct-link" href="https://paladini.dev/posts/how-to-make-an-extremely-reusable-tooltip-component-with-react--and-nothing-else/#hey%2C-let&#39;s-connect-%F0%9F%91%8B">#</a></h2>
+<p><a href="https://twitter.com/paladini_dev">Follow me on Twitter</a> and let me know you liked this article!</p>
+<p>And if you <em>really</em> liked it, make sure to share it with your friends, that'll help me a lot 😄</p>
+
+</article>
+
+
+
+    </main>
+
+    <script>
+      function scriptyScripts() {
+        const emojiList = ['🧄', '🍅', '🧅', '🥦', '🌱', '🥑', '🥥', '🌶', '☘️', '🌵', '🌻', '🐝', '🐛', '🌾', '🍄', '🍋', '🍉', '🌷'];
+        const emojiElement = document.querySelector('.home-emoji')
+
+        if (!emojiElement) return
+
+        function updateEmoji() {
+          if (Math.floor(1 + Math.random() * 100) === 99) {
+            emojiElement.innerHTML = '👁‍🗨🐽👁‍🗨'; // goth pig is watching you
+            return
+          }
+
+          emojiElement.innerHTML = emojiList[Math.floor(Math.random() * emojiList.length)];
+        }
+
+        updateEmoji()
+
+        emojiElement.addEventListener('click', function(e) {
+          updateEmoji()
+        })
+      }
+
+      scriptyScripts()
+    </script>
+  
+
+</body></html>
