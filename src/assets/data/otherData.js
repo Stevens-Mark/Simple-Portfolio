@@ -38,7 +38,7 @@ export const skillsListTwo = [
   {
     "title": "Redux",
     "path": "../images/icons/redux.svg",
-    "progress": 75,
+    "progress": 50,
   },
   {
     "title": "Boot Strap",

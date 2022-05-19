@@ -4,6 +4,7 @@ import Links from './Links'
  * Renders a card for each project
  * @function Card
  * @param {object} project : single project
+ * @param {string} cardButton: text (fr/en) for button
  * @returns {JSX}
  */
 const Card = ( { project, cardButton } ) => {
@@ -35,4 +36,5 @@ export default Card
 // Prototypes
 Card.propTypes = {
   projects: PropTypes.object,
+  cardButton: PropTypes.string,
 }

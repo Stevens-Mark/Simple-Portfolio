@@ -4,8 +4,8 @@ import ToggleButton from './ToogleButton'
 /**
 * Renders top page navigation section
 * @function Navigation
-* @param {boolean} value
-* @param {function} setValue
+* @param {boolean} value: state (english)
+* @param {function} setValue: set language:  (setEnglish)
 * @param {object} siteText
 * @returns {JSX}
 */

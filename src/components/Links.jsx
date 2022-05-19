@@ -8,7 +8,8 @@ import preview from '../assets/icons/preview.svg'
   * Links/icons to Github & Project websites
   * @function Links
   * @param {string} website: link to project webite
-  * @param {string} github: link to project github repo 
+  * @param {string} github: link to project github repo
+  * @param  {string} title: of a project
   * @returns {JSX}
   */
 const Links = ({ website, github, title }) => {
@@ -62,4 +63,5 @@ export default Links
 Links.propTypes = {
   website: PropTypes.string,
   github: PropTypes.string,
+  title: PropTypes.string,
 }
