@@ -9,7 +9,7 @@ import ContactForm from './Form'
  */
 const Contact = ( { siteText } ) => {
 
-  const { title, subheading1 } = siteText.portfolio
+  const { title, subheading1 } = siteText.contactDetails
 
     return (
       <section id="contact details" className="py-5 bg-light">
