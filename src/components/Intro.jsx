@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import portrait from '../assets/images/portraitM.jpg'
+import portrait from '../assets/images/portraitM.webp'
 
 /**
  * Renders the authors photo/Intro section on page

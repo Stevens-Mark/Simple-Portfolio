@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import coffee from '../assets/images/coffee.jpg'
+import coffee from '../assets/images/coffee.webp'
 import ContactForm from './Form'
 /**
  * Renders the contact section on page

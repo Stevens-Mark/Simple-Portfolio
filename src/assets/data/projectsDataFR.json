@@ -62,7 +62,7 @@
       "date": "2021-03-30",
       "title": "Reservia",
       "description": "Transformer un modèle en site web - HTML 5 & CSS3.",
-      "cover": "../images/projects/reservia/001_reserviaFull.webp",
+      "cover": "../images/projects/reservia/thumbReservia.webp",
       "alt": "Page complète du site web de Reservia",
       "textColor": "white",
       "slides": [
@@ -100,7 +100,7 @@
       "date": "2021-04-21",
       "title": "Ohmyfood",
       "description": "Création d'un site web dynamique utilisant l'animation - Sass.",
-      "cover": "../images/projects/ohmyfood/001_ohmyfoodFull.webp",
+      "cover": "../images/projects/ohmyfood/thumbOhmyfood.webp",
       "alt": "Page complète du site web de Ohmyfood",
       "textColor": "white",
       "slides": [
@@ -149,7 +149,7 @@
       "date": "2021-05-06",
       "title": "GameOn",
       "description": "Création d'un formulaire d'inscription aux événements - JavaScipt.",
-      "cover": "../images/projects/gameon/001_gameOnFull.webp",
+      "cover": "../images/projects/gameon/thumbGameOn.webp",
       "alt": "Page complète du site web de GameOn",
       "textColor": "white",
       "slides": [
@@ -192,7 +192,7 @@
       "date": "2021-06-09",
       "title": "Fisheye",
       "description": "Création d'un site web accessible - Sass & JavaScript.",
-      "cover": "../images/projects/fisheye/001_fisheyeFull.webp",
+      "cover": "../images/projects/fisheye/thumbFisheye.webp",
       "alt": "Page complète du site web Fisheye",
       "textColor": "white",
       "slides": [
@@ -235,7 +235,7 @@
       "date": "2021-07-12",
       "title": "Les Petits Plats",
       "description": "Développer un algorithme de recherche - JavaScript.",
-      "cover": "../images/projects/petitsplats/001_petitsplatsFull.webp",
+      "cover": "../images/projects/petitsplats/thumbPetitsplats.webp",
       "alt": "Page complète du site web de Les Petits Plats",
       "textColor": "white",
       "slides": [
@@ -278,7 +278,7 @@
       "date": "2021-08-09",
       "title": "Billed",
       "description": "Déboguer et tester un SaaS RH - JavaScript & Jest.",
-      "cover": "../images/projects/billed/billed_1.webp",
+      "cover": "../images/projects/billed/thumbBilled.webp",
       "alt": "Page de connexion",
       "textColor": "white",
       "slides": [
@@ -321,7 +321,7 @@
       "date": "2021-09-20",
       "title": "Learn At Home",
       "description": "Définir les besoins d'une application de soutien scolaire - User Stories, Use Case Diagrams & Figma.",
-      "cover": "../images/projects/learn/001_learnLogin.webp",
+      "cover": "../images/projects/learn/thumbLearnLogin.webp",
       "alt": "Page de connexion",
       "textColor": "white",
       "slides": [
@@ -376,7 +376,7 @@
       "date": "2021-10-18",
       "title": "Kasa",
       "description": "Développement d'une application à page unique (SPA) - React.",
-      "cover": "../images/projects/kasa/001_kasaTop.webp",
+      "cover": "../images/projects/kasa/thumbKasa.webp",
       "alt": "Page d'accueil de Kasa - Haut",
       "textColor": "white",
       "slides": [
@@ -419,7 +419,7 @@
       "date": "2021-11-08",
       "title": "SportSee",
       "description": "Développer un tableau de bord analytique - React & Recharts.",
-      "cover": "../images/projects/sportsee/sportsee2.webp",
+      "cover": "../images/projects/sportsee/thumbSportsee.webp",
       "alt": "Page complète du site web de SportSee",
       "textColor": "white",
       "slides": [
@@ -456,7 +456,7 @@
 			"date": "2021-12-02",
       "title": "Argent Bank",
       "description": "Utilisation d'une API pour un compte bancaire - React, Redux & Swagger.",
-      "cover": "../images/projects/argentbank/argentbank1.webp",
+      "cover": "../images/projects/argentbank/thumbArgentbank.webp",
       "alt": "Page complète du site Web d'Argent Bank",
       "textColor": "white",
       "slides": [
@@ -499,7 +499,7 @@
       "date": "2022-03-29",
       "title": "Wealth Health",
       "description": "Transformez une ancienne bibliothèque jQuery en React.",
-      "cover": "../images/projects/wealth/wealth1.webp",
+      "cover": "../images/projects/wealth/thumbWealth.webp",
       "alt": "Page complète du site web de Wealth Health",
       "textColor": "white",
       "slides": [
@@ -548,7 +548,7 @@
       "date": "2022-03-29",
       "title": "NPM Package",
       "description": "Créer un paquet NPM - React, Styled Components & NPM.",
-      "cover": "../images/projects/wealthnpmplugin/wealthmodal1.webp",
+      "cover": "../images/projects/wealthnpmplugin/thumbWealthmodal.webp",
       "alt": "Modal",
       "textColor": "white",
       "slides": [
@@ -591,7 +591,7 @@
       "date": "2022-03-31",
       "title": "Portfolio",
       "description": "Caractéristiques du projet, contraintes et compétences acquises - React.",
-      "cover": "../images/projects/portfolio/portfolio1.webp",
+      "cover": "../images/projects/portfolio/thumbPortfolio.webp",
       "alt": "Page d'accueil du portfolio",
       "textColor": "white",
       "slides": [

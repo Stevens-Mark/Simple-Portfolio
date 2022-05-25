@@ -15,7 +15,7 @@ const Navigation = ( { value, setValue, siteText } ) => {
 
   return ( 
     <header className="py-4" >
-      <nav className="navbar navbar-expand-md bg-light navbar-light fixed-top">
+      <nav className="navbar navbar-expand-lg bg-light navbar-light fixed-top">
         <div className="container">
           <a className="navbar-brand text-uppercase fw-bold" href="/index.html">
             <span className="bg-primary p-1 rounded-3 text-white">Mark</span> Stevens

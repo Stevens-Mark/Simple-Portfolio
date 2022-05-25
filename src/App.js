@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState, lazy, Suspense } from "react"
+
 // import data
 import siteDataENG from './assets/data/projectsDataENG.json'
 import siteDataFR from './assets/data/projectsDataFR.json'
@@ -7,15 +8,18 @@ import aboutMeFr from './assets/data/aboutMeDataFR'
 
 // import components
 import Nav from "./components/Nav"
-import AboutMe from "./components/AboutMe"
 import Introduction from "./components/Intro"
 import Skills from "./components/Skills/Skills"
 import Portfolio from "./components/Portfolio"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
-import OffCanvas from "./components/OffCanvas"
-import LegalModal from "./components/Modal"
-import GoToTop from "./helpers/GoToTop"
+
+// import components when needed using lazy loading
+const AboutMe = lazy(() => import('./components/AboutMe'))
+const OffCanvas = lazy(() => import('./components/OffCanvas'))
+const LegalModal = lazy(() => import('./components/Modal'))
+const GoToTop = lazy(() => import('./helpers/GoToTop'))
+const renderLoader = () => <p>Loading...</p>
 
  const App = () => {
 
@@ -30,16 +34,20 @@ import GoToTop from "./helpers/GoToTop"
 
   return ( 
     <main>
-      <Nav value={english} setValue={setEnglish} siteText={siteDataToLoad.siteText} />
-      <AboutMe aboutMe={aboutToLoad} />
+      <Nav value={english} setValue={setEnglish} siteText={siteDataToLoad.siteText} /> 
       <Introduction siteText={siteDataToLoad.siteText} />
       <Skills siteText={siteDataToLoad.siteText}/>
       <Portfolio siteData={siteDataToLoad} siteText={siteDataToLoad.siteText} />
       <Contact siteText={siteDataToLoad.siteText} />
       <Footer setShow={setShow} siteText={siteDataToLoad.siteText} />
-      <LegalModal show={show} setShow={setShow} siteText={siteDataToLoad.siteText} />
-      <OffCanvas siteData={siteDataToLoad} />
-      <GoToTop />    
+
+      <Suspense fallback={renderLoader()}>
+        <AboutMe aboutMe={aboutToLoad} />
+        <LegalModal show={show} setShow={setShow} siteText={siteDataToLoad.siteText} />
+        <OffCanvas siteData={siteDataToLoad} />
+        <GoToTop />  
+      </Suspense>
+      
   </main>
   )
 }

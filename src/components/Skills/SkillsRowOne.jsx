@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from 'prop-types'
 // import image
-import code from '../../assets/images/react.jpg'
+import code from '../../assets/images/react.webp'
 // import for react/Bootstrap5 tooltips
 import { OverlayTrigger, Tooltip } from 'react-bootstrap'
 
