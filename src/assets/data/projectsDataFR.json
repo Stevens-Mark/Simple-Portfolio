@@ -640,6 +640,61 @@
       ],
 			"website": "https://stevensmarkportfolio.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/Portfolio"
-    }
+    },
+    {
+			"id": "14",
+			"date": "2022-07-29",
+			"title": "NotFlix",
+			"description": "Un clone de Netflix utilisant l'Api TMDB - React.",
+			"cover": "../images/projects/notflix/thumbNotflix.webp",
+			"alt": "Page d'accueil de NotFlix",
+			"textColor": "white",
+			"slides": [
+				{
+					"path": "../images/projects/notflix/notflix1.webp",
+					"alt": "Page d'accueil de NotFlix - diapositive 1 of 7",
+					"heading": "NotFlix",
+					"text": "Page d'accueil de NotFlix"
+				},
+				{
+					"path": "../images/projects/notflix/notflix2.webp",
+					"alt": "Liste des films et séries télévisées - diapositive 2 of 7",
+					"heading": "NotFlix",
+					"text": "Liste des films et séries télévisées"
+				},
+				{
+					"path": "../images/projects/notflix/notflix3.webp",
+					"alt": "Fenêtre d'information - diapositive 3 of 7",
+					"heading": "NotFlix",
+					"text": "Fenêtre d'information"
+				},
+				{
+					"path": "../images/projects/notflix/notflix4.webp",
+					"alt": "Lecteur de bande-annonce vidéo - diapositive 4 of 7",
+					"heading": "NotFlix",
+					"text": "Lecteur de bande-annonce vidéo"
+				},
+				{
+					"path": "../images/projects/notflix/notflix5.webp",
+					"alt": "Liste de souhaits sauvegardés - diapositive 5 of 7",
+					"heading": "NotFlix",
+					"text": "Liste de souhaits sauvegardés"
+				},
+				{
+					"path": "../images/projects/notflix/notflix6.webp",
+					"alt": "Résultats de la recherche de l'utilisateur - diapositive 6 of 7",
+					"heading": "NotFlix",
+					"text": "Résultats de la recherche de l'utilisateur"
+				},
+				{
+					"path": "../images/projects/notflix/notflix7.webp",
+					"alt": "Vues mobiles - diapositive 7 of 7",
+					"heading": "NotFlix",
+					"text": "Vues mobiles"
+				}
+			],
+			"website": "https://notflixstevensmark.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/NotFlix"
+		}
   ]
 }
