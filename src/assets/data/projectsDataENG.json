@@ -650,43 +650,49 @@
 			"slides": [
 				{
 					"path": "../images/projects/notflix/notflix1.webp",
-					"alt": "NotFlix Home Page - slide 1 of 7",
+					"alt": "NotFlix Home Page - slide 1 of 8",
 					"heading": "NotFlix",
 					"text": "Home Page"
 				},
 				{
 					"path": "../images/projects/notflix/notflix2.webp",
-					"alt": "NotFlix Movie & Tv Shows List - slide 2 of 7",
+					"alt": "NotFlix Movie & Tv Shows List - slide 2 of 8",
 					"heading": "NotFlix",
 					"text": "Movie & Tv Shows List"
 				},
 				{
 					"path": "../images/projects/notflix/notflix3.webp",
-					"alt": "Information Window - slide 3 of 7",
+					"alt": "Show More Genre Items Page - slide 2 of 8",
+					"heading": "NotFlix",
+					"text": "Show More Genre Items Page"
+				},
+				{
+					"path": "../images/projects/notflix/notflix4.webp",
+					"alt": "Information Window - slide 4 of 8",
 					"heading": "NotFlix",
 					"text": "Information Window"
 				},
 				{
-					"path": "../images/projects/notflix/notflix4.webp",
-					"alt": "Video Trailer Player - slide 4 of 7",
+					"path": "../images/projects/notflix/notflix5.webp",
+					"alt": "Video Trailer Player - slide 5 of 8",
 					"heading": "NotFlix",
 					"text": "Video Trailer Player"
 				},
 				{
-					"path": "../images/projects/notflix/notflix5.webp",
-					"alt": "Saved Wish List - slide 5 of 7",
+					"path": "../images/projects/notflix/notflix6.webp",
+					"alt": "Saved Wish List - slide 6 of 8",
 					"heading": "NotFlix",
 					"text": "Saved Wish List"
 				},
 				{
-					"path": "../images/projects/notflix/notflix6.webp",
-					"alt": "C - slide 6 of 7",
+					"path": "../images/projects/notflix/notflix7.webp",
+					"alt": "C - slide 7 of 8",
 					"heading": "NotFlix",
 					"text": "User's Search Results"
 				},
 				{
-					"path": "../images/projects/notflix/notflix7.webp",
-					"alt": "Mobile Views - slide 7 of 7",
+					"path": "../images/projects/notflix/notflix8.webp",
+					"alt": "Mobile Views - slide 8 of 8",
 					"heading": "NotFlix",
 					"text": "Mobile Views"
 				}

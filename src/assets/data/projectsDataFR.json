@@ -204,25 +204,25 @@
         },
         {
           "path": "../images/projects/fisheye/002_fisheyePhotographer.webp",
-          "alt": "Page du photographe individuel Fisheye - diapositive 2 of 5",
+          "alt": "Page du photographe individuel Fisheye - diapositive 2 de 5",
           "heading": "Fisheye",
           "text": "La page d'un photographe"
         },          
         {
           "path": "../images/projects/fisheye/003_fisheyeCarousel.webp",
-          "alt": "Carrousel - Noir et blanc d'une femme noire - diapositive 3 of 5",
+          "alt": "Carrousel - Noir et blanc d'une femme noire - diapositive 3 de 5",
           "heading": "Fisheye",
           "text": "Image du carrousel"
         },
         {
           "path": "../images/projects/fisheye/004_fisheyeForm.webp",
-          "alt": "Formulaire de contact du photographe Fisheye  - diapositive 4 of 5",
+          "alt": "Formulaire de contact du photographe Fisheye  - diapositive 4 de 5",
           "heading": "Fisheye",
           "text": "Formulaire de contact"
         },
         {
           "path": "../images/projects/fisheye/005_fisheyeMobile.webp",
-          "alt": "Vue mobile Fisheye  - diapositive 5 of 5",
+          "alt": "Vue mobile Fisheye  - diapositive 5 de 5",
           "heading": "Fisheye",
           "text": "Vue mobile"
         }
@@ -241,31 +241,31 @@
       "slides": [
         {
           "path": "../images/projects/petitsplats/001_petitsplatsFull.webp",
-          "alt": "Page web complète - diapositive 1 of 5",
+          "alt": "Page web complète - diapositive 1 de 5",
           "heading": "Les Petits Plats",
           "text": "Page entière"
         },
         {
           "path": "../images/projects/petitsplats/002_petitsplatssearchmain.webp",
-          "alt": "Entrée de recherche principale - diapositive 2 of 5",
+          "alt": "Entrée de recherche principale - diapositive 2 de 5",
           "heading": "Les Petits Plats",
           "text": "Recherche principale"
         },          
         {
           "path": "../images/projects/petitsplats/003_petitsplatssearchadvanced.webp",
-          "alt": "Saisie de la recherche avancée - diapositive 3 of 5",
+          "alt": "Saisie de la recherche avancée - diapositive 3 de 5",
           "heading": "Les Petits Plats",
           "text": "Recherche avancée"
         },
         {
           "path": "../images/projects/petitsplats/004_petitsplatssearchboth.webp",
-          "alt": "Recherche principale et avancée - diapositive 4 of 5",
+          "alt": "Recherche principale et avancée - diapositive 4 de 5",
           "heading": "Les Petits Plats",
           "text": "Recherche principale et avancée"
         },
         {
           "path": "../images/projects/petitsplats/005_petitsplatsmobile.webp",
-          "alt": "Les Petits Plats Vue mobile - diapositive 5 of 5",
+          "alt": "Les Petits Plats Vue mobile - diapositive 5 de 5",
           "heading": "Les Petits Plats",
           "text": "Vue mobile"
         }
@@ -284,31 +284,31 @@
       "slides": [
         {
           "path": "../images/projects/billed/billed_1.webp",
-          "alt": "Page de connexion - diapositive 1 of 5",
+          "alt": "Page de connexion - diapositive 1 de 5",
           "heading": "Billed",
           "text": "Page de connexion"
         },
         {
           "path": "../images/projects/billed/billed_2.webp",
-          "alt": "Interface pour les employés  - diapositive 2 of 5",
+          "alt": "Interface pour les employés  - diapositive 2 de 5",
           "heading": "Billed",
           "text": "Interface d'employée"
         },          
         {
           "path": "../images/projects/billed/billed_4.webp",
-          "alt": "L'interface d'administration - diapositive 3 of 5",
+          "alt": "L'interface d'administration - diapositive 3 de 5",
           "heading": "Billed",
           "text": "L'interface d'administration"
         },
         {
           "path": "../images/projects/billed/billed_3.webp",
-          "alt": "Contrôle des factures  - diapositive 4 of 5",
+          "alt": "Contrôle des factures  - diapositive 4 de 5",
           "heading": "Billed",
           "text": "Contrôle des factures"
         },
         {
           "path": "../images/projects/billed/billed_5.webp",
-          "alt": "Couverture des tests - diapositive 5 of 5",
+          "alt": "Couverture des tests - diapositive 5 de 5",
           "heading": "Billed",
           "text": "Couverture des tests"
         }
@@ -327,43 +327,43 @@
       "slides": [
         {
           "path": "../images/projects/learn/001_learnLogin.webp",
-          "alt": "Page de connexion  - diapositive 1 of 7",
+          "alt": "Page de connexion  - diapositive 1 de 7",
           "heading": "Learn At Home",
           "text": "Page de connexion"
         },
         {
           "path": "../images/projects/learn/002_learnDashBoard.webp",
-          "alt": "Tableau de bord - diapositive 2 of 7",
+          "alt": "Tableau de bord - diapositive 2 de 7",
           "heading": "Learn At Home",
           "text": "Tableau de bord"
         },          
         {
           "path": "../images/projects/learn/003_learnTasks.webp",
-          "alt": "Tâches  - diapositive 3 of 7",
+          "alt": "Tâches  - diapositive 3 de 7",
           "heading": "Learn At Home",
           "text": "Tâches"
         },
         {
           "path": "../images/projects/learn/004_learnCalendar.webp",
-          "alt": "Calendrier - diapositive 4 of 7",
+          "alt": "Calendrier - diapositive 4 de 7",
           "heading": "Learn At Home",
           "text": "Calendrier"
         },
         {
           "path": "../images/projects/learn/005_learnMessages.webp",
-          "alt": "Messages  - diapositive 5 of 7",
+          "alt": "Messages  - diapositive 5 de 7",
           "heading": "Learn At Home",
           "text": "Messages"
         },
         {
           "path": "../images/projects/learn/006_learnMobile1.webp",
-          "alt": "Vue mobile 1  - diapositive 6 of 7",
+          "alt": "Vue mobile 1  - diapositive 6 de 7",
           "heading": "Learn At Home",
           "text": "Vue mobile"
         },
         {
           "path": "../images/projects/learn/007_learnMobile2.webp",
-          "alt": "Vue mobile 2 - diapositive 7 of 7",
+          "alt": "Vue mobile 2 - diapositive 7 de 7",
           "heading": "Learn At Home",
           "text": "Vue mobile"
         }
@@ -382,31 +382,31 @@
       "slides": [
         {
           "path": "../images/projects/kasa/001_kasaTop.webp",
-          "alt": "Page d'accueil de Kasa - Haut - diapositive 1 of 5",
+          "alt": "Page d'accueil de Kasa - Haut - diapositive 1 de 5",
           "heading": "Kasa",
           "text": "Page d'accueil de Kasa - Haut"
         },
         {
           "path": "../images/projects/kasa/002_kasaBottom.webp",
-          "alt": "Page d'accueil de Kasa - Bas - diapositive 2 of 5",
+          "alt": "Page d'accueil de Kasa - Bas - diapositive 2 de 5",
           "heading": "Kasa",
           "text": "Page d'accueil de Kasa - Bas"
         },          
         {
           "path": "../images/projects/kasa/003_kasaAccom.webp",
-          "alt": "Page hébergement  - diapositive 3 of 5",
+          "alt": "Page hébergement  - diapositive 3 de 5",
           "heading": "Kasa",
           "text": "Page hébergement "
         },
         {
           "path": "../images/projects/kasa/004_kasaAbout.webp",
-          "alt": "la page 'à propos'  - diapositive 4 of 5",
+          "alt": "la page 'à propos'  - diapositive 4 de 5",
           "heading": "Kasa",
           "text": "La page 'à propos'"
         },
         {
           "path": "../images/projects/kasa/005_kasaMobile.webp",
-          "alt": "Vue mobile - diapositive 5 of 5",
+          "alt": "Vue mobile - diapositive 5 de 5",
           "heading": "Kasa",
           "text": "Vue mobile"
         }
@@ -425,25 +425,25 @@
       "slides": [
         {
           "path": "../images/projects/sportsee/sportsee1.webp",
-          "alt": "Page Sélectionner un utilisateur - diapositive 1 of 4",
+          "alt": "Page Sélectionner un utilisateur - diapositive 1 de 4",
           "heading": "SportSee",
           "text": "Sélectionner l'utilisateur "
         },
         {
           "path": "../images/projects/sportsee/sportsee2.webp",
-          "alt": "Page des statistiques de l'utilisateur (karl) - diapositive 2 of 4",
+          "alt": "Page des statistiques de l'utilisateur (karl) - diapositive 2 de 4",
           "heading": "SportSee",
           "text": "Page des statistiques de l'utilisateur (Karl)"
         },        
         {
           "path": "../images/projects/sportsee/sportsee3.webp",
-          "alt": "Page des statistiques de l'utilisateur (cecelia]  - diapositive 3 of 4",
+          "alt": "Page des statistiques de l'utilisateur (cecelia]  - diapositive 3 de 4",
           "heading": "SportSee",
           "text": "Page des statistiques de l'utilisateur (Cecilia)"
         },
         {
           "path": "../images/projects/sportsee/sportsee4.webp",
-          "alt": "Vue mobile  - diapositive 4 of 4",
+          "alt": "Vue mobile  - diapositive 4 de 4",
           "heading": "SportSee",
           "text": "Vue mobile"
         }
@@ -462,31 +462,31 @@
       "slides": [
         {
           "path": "../images/projects/argentbank/argentbank1.webp",
-          "alt": "Page de connexion - diapositive 1 of 5",
+          "alt": "Page de connexion - diapositive 1 de 5",
           "heading": "Argent Bank",
           "text": "Page de connexion"
         },
         {
           "path": "../images/projects/argentbank/argentbank2.webp",
-          "alt": "Page de transaction - diapositive 2 of 5",
+          "alt": "Page de transaction - diapositive 2 de 5",
           "heading": "Argent Bank",
           "text": "Page de transaction"
         },        
         {
           "path": "../images/projects/argentbank/argentbank3.webp",
-          "alt": "Page de connexion - Mode nuit - diapositive 3 of 5",
+          "alt": "Page de connexion - Mode nuit - diapositive 3 de 5",
           "heading": "Argent Bank",
           "text": "Page de connexion - Mode nuit"
         },
         {
           "path": "../images/projects/argentbank/argentbank4.webp",
-          "alt": "Page de transaction - Mode nuit - diapositive 4 of 5",
+          "alt": "Page de transaction - Mode nuit - diapositive 4 de 5",
           "heading": "Argent Bank",
           "text": "Page de transaction - Mode nuit"
         },
         {
           "path": "../images/projects/argentbank/argentbank5.webp",
-          "alt": "Vue mobile - diapositive 5 of 5",
+          "alt": "Vue mobile - diapositive 5 de 5",
           "heading": "Argent Bank",
           "text": "Vue mobile"
         }
@@ -505,37 +505,37 @@
       "slides": [
         {
           "path": "../images/projects/wealth/wealth1.webp",
-          "alt": "Créer une page pour les employés - diapositive 1 of 6",
+          "alt": "Créer une page pour les employés - diapositive 1 de 6",
           "heading": "Wealth Health",
           "text": "Créer une page pour les employés"
         },
         {
           "path": "../images/projects/wealth/wealth2.webp",
-          "alt": "Gestion des erreurs de formulaire - diapositive 2 of 6",
+          "alt": "Gestion des erreurs de formulaire - diapositive 2 de 6",
           "heading": "Wealth Health",
           "text": "Gestion des erreurs de formulaire"
         },        
         {
           "path": "../images/projects/wealth/wealth3.webp",
-          "alt": "Page des employés actuels - diapositive 3 of 6",
+          "alt": "Page des employés actuels - diapositive 3 de 6",
           "heading": "Wealth Health",
           "text": "Page des employés actuels"
         },
         {
           "path": "../images/projects/wealth/wealth4.webp",
-          "alt": "Créer une page pour les employés - Mode nuit - diapositive 4 of 6",
+          "alt": "Créer une page pour les employés - Mode nuit - diapositive 4 de 6",
           "heading": "Wealth Health",
           "text": "Créer une page pour les employés - Mode nuit"
         },
         {
           "path": "../images/projects/wealth/wealth5.webp",
-          "alt": "Page de l'employé actuel - Mode nuit - diapositive 5 of 6",
+          "alt": "Page de l'employé actuel - Mode nuit - diapositive 5 de 6",
           "heading": "Wealth Health",
           "text": "Page de l'employé actuel - Mode nuit"
         },
         {
           "path": "../images/projects/wealth/wealth6.webp",
-          "alt": "Vue mobile - diapositive 6 of 6",
+          "alt": "Vue mobile - diapositive 6 de 6",
           "heading": "Wealth Health",
           "text": "Vue mobile"
         }
@@ -554,31 +554,31 @@
       "slides": [
         {
           "path": "../images/projects/wealthnpmplugin/wealthmodal1.webp",
-          "alt": "Site web du NPM - diapositive 1 of 5",
+          "alt": "Site web du NPM - diapositive 1 de 5",
           "heading": "Wealth Health",
           "text": "Paquet NPM - Modal personnalisé"
         },
         {
           "path": "../images/projects/wealthnpmplugin/wealthmodal2.webp",
-          "alt": "Modal par défaut - diapositive 2 of 5",
+          "alt": "Modal par défaut - diapositive 2 de 5",
           "heading": "Wealth Health",
           "text": "Modal par défaut"
         },        
         {
           "path": "../images/projects/wealthnpmplugin/wealthmodal3.webp",
-          "alt": "Défini par l'utilisateur avec un message supplémentaire - diapositive 3 of 5",
+          "alt": "Défini par l'utilisateur avec un message supplémentaire - diapositive 3 de 5",
           "heading": "Wealth Health",
           "text": "Défini par l'utilisateur avec un message supplémentaire"
         },
         {
           "path": "../images/projects/wealthnpmplugin/wealthmodal4.webp",
-          "alt": "Défini par l'utilisateur avec un message et un logo supplémentaires - diapositive 4 of 5",
+          "alt": "Défini par l'utilisateur avec un message et un logo supplémentaires - diapositive 4 de 5",
           "heading": "Wealth Health",
           "text": "Message et logo supplémentaires"
         },
         {
           "path": "../images/projects/wealthnpmplugin/wealthmodal5.webp",
-          "alt": "Modal - Mode nuit - diapositive 5 of 5",
+          "alt": "Modal - Mode nuit - diapositive 5 de 5",
           "heading": "Wealth Health",
           "text": "Mode nuit"
         }
@@ -597,43 +597,43 @@
       "slides": [
         {
           "path": "../images/projects/portfolio/portfolio1.webp",
-          "alt": "Page d'accueil du portfolio en français - diapositive 1 of 7",
+          "alt": "Page d'accueil du portfolio en français - diapositive 1 de 7",
           "heading": "Portfolio",
           "text": "Page d'accueil (FR)"
         },
         {
           "path": "../images/projects/portfolio/portfolio2.webp",
-          "alt": "Page du projet individuel en français - diapositive 2 of 7",
+          "alt": "Page du projet individuel en français - diapositive 2 de 7",
           "heading": "Portfolio",
           "text": "Page du projet (FR)"
         },        
         {
           "path": "../images/projects/portfolio/portfolio3.webp",
-          "alt": "Page à propos en français - diapositive 3 of 7",
+          "alt": "Page à propos en français - diapositive 3 de 7",
           "heading": "Portfolio",
           "text": "Page à propos (FR)"
         },
         {
           "path": "../images/projects/portfolio/portfolio4.webp",
-          "alt": "Page d'accueil en anglais et mode nuit - diapositive 4 of 7",
+          "alt": "Page d'accueil en anglais et mode nuit - diapositive 4 de 7",
           "heading": "Portfolio",
           "text": "Page d'accueil (Eng) - Mode nuit"
         },
         {
           "path": "../images/projects/portfolio/portfolio5.webp",
-          "alt": "Page du projet individuel en anglais - mode nuit - diapositive 5 of 7",
+          "alt": "Page du projet individuel en anglais - mode nuit - diapositive 5 de 7",
           "heading": "Portfolio",
           "text": "Page du projet (Eng) - Mode nuit"
         },
         {
           "path": "../images/projects/portfolio/portfolio6.webp",
-          "alt": "Page à propos en anglais - mode nuit - diapositive 6 of 7",
+          "alt": "Page à propos en anglais - mode nuit - diapositive 6 de 7",
           "heading": "Portfolio",
           "text": "Page à propos (Eng) - Mode nuit"
         },
         {
           "path": "../images/projects/portfolio/portfolio7.webp",
-          "alt": "Vue mobile - mode jour et nuit - diapositive 7 of 7",
+          "alt": "Vue mobile - mode jour et nuit - diapositive 7 de 7",
           "heading": "Portfolio",
           "text": "Vue mobile"
         }
@@ -652,43 +652,49 @@
 			"slides": [
 				{
 					"path": "../images/projects/notflix/notflix1.webp",
-					"alt": "Page d'accueil de NotFlix - diapositive 1 of 7",
+					"alt": "Page d'accueil de NotFlix - diapositive 1 de 8",
 					"heading": "NotFlix",
 					"text": "Page d'accueil de NotFlix"
 				},
 				{
 					"path": "../images/projects/notflix/notflix2.webp",
-					"alt": "Liste des films et séries télévisées - diapositive 2 of 7",
+					"alt": "Liste des films et séries télévisées - diapositive 2 de 8",
 					"heading": "NotFlix",
 					"text": "Liste des films et séries télévisées"
 				},
-				{
+        {
 					"path": "../images/projects/notflix/notflix3.webp",
-					"alt": "Fenêtre d'information - diapositive 3 of 7",
+					"alt": "Afficher plus d'éléments de genre page - diapositive 3 de 8",
+					"heading": "NotFlix",
+					"text": "Afficher plus d'éléments de genre page"
+				},
+				{
+					"path": "../images/projects/notflix/notflix4.webp",
+					"alt": "Fenêtre d'information - diapositive 4 de 8",
 					"heading": "NotFlix",
 					"text": "Fenêtre d'information"
 				},
 				{
-					"path": "../images/projects/notflix/notflix4.webp",
-					"alt": "Lecteur de bande-annonce vidéo - diapositive 4 of 7",
+					"path": "../images/projects/notflix/notflix5.webp",
+					"alt": "Lecteur de bande-annonce vidéo - diapositive 5 de 8",
 					"heading": "NotFlix",
 					"text": "Lecteur de bande-annonce vidéo"
 				},
 				{
-					"path": "../images/projects/notflix/notflix5.webp",
-					"alt": "Liste de souhaits sauvegardés - diapositive 5 of 7",
+					"path": "../images/projects/notflix/notflix6.webp",
+					"alt": "Liste de souhaits sauvegardés - diapositive 6 de 8",
 					"heading": "NotFlix",
 					"text": "Liste de souhaits sauvegardés"
 				},
 				{
-					"path": "../images/projects/notflix/notflix6.webp",
-					"alt": "Résultats de la recherche de l'utilisateur - diapositive 6 of 7",
+					"path": "../images/projects/notflix/notflix7.webp",
+					"alt": "Résultats de la recherche de l'utilisateur - diapositive 7 de 7",
 					"heading": "NotFlix",
 					"text": "Résultats de la recherche de l'utilisateur"
 				},
 				{
-					"path": "../images/projects/notflix/notflix7.webp",
-					"alt": "Vues mobiles - diapositive 7 of 7",
+					"path": "../images/projects/notflix/notflix8.webp",
+					"alt": "Vues mobiles - diapositive 8 de 8",
 					"heading": "NotFlix",
 					"text": "Vues mobiles"
 				}
