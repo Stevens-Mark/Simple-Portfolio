@@ -701,6 +701,67 @@
 			],
 			"website": "https://notflixstevensmark.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/NotFlix"
+		},
+    {
+			"id": "15",
+			"date": "2022-09-04",
+			"title": "Banana Designs",
+			"description": "Création d'un site web - WordPress.",
+			"cover": "../images/projects/bananadesigns/thumbBananaHome.webp",
+			"alt": "Page d'accueil",
+			"textColor": "white",
+			"slides": [
+				{
+					"path": "../images/projects/bananadesigns/001_bananaHome.webp",
+					"alt": "Page d'accueil - Hero Banner - diapositive 1 de 8",
+					"heading": "Banana Designs",
+					"text": "Page d'accueil - Hero Banner"
+				},
+				{
+					"path": "../images/projects/bananadesigns/002_bananaHome2.webp",
+					"alt": "Banana Designs Page d'accueil - diapositive 2 de 8",
+					"heading": "Banana Designs",
+					"text": "Page d'accueil"
+				},
+				{
+					"path": "../images/projects/bananadesigns/003_bananaAbout.webp",
+					"alt": "La page 'à propos' - diapositive 3 de 8",
+					"heading": "Banana Designs",
+					"text": "La page 'à propos'"
+				},
+				{
+					"path": "../images/projects/bananadesigns/004_bananaCreation.webp",
+					"alt": "Page de création de site Web - diapositive 4 de 8",
+					"heading": "Banana Designs",
+					"text": "Page de création de site Web"
+				},
+				{
+					"path": "../images/projects/bananadesigns/005_bananaReference.webp",
+					"alt": "Page SEO, SEA et SMO - diapositive 5 de 8",
+					"heading": "Banana Designs",
+					"text": "Page SEO, SEA et SMO"
+				},
+				{
+					"path": "../images/projects/bananadesigns/006_bananaPortfolio.webp",
+					"alt": "Portefeuille d'entreprises - diapositive 6 de 8",
+					"heading": "Banana Designs",
+					"text": "Portefeuille d'entreprises"
+				},
+				{
+					"path": "../images/projects/bananadesigns/007_bananaContact.webp",
+					"alt": "Page de contact - diapositive 7 de 8",
+					"heading": "Banana Designs",
+					"text": "Page de contact"
+				},
+				{
+					"path": "../images/projects/bananadesigns/008_bananaMobile.webp",
+					"alt": "Vues mobiles - diapositive 8 de 8",
+					"heading": "Banana Designs",
+					"text": "Vues mobiles"
+				}
+			],
+			"website": "https://dev-banana-designs.pantheonsite.io/",
+			"github": ""
 		}
   ]
 }

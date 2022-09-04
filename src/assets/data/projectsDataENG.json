@@ -60,7 +60,7 @@
 			"id": "1",
 			"date": "2021-03-30",
 			"title": "Reservia",
-			"description": "Transforming a model into a website - HTML 5 & CSS3.",
+			"description": "Transforming a model into a website - HTML5 & CSS3.",
 			"cover": "../images/projects/reservia/thumbReservia.webp",
 			"alt": "Reservia Website Full Page",
 			"textColor": "white",
@@ -662,7 +662,7 @@
 				},
 				{
 					"path": "../images/projects/notflix/notflix3.webp",
-					"alt": "Show More Genre Items Page - slide 2 of 8",
+					"alt": "Show More Genre Items Page - slide 3 of 8",
 					"heading": "NotFlix",
 					"text": "Show More Genre Items Page"
 				},
@@ -686,7 +686,7 @@
 				},
 				{
 					"path": "../images/projects/notflix/notflix7.webp",
-					"alt": "C - slide 7 of 8",
+					"alt": "User's Search Results - slide 7 of 8",
 					"heading": "NotFlix",
 					"text": "User's Search Results"
 				},
@@ -699,6 +699,67 @@
 			],
 			"website": "https://notflixstevensmark.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/NotFlix"
+		},
+		{
+			"id": "15",
+			"date": "2022-09-04",
+			"title": "Banana Designs",
+			"description": "Creation of a Website - WordPress.",
+			"cover": "../images/projects/bananadesigns/thumbBananaHome.webp",
+			"alt": "Banana Designs Home Page",
+			"textColor": "white",
+			"slides": [
+				{
+					"path": "../images/projects/bananadesigns/001_bananaHome.webp",
+					"alt": "Banana Designs - Hero Banner - slide 1 of 8",
+					"heading": "Banana Designs",
+					"text": "Home Page - Hero Banner"
+				},
+				{
+					"path": "../images/projects/bananadesigns/002_bananaHome2.webp",
+					"alt": "Banana Designs Home Page - slide 2 of 8",
+					"heading": "Banana Designs",
+					"text": "Home Page"
+				},
+				{
+					"path": "../images/projects/bananadesigns/003_bananaAbout.webp",
+					"alt": "About Page - slide 3 of 8",
+					"heading": "Banana Designs",
+					"text": "About Page"
+				},
+				{
+					"path": "../images/projects/bananadesigns/004_bananaCreation.webp",
+					"alt": "Web Site Creation Page - slide 4 of 8",
+					"heading": "Banana Designs",
+					"text": "WebSite Creation Page"
+				},
+				{
+					"path": "../images/projects/bananadesigns/005_bananaReference.webp",
+					"alt": "SEO, SEA & SMO Page - slide 5 of 8",
+					"heading": "Banana Designs",
+					"text": "SEO, SEA & SMO Page"
+				},
+				{
+					"path": "../images/projects/bananadesigns/006_bananaPortfolio.webp",
+					"alt": "Company Portfolio - slide 6 of 8",
+					"heading": "Banana Designs",
+					"text": "Company Portfolio"
+				},
+				{
+					"path": "../images/projects/bananadesigns/007_bananaContact.webp",
+					"alt": "Contact Page - slide 7 of 8",
+					"heading": "Banana Designs",
+					"text": "Contact Page"
+				},
+				{
+					"path": "../images/projects/bananadesigns/008_bananaMobile.webp",
+					"alt": "Mobile Views - slide 8 of 8",
+					"heading": "Banana Designs",
+					"text": "Mobile Views"
+				}
+			],
+			"website": "https://dev-banana-designs.pantheonsite.io/",
+			"github": ""
 		}
 	]
 }
