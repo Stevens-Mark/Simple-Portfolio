@@ -83,7 +83,7 @@ const ContactForm = ( { siteText } ) => {
     event.preventDefault()
     if (validateForm()) {
       setDisabledStatus(true)
-      emailjs.send('service_8qn8ghr', 'template_w9casrx', input, 'rNFxVJaeHZGL2769x')
+      emailjs.send('service_jz4n8kk', 'template_w9casrx', input, 'rNFxVJaeHZGL2769x')
         .then(function(response) {
           console.log('SUCCESS!', response.status, response.text);
           setInput(initialState)
