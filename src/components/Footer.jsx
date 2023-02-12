@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 // import for react/Bootstrap5 tooltips
 import { OverlayTrigger, Tooltip } from 'react-bootstrap'
 // import 'other' website links
-import { gitLink, linkedInLink } from '../assets/data/otherData'
+import { gitLink, linkedInLink, mail } from '../assets/data/otherData'
 
 /**
  * Renders the Footer on the page
@@ -43,6 +43,7 @@ const Footer = ( { setShow, siteText } ) => {
 
             <div className="col-12 col-md-4 text-md-end">
               <ul className="list-inline list-unstyled mb-0">
+              
                 <li className="list-inline-item">
                   <a href={linkedInLink} className='text-decoration-none text-dark' aria-label="Link to LinkedIn" rel="noreferrer" target='_blank'>
                     <OverlayTrigger 
@@ -59,6 +60,16 @@ const Footer = ( { setShow, siteText } ) => {
                       placement={'top'} 
                       overlay={<Tooltip>GitHub</Tooltip>} >
                         <i className="fab fa-github fa-2x"></i>
+                    </OverlayTrigger>
+                  </a>
+                </li>
+
+                <li className="list-inline-item">
+                  <a href={mail} className='text-decoration-none text-dark' aria-label="Link to Email" rel="noreferrer" target='_blank'>
+                    <OverlayTrigger 
+                      placement={'top'} 
+                      overlay={<Tooltip>Mail</Tooltip>} >
+                        <i className="fas fa-envelope fa-2x"></i>
                     </OverlayTrigger>
                   </a>
                 </li>
