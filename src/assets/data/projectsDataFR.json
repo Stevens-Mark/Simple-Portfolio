@@ -762,6 +762,110 @@
 			],
 			"website": "https://dev-banana-designs.pantheonsite.io/",
 			"github": ""
+		},
+    {
+			"id": "16",
+			"date": "2022-11-17",
+			"title": "Food Wishes",
+			"description": "Créer une solution Full stack - PHP & MYSQL.",
+			"cover": "../images/projects/foodwishes/foodwishes-3.webp",
+			"alt": "Food Wishes - Recipe Page",
+			"textColor": "white",
+			"slides": [
+				{
+					"path": "../images/projects/foodwishes/foodwishes-1.webp",
+					"alt": "Food Wishes S'inscrire - diapositive 1 of 8",
+					"heading": "Food Wishes",
+					"text": "S'inscrire"
+				},
+				{
+					"path": "../images/projects/foodwishes/foodwishes-2.webp",
+					"alt": "Food Wishes Login - diapositive 2 of 8",
+					"heading": "Food Wishes",
+					"text": "Login"
+				},
+				{
+					"path": "../images/projects/foodwishes/foodwishes-3.webp",
+					"alt": "Page des recettes - diapositive 3 of 8",
+					"heading": "Food Wishes",
+					"text": "Page des recettes"
+				},
+				{
+					"path": "../images/projects/foodwishes/foodwishes-4.webp",
+					"alt": "Recette et ajout d'un commentaire - diapositive 4 of 8",
+					"heading": "Food Wishes",
+					"text": "Recette et ajout d'un commentaire"
+				},
+				{
+					"path": "../images/projects/foodwishes/foodwishes-5.webp",
+					"alt": "Mettre à jour une recette - diapositive 5 of 8",
+					"heading": "Food Wishes",
+					"text": "Mettre à jour une recette"
+				},
+				{
+					"path": "../images/projects/foodwishes/foodwishes-6.webp",
+					"alt": "Mise à jour d'une recette à succès - diapositive 6 of 8",
+					"heading": "Food Wishes",
+					"text": "Mise à jour réussie"
+				},
+				{
+					"path": "../images/projects/foodwishes/foodwishes-7.webp",
+					"alt": "Page de contact - diapositive 7 of 8",
+					"heading": "Food Wishes",
+					"text": "Page de contact"
+				},
+				{
+					"path": "../images/projects/foodwishes/foodwishes-8.webp",
+					"alt": "Vues mobiles - diapositive 8 of 8",
+					"heading": "Food Wishes",
+					"text": "Vues mobiles"
+				}
+			],
+			"website": "https://stevensmark.infinityfreeapp.com/index.php",
+			"github": "https://github.com/Stevens-Mark/FoodWishes"
+		},
+    {
+			"id": "17",
+			"date": "2023-002-22",
+			"title": "Best Dives",
+			"description": "Construisez un prototype de site Web - WordPress.",
+			"cover": "../images/projects/bestdives/bestdives-1.webp",
+			"alt": "Best Dives - Hero",
+			"textColor": "white",
+			"slides": [
+				{
+					"path": "../images/projects/bestdives/bestdives-1.webp",
+					"alt": "Best Dives - Hero - diapositive 1 of 5",
+					"heading": "Best Dives",
+					"text": "Best Dives - Hero"
+				},
+				{
+					"path": "../images/projects/bestdives/bestdives-2.webp",
+					"alt": "Best Dives Section des activités - diapositive 2 of 5",
+					"heading": "Best Dives",
+					"text": "Section des activités"
+				},
+				{
+					"path": "../images/projects/bestdives/bestdives-3.webp",
+					"alt": "Best Dives Section des activités - diapositive 3 of 5",
+					"heading": "Best Dives",
+					"text": "Section des activités"
+				},
+				{
+					"path": "../images/projects/bestdives/bestdives-4.webp",
+					"alt": "Best Dives Localisation et contact - diapositive 4 of 5",
+					"heading": "Best Dives",
+					"text": "Localisation et contact"
+				},
+				{
+					"path": "../images/projects/bestdives/bestdives-5.webp",
+					"alt": "Vues mobiles - diapositive 5 of 5",
+					"heading": "Best Dives",
+					"text": "Vues mobiles"
+				}
+			],
+			"website": "https://live-bestdives.pantheonsite.io/",
+			"github": ""
 		}
   ]
 }

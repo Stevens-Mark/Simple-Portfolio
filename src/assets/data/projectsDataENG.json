@@ -760,6 +760,110 @@
 			],
 			"website": "https://dev-banana-designs.pantheonsite.io/",
 			"github": ""
+		},
+    {
+			"id": "16",
+			"date": "2022-11-17",
+			"title": "Food Wishes",
+			"description": "Create a Full stack solution - PHP & MYSQL.",
+			"cover": "../images/projects/foodwishes/foodwishes-3.webp",
+			"alt": "Food Wishes - Recipe Page",
+			"textColor": "white",
+			"slides": [
+				{
+					"path": "../images/projects/foodwishes/foodwishes-1.webp",
+					"alt": "Food Wishes Sign Up - slide 1 of 8",
+					"heading": "Food Wishes",
+					"text": "Sign Up"
+				},
+				{
+					"path": "../images/projects/foodwishes/foodwishes-2.webp",
+					"alt": "Food Wishes Login - slide 2 of 8",
+					"heading": "Food Wishes",
+					"text": "Login"
+				},
+				{
+					"path": "../images/projects/foodwishes/foodwishes-3.webp",
+					"alt": "Recipes Page - slide 3 of 8",
+					"heading": "Food Wishes",
+					"text": "Recipes Page"
+				},
+				{
+					"path": "../images/projects/foodwishes/foodwishes-4.webp",
+					"alt": "A Recipe - slide 4 of 8",
+					"heading": "Food Wishes",
+					"text": "Recipe & Add A Comment"
+				},
+				{
+					"path": "../images/projects/foodwishes/foodwishes-5.webp",
+					"alt": "Update A Recipe - slide 5 of 8",
+					"heading": "Food Wishes",
+					"text": "Update A Recipe"
+				},
+				{
+					"path": "../images/projects/foodwishes/foodwishes-6.webp",
+					"alt": "Update A Recipe Success - slide 6 of 8",
+					"heading": "Food Wishes",
+					"text": "Successful Update"
+				},
+				{
+					"path": "../images/projects/foodwishes/foodwishes-7.webp",
+					"alt": "Contact Page - slide 7 of 8",
+					"heading": "Food Wishes",
+					"text": "Contact Page"
+				},
+				{
+					"path": "../images/projects/foodwishes/foodwishes-8.webp",
+					"alt": "Mobile Views - slide 8 of 8",
+					"heading": "Food Wishes",
+					"text": "Mobile Views"
+				}
+			],
+			"website": "https://stevensmark.infinityfreeapp.com/index.php",
+			"github": "https://github.com/Stevens-Mark/FoodWishes"
+		},
+    {
+			"id": "17",
+			"date": "2023-002-22",
+			"title": "Best Dives",
+			"description": "Build a website prototype - WordPress.",
+			"cover": "../images/projects/bestdives/bestdives-1.webp",
+			"alt": "Best Dives - Hero",
+			"textColor": "white",
+			"slides": [
+				{
+					"path": "../images/projects/bestdives/bestdives-1.webp",
+					"alt": "Best Dives - Hero - slide 1 of 5",
+					"heading": "Best Dives",
+					"text": "Best Dives - Hero"
+				},
+				{
+					"path": "../images/projects/bestdives/bestdives-2.webp",
+					"alt": "Best Dives Activities Section - slide 2 of 5",
+					"heading": "Best Dives",
+					"text": "Activities Section"
+				},
+				{
+					"path": "../images/projects/bestdives/bestdives-3.webp",
+					"alt": "Best Dives Activities Section - slide 3 of 5",
+					"heading": "Best Dives",
+					"text": "Activities Section"
+				},
+				{
+					"path": "../images/projects/bestdives/bestdives-4.webp",
+					"alt": "Best Dives Locations & contact - slide 4 of 5",
+					"heading": "Best Dives",
+					"text": "Locations & Contact"
+				},
+				{
+					"path": "../images/projects/bestdives/bestdives-5.webp",
+					"alt": "Mobile Views - slide 5 of 5",
+					"heading": "Best Dives",
+					"text": "Mobile Views"
+				}
+			],
+			"website": "https://live-bestdives.pantheonsite.io/",
+			"github": ""
 		}
 	]
 }
