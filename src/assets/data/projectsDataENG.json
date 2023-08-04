@@ -704,7 +704,7 @@
 			"id": "15",
 			"date": "2022-09-04",
 			"title": "Banana Designs",
-			"description": "Creation of a Website - WordPress.",
+			"description": "Creation of a Website - using WordPress.",
 			"cover": "../images/projects/bananadesigns/thumbBananaHome.webp",
 			"alt": "Banana Designs Home Page",
 			"textColor": "white",
@@ -824,7 +824,7 @@
 		},
     {
 			"id": "17",
-			"date": "2023-002-22",
+			"date": "2023-02-22",
 			"title": "Best Dives",
 			"description": "Build a website prototype - WordPress.",
 			"cover": "../images/projects/bestdives/bestdives-1.webp",
@@ -862,8 +862,75 @@
 					"text": "Mobile Views"
 				}
 			],
-			"website": "https://live-bestdives.pantheonsite.io/",
+			"website": "https://bestdives.infinityfreeapp.com/",
 			"github": ""
+		},
+    {
+			"id": "18",
+			"date": "2023-08-02",
+			"title": "Musicontrol",
+			"description": "Create a Spotify music controller - Next.js.",
+			"cover": "../images/projects/musicontrol/thumbMusic.webp",
+			"alt": "Musicontrol - Results",
+			"textColor": "white",
+			"slides": [
+				{
+					"path": "../images/projects/musicontrol/music1.webp",
+					"alt": "Musicontrol - Welcome- slide 1 of 9",
+					"heading": "Musicontrol",
+					"text": "Musicontrol - Welcome"
+				},
+				{
+					"path": "../images/projects/musicontrol/music2.webp",
+					"alt": "Musicontrol Search Page - slide 2 of 9",
+					"heading": "Musicontrol",
+					"text": "Search Page"
+				},
+				{
+					"path": "../images/projects/musicontrol/music3.webp",
+					"alt": "Musicontrol Search Results - slide 3 of 9",
+					"heading": "Musicontrol",
+					"text": "Search Results"
+				},
+				{
+					"path": "../images/projects/musicontrol/music4.webp",
+					"alt": "Musicontrol Playlist - slide 4 of 9",
+					"heading": "Musicontrol",
+					"text": "Playlist"
+				},
+				{
+					"path": "../images/projects/musicontrol/music5.webp",
+					"alt": "Album - slide 5 of 9",
+					"heading": "Musicontrol",
+					"text": "Album"
+				},
+        {
+					"path": "../images/projects/musicontrol/music6.webp",
+					"alt": "Musicontrol Podcasts & Episodes - slide 6 of 9",
+					"heading": "Musicontrol",
+					"text": "Podcasts & Episodes"
+				},
+        {
+					"path": "../images/projects/musicontrol/music7.webp",
+					"alt": "Musicontrol Podcast - slide 7 of 9",
+					"heading": "Musicontrol",
+					"text": "Podcast"
+				},
+        {
+					"path": "../images/projects/musicontrol/music8.webp",
+					"alt": "Musicontrol Liked Songs - slide 8 of 8",
+					"heading": "Musicontrol",
+					"text": "Liked Songs"
+				},
+        {
+					"path": "../images/projects/musicontrol/music9.webp",
+					"alt": "Musicontrol Mobile Views - slide 9 of 8",
+					"heading": "Musicontrol",
+					"text": "Mobile Views"
+				}
+			],
+			"website": "https://musicontrol2023.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/Spotify-app.git"
 		}
 	]
 }

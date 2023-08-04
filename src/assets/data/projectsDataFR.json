@@ -1,32 +1,31 @@
 {
-	"siteText": 
-	{
-		"nav": {
-			"about": "À propos",
+  "siteText": {
+    "nav": {
+      "about": "À propos",
       "skills": "Compétences",
       "portfolio": "Portfolio",
       "contact": "Coordonnées"
-		},
-		"intro": {
-			"title": "Je m'appelle Mark Stevens, Développeur Front-end.",
-			"subheading1": "Bienvenue dans mon univers créatif",
-			"skillsButton": "Mes compétences web"
-		},
-		"skills": {
-			"title": "Mes compétences",
-			"subheading1": "Développement et conception de sites web"
-		},
-		"portfolio": {
-			"title": "Mon Portfolio",
-			"subheading1": "Projets personnels et professionnels",
+    },
+    "intro": {
+      "title": "Je m'appelle Mark Stevens, Développeur Front-end.",
+      "subheading1": "Bienvenue dans mon univers créatif",
+      "skillsButton": "Mes compétences web"
+    },
+    "skills": {
+      "title": "Mes compétences",
+      "subheading1": "Développement et conception de sites web"
+    },
+    "portfolio": {
+      "title": "Mon Portfolio",
+      "subheading1": "Projets personnels et professionnels",
       "sortDesc": "Descendant",
       "sortAsc": "Ascendant"
-		},
+    },
     "cardButton": "Voir plus",
-		"contactDetails": {
-			"title": "Vous avez un projet de conception de site web en tête ?",
-			"subheading1": "Discutons-en autour d'un café !"
-		},
+    "contactDetails": {
+      "title": "Vous avez un projet de conception de site web en tête ?",
+      "subheading1": "Discutons-en autour d'un café !"
+    },
     "form": {
       "name": "Nom et Prénom",
       "namePrompt": "Au moins 2 lettres...",
@@ -35,7 +34,7 @@
       "emailError": "⚠️ Entrez une adresse e-mail valide",
       "emailPrompt": "Je ne partagerai jamais votre email...",
       "message": "Message",
-      "messagePrompt":"Écrivez un court message...",
+      "messagePrompt": "Écrivez un court message...",
       "messageError": "⚠️ Veuillez ajouter un vrai message ?",
       "submit": "Soumettre"
     },
@@ -44,17 +43,17 @@
       "fail": "L'email n'a pas été envoyé !"
     },
     "footer": {
-			"legal": "Notice légale"
-		},
+      "legal": "Notice légale"
+    },
     "modal": {
       "title": "Clause de non-responsabilité du site web",
-      "paragraph1":"Les informations contenues dans ce site Web sont uniquement destinées à des fins d'information générale. Les informations sont fournies par Mark Stevens et, bien que je m'efforce de maintenir les informations à jour et correctes, je ne fais aucune déclaration ni garantie de quelque nature que ce soit, expresse ou implicite, quant à l'exhaustivité, l'exactitude, la fiabilité, la pertinence ou la disponibilité du site Web ou des informations, produits, services ou graphiques connexes contenus sur le site Web à quelque fin que ce soit. Toute confiance que vous accordez à ces informations est donc strictement à vos risques et périls.",
-      "paragraph2":"En aucun cas, je ne pourrai être tenu responsable de toute perte ou de tout dommage, y compris, sans s'y limiter, les pertes ou dommages indirects ou consécutifs, ou toute perte ou tout dommage, quel qu'il soit, résultant de la perte de données ou de bénéfices, découlant de l'utilisation de ce site Web ou en rapport avec celle-ci.",
-      "paragraph3":"Ce site Web vous permet d'accéder à d'autres sites Web qui ne sont pas sous mon contrôle. Je n'ai aucun contrôle sur la nature, le contenu et la disponibilité de ces sites. L'inclusion de tout lien n'implique pas nécessairement une recommandation ou l'approbation des opinions exprimées dans ces sites.",
-      "paragraph4":"Tous les efforts sont faits pour maintenir le site web en bon état de fonctionnement. Toutefois, je n'assume aucune responsabilité et ne pourrai être tenu responsable de l'indisponibilité temporaire du site web en raison de problèmes techniques indépendants de notre volonté.",
+      "paragraph1": "Les informations contenues dans ce site Web sont uniquement destinées à des fins d'information générale. Les informations sont fournies par Mark Stevens et, bien que je m'efforce de maintenir les informations à jour et correctes, je ne fais aucune déclaration ni garantie de quelque nature que ce soit, expresse ou implicite, quant à l'exhaustivité, l'exactitude, la fiabilité, la pertinence ou la disponibilité du site Web ou des informations, produits, services ou graphiques connexes contenus sur le site Web à quelque fin que ce soit. Toute confiance que vous accordez à ces informations est donc strictement à vos risques et périls.",
+      "paragraph2": "En aucun cas, je ne pourrai être tenu responsable de toute perte ou de tout dommage, y compris, sans s'y limiter, les pertes ou dommages indirects ou consécutifs, ou toute perte ou tout dommage, quel qu'il soit, résultant de la perte de données ou de bénéfices, découlant de l'utilisation de ce site Web ou en rapport avec celle-ci.",
+      "paragraph3": "Ce site Web vous permet d'accéder à d'autres sites Web qui ne sont pas sous mon contrôle. Je n'ai aucun contrôle sur la nature, le contenu et la disponibilité de ces sites. L'inclusion de tout lien n'implique pas nécessairement une recommandation ou l'approbation des opinions exprimées dans ces sites.",
+      "paragraph4": "Tous les efforts sont faits pour maintenir le site web en bon état de fonctionnement. Toutefois, je n'assume aucune responsabilité et ne pourrai être tenu responsable de l'indisponibilité temporaire du site web en raison de problèmes techniques indépendants de notre volonté.",
       "thanks": "Merci"
     }
-	},
+  },
 
   "projects": [
     {
@@ -77,7 +76,7 @@
           "alt": "Partie supérieure de la page web - diapositive 2 de 4",
           "heading": "Reservia",
           "text": "Section hébergement"
-        },        
+        },
         {
           "path": "../images/projects/reservia/003_reserviaBottom.webp",
           "alt": "Moitié inférieure de la page web - diapositive 3 de 4",
@@ -90,10 +89,9 @@
           "heading": "Reservia",
           "text": "Vue mobile"
         }
-
       ],
-			"website": "https://reservia2021.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P2_30032021"
+      "website": "https://reservia2021.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P2_30032021"
     },
     {
       "id": "2",
@@ -115,7 +113,7 @@
           "alt": "Ohmyfood Menu 1 - diapositive 2 de 6",
           "heading": "Ohmyfood",
           "text": "Menu un"
-        },        
+        },
         {
           "path": "../images/projects/ohmyfood/003_ohmyfoodMenu2.webp",
           "alt": "Ohmyfood Menu 2 - diapositive 3 de 6",
@@ -142,7 +140,7 @@
         }
       ],
       "website": "https://ohmyfood2021.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P3_21042021"
+      "github": "https://github.com/Stevens-Mark/StevensMark_P3_21042021"
     },
     {
       "id": "3",
@@ -164,7 +162,7 @@
           "alt": "Formulaire de saisie de GameOn - diapositive 2 de 5",
           "heading": "GameOn",
           "text": "Formulaire de saisie"
-        },        
+        },
         {
           "path": "../images/projects/gameon/003_gameOnControl.webp",
           "alt": "Contrôle des erreurs du formulaire de saisie de GameOn - diapositive 3 de 5",
@@ -185,7 +183,7 @@
         }
       ],
       "website": "https://stevens-mark.github.io/GameOn/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P4_06052021"
+      "github": "https://github.com/Stevens-Mark/StevensMark_P4_06052021"
     },
     {
       "id": "4",
@@ -207,7 +205,7 @@
           "alt": "Page du photographe individuel Fisheye - diapositive 2 de 5",
           "heading": "Fisheye",
           "text": "La page d'un photographe"
-        },          
+        },
         {
           "path": "../images/projects/fisheye/003_fisheyeCarousel.webp",
           "alt": "Carrousel - Noir et blanc d'une femme noire - diapositive 3 de 5",
@@ -228,7 +226,7 @@
         }
       ],
       "website": "https://fisheye2021.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P6_09062021"
+      "github": "https://github.com/Stevens-Mark/StevensMark_P6_09062021"
     },
     {
       "id": "5",
@@ -250,7 +248,7 @@
           "alt": "Entrée de recherche principale - diapositive 2 de 5",
           "heading": "Les Petits Plats",
           "text": "Recherche principale"
-        },          
+        },
         {
           "path": "../images/projects/petitsplats/003_petitsplatssearchadvanced.webp",
           "alt": "Saisie de la recherche avancée - diapositive 3 de 5",
@@ -270,8 +268,8 @@
           "text": "Vue mobile"
         }
       ],
-			"website": "https://petitplat.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P7_12072021"
+      "website": "https://petitplat.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P7_12072021"
     },
     {
       "id": "6",
@@ -293,7 +291,7 @@
           "alt": "Interface pour les employés  - diapositive 2 de 5",
           "heading": "Billed",
           "text": "Interface d'employée"
-        },          
+        },
         {
           "path": "../images/projects/billed/billed_4.webp",
           "alt": "L'interface d'administration - diapositive 3 de 5",
@@ -313,8 +311,8 @@
           "text": "Couverture des tests"
         }
       ],
-			"website": "https://billed.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P9_09082021"
+      "website": "https://billed.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P9_09082021"
     },
     {
       "id": "7",
@@ -336,7 +334,7 @@
           "alt": "Tableau de bord - diapositive 2 de 7",
           "heading": "Learn At Home",
           "text": "Tableau de bord"
-        },          
+        },
         {
           "path": "../images/projects/learn/003_learnTasks.webp",
           "alt": "Tâches  - diapositive 3 de 7",
@@ -368,8 +366,8 @@
           "text": "Vue mobile"
         }
       ],
-			"website": "https://www.figma.com/file/K8QF42xb6EzUyqDOvKHAXW/Learn-at-home",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P10_20092021"
+      "website": "https://www.figma.com/file/K8QF42xb6EzUyqDOvKHAXW/Learn-at-home",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P10_20092021"
     },
     {
       "id": "8",
@@ -391,7 +389,7 @@
           "alt": "Page d'accueil de Kasa - Bas - diapositive 2 de 5",
           "heading": "Kasa",
           "text": "Page d'accueil de Kasa - Bas"
-        },          
+        },
         {
           "path": "../images/projects/kasa/003_kasaAccom.webp",
           "alt": "Page hébergement  - diapositive 3 de 5",
@@ -411,8 +409,8 @@
           "text": "Vue mobile"
         }
       ],
-			"website": "https://kasa2021.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P11_18102021"
+      "website": "https://kasa2021.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P11_18102021"
     },
     {
       "id": "9",
@@ -434,7 +432,7 @@
           "alt": "Page des statistiques de l'utilisateur (karl) - diapositive 2 de 4",
           "heading": "SportSee",
           "text": "Page des statistiques de l'utilisateur (Karl)"
-        },        
+        },
         {
           "path": "../images/projects/sportsee/sportsee3.webp",
           "alt": "Page des statistiques de l'utilisateur (cecelia]  - diapositive 3 de 4",
@@ -448,12 +446,12 @@
           "text": "Vue mobile"
         }
       ],
-			"website": "https://sportsee2021.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P12_08112021"
+      "website": "https://sportsee2021.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P12_08112021"
     },
     {
       "id": "10",
-			"date": "2021-12-02",
+      "date": "2021-12-02",
       "title": "Argent Bank",
       "description": "Utilisation d'une API pour un compte bancaire - React, Redux & Swagger.",
       "cover": "../images/projects/argentbank/thumbArgentbank.webp",
@@ -471,7 +469,7 @@
           "alt": "Page de transaction - diapositive 2 de 5",
           "heading": "Argent Bank",
           "text": "Page de transaction"
-        },        
+        },
         {
           "path": "../images/projects/argentbank/argentbank3.webp",
           "alt": "Page de connexion - Mode nuit - diapositive 3 de 5",
@@ -491,8 +489,8 @@
           "text": "Vue mobile"
         }
       ],
-			"website": "https://argentbankdeployed.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P13_02122021"
+      "website": "https://argentbankdeployed.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P13_02122021"
     },
     {
       "id": "11",
@@ -514,7 +512,7 @@
           "alt": "Gestion des erreurs de formulaire - diapositive 2 de 6",
           "heading": "Wealth Health",
           "text": "Gestion des erreurs de formulaire"
-        },        
+        },
         {
           "path": "../images/projects/wealth/wealth3.webp",
           "alt": "Page des employés actuels - diapositive 3 de 6",
@@ -540,8 +538,8 @@
           "text": "Vue mobile"
         }
       ],
-			"website": "https://wealthhealth.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P14_04022022"
+      "website": "https://wealthhealth.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P14_04022022"
     },
     {
       "id": "12",
@@ -563,7 +561,7 @@
           "alt": "Modal par défaut - diapositive 2 de 5",
           "heading": "Wealth Health",
           "text": "Modal par défaut"
-        },        
+        },
         {
           "path": "../images/projects/wealthnpmplugin/wealthmodal3.webp",
           "alt": "Défini par l'utilisateur avec un message supplémentaire - diapositive 3 de 5",
@@ -583,8 +581,8 @@
           "text": "Mode nuit"
         }
       ],
-			"website": "https://reactcustommodal.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/react-custom-modal-by-msparkystevens"
+      "website": "https://reactcustommodal.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/react-custom-modal-by-msparkystevens"
     },
     {
       "id": "13",
@@ -606,7 +604,7 @@
           "alt": "Page du projet individuel en français - diapositive 2 de 7",
           "heading": "Portfolio",
           "text": "Page du projet (FR)"
-        },        
+        },
         {
           "path": "../images/projects/portfolio/portfolio3.webp",
           "alt": "Page à propos en français - diapositive 3 de 7",
@@ -638,234 +636,301 @@
           "text": "Vue mobile"
         }
       ],
-			"website": "https://stevensmarkportfolio.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/Portfolio"
+      "website": "https://stevensmarkportfolio.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/Portfolio"
     },
     {
-			"id": "14",
-			"date": "2022-07-29",
-			"title": "NotFlix",
-			"description": "Un clone de Netflix utilisant l'Api TMDB - React.",
-			"cover": "../images/projects/notflix/thumbNotflix.webp",
-			"alt": "Page d'accueil de NotFlix",
-			"textColor": "white",
-			"slides": [
-				{
-					"path": "../images/projects/notflix/notflix1.webp",
-					"alt": "Page d'accueil de NotFlix - diapositive 1 de 8",
-					"heading": "NotFlix",
-					"text": "Page d'accueil de NotFlix"
-				},
-				{
-					"path": "../images/projects/notflix/notflix2.webp",
-					"alt": "Liste des films et séries télévisées - diapositive 2 de 8",
-					"heading": "NotFlix",
-					"text": "Liste des films et séries télévisées"
-				},
+      "id": "14",
+      "date": "2022-07-29",
+      "title": "NotFlix",
+      "description": "Un clone de Netflix utilisant l'Api TMDB - React.",
+      "cover": "../images/projects/notflix/thumbNotflix.webp",
+      "alt": "Page d'accueil de NotFlix",
+      "textColor": "white",
+      "slides": [
         {
-					"path": "../images/projects/notflix/notflix3.webp",
-					"alt": "Afficher plus d'éléments de genre page - diapositive 3 de 8",
-					"heading": "NotFlix",
-					"text": "Afficher plus d'éléments de genre page"
-				},
-				{
-					"path": "../images/projects/notflix/notflix4.webp",
-					"alt": "Fenêtre d'information - diapositive 4 de 8",
-					"heading": "NotFlix",
-					"text": "Fenêtre d'information"
-				},
-				{
-					"path": "../images/projects/notflix/notflix5.webp",
-					"alt": "Lecteur de bande-annonce vidéo - diapositive 5 de 8",
-					"heading": "NotFlix",
-					"text": "Lecteur de bande-annonce vidéo"
-				},
-				{
-					"path": "../images/projects/notflix/notflix6.webp",
-					"alt": "Liste de souhaits sauvegardés - diapositive 6 de 8",
-					"heading": "NotFlix",
-					"text": "Liste de souhaits sauvegardés"
-				},
-				{
-					"path": "../images/projects/notflix/notflix7.webp",
-					"alt": "Résultats de la recherche de l'utilisateur - diapositive 7 de 7",
-					"heading": "NotFlix",
-					"text": "Résultats de la recherche de l'utilisateur"
-				},
-				{
-					"path": "../images/projects/notflix/notflix8.webp",
-					"alt": "Vues mobiles - diapositive 8 de 8",
-					"heading": "NotFlix",
-					"text": "Vues mobiles"
-				}
-			],
-			"website": "https://notflixstevensmark.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/NotFlix"
-		},
+          "path": "../images/projects/notflix/notflix1.webp",
+          "alt": "Page d'accueil de NotFlix - diapositive 1 de 8",
+          "heading": "NotFlix",
+          "text": "Page d'accueil de NotFlix"
+        },
+        {
+          "path": "../images/projects/notflix/notflix2.webp",
+          "alt": "Liste des films et séries télévisées - diapositive 2 de 8",
+          "heading": "NotFlix",
+          "text": "Liste des films et séries télévisées"
+        },
+        {
+          "path": "../images/projects/notflix/notflix3.webp",
+          "alt": "Afficher plus d'éléments de genre page - diapositive 3 de 8",
+          "heading": "NotFlix",
+          "text": "Afficher plus d'éléments de genre page"
+        },
+        {
+          "path": "../images/projects/notflix/notflix4.webp",
+          "alt": "Fenêtre d'information - diapositive 4 de 8",
+          "heading": "NotFlix",
+          "text": "Fenêtre d'information"
+        },
+        {
+          "path": "../images/projects/notflix/notflix5.webp",
+          "alt": "Lecteur de bande-annonce vidéo - diapositive 5 de 8",
+          "heading": "NotFlix",
+          "text": "Lecteur de bande-annonce vidéo"
+        },
+        {
+          "path": "../images/projects/notflix/notflix6.webp",
+          "alt": "Liste de souhaits sauvegardés - diapositive 6 de 8",
+          "heading": "NotFlix",
+          "text": "Liste de souhaits sauvegardés"
+        },
+        {
+          "path": "../images/projects/notflix/notflix7.webp",
+          "alt": "Résultats de la recherche de l'utilisateur - diapositive 7 de 7",
+          "heading": "NotFlix",
+          "text": "Résultats de la recherche de l'utilisateur"
+        },
+        {
+          "path": "../images/projects/notflix/notflix8.webp",
+          "alt": "Vues mobiles - diapositive 8 de 8",
+          "heading": "NotFlix",
+          "text": "Vues mobiles"
+        }
+      ],
+      "website": "https://notflixstevensmark.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/NotFlix"
+    },
     {
-			"id": "15",
-			"date": "2022-09-04",
-			"title": "Banana Designs",
-			"description": "Création d'un site web - WordPress.",
-			"cover": "../images/projects/bananadesigns/thumbBananaHome.webp",
-			"alt": "Page d'accueil",
-			"textColor": "white",
-			"slides": [
-				{
-					"path": "../images/projects/bananadesigns/001_bananaHome.webp",
-					"alt": "Page d'accueil - Hero Banner - diapositive 1 de 8",
-					"heading": "Banana Designs",
-					"text": "Page d'accueil - Hero Banner"
-				},
-				{
-					"path": "../images/projects/bananadesigns/002_bananaHome2.webp",
-					"alt": "Banana Designs Page d'accueil - diapositive 2 de 8",
-					"heading": "Banana Designs",
-					"text": "Page d'accueil"
-				},
-				{
-					"path": "../images/projects/bananadesigns/003_bananaAbout.webp",
-					"alt": "La page 'à propos' - diapositive 3 de 8",
-					"heading": "Banana Designs",
-					"text": "La page 'à propos'"
-				},
-				{
-					"path": "../images/projects/bananadesigns/004_bananaCreation.webp",
-					"alt": "Page de création de site Web - diapositive 4 de 8",
-					"heading": "Banana Designs",
-					"text": "Page de création de site Web"
-				},
-				{
-					"path": "../images/projects/bananadesigns/005_bananaReference.webp",
-					"alt": "Page SEO, SEA et SMO - diapositive 5 de 8",
-					"heading": "Banana Designs",
-					"text": "Page SEO, SEA et SMO"
-				},
-				{
-					"path": "../images/projects/bananadesigns/006_bananaPortfolio.webp",
-					"alt": "Portefeuille d'entreprises - diapositive 6 de 8",
-					"heading": "Banana Designs",
-					"text": "Portefeuille d'entreprises"
-				},
-				{
-					"path": "../images/projects/bananadesigns/007_bananaContact.webp",
-					"alt": "Page de contact - diapositive 7 de 8",
-					"heading": "Banana Designs",
-					"text": "Page de contact"
-				},
-				{
-					"path": "../images/projects/bananadesigns/008_bananaMobile.webp",
-					"alt": "Vues mobiles - diapositive 8 de 8",
-					"heading": "Banana Designs",
-					"text": "Vues mobiles"
-				}
-			],
-			"website": "https://dev-banana-designs.pantheonsite.io/",
-			"github": ""
-		},
+      "id": "15",
+      "date": "2022-09-04",
+      "title": "Banana Designs",
+      "description": "Création d'un site web avec WordPress.",
+      "cover": "../images/projects/bananadesigns/thumbBananaHome.webp",
+      "alt": "Page d'accueil",
+      "textColor": "white",
+      "slides": [
+        {
+          "path": "../images/projects/bananadesigns/001_bananaHome.webp",
+          "alt": "Page d'accueil - Hero Banner - diapositive 1 de 8",
+          "heading": "Banana Designs",
+          "text": "Page d'accueil - Hero Banner"
+        },
+        {
+          "path": "../images/projects/bananadesigns/002_bananaHome2.webp",
+          "alt": "Banana Designs Page d'accueil - diapositive 2 de 8",
+          "heading": "Banana Designs",
+          "text": "Page d'accueil"
+        },
+        {
+          "path": "../images/projects/bananadesigns/003_bananaAbout.webp",
+          "alt": "La page 'à propos' - diapositive 3 de 8",
+          "heading": "Banana Designs",
+          "text": "La page 'à propos'"
+        },
+        {
+          "path": "../images/projects/bananadesigns/004_bananaCreation.webp",
+          "alt": "Page de création de site Web - diapositive 4 de 8",
+          "heading": "Banana Designs",
+          "text": "Page de création de site Web"
+        },
+        {
+          "path": "../images/projects/bananadesigns/005_bananaReference.webp",
+          "alt": "Page SEO, SEA et SMO - diapositive 5 de 8",
+          "heading": "Banana Designs",
+          "text": "Page SEO, SEA et SMO"
+        },
+        {
+          "path": "../images/projects/bananadesigns/006_bananaPortfolio.webp",
+          "alt": "Portefeuille d'entreprises - diapositive 6 de 8",
+          "heading": "Banana Designs",
+          "text": "Portefeuille d'entreprises"
+        },
+        {
+          "path": "../images/projects/bananadesigns/007_bananaContact.webp",
+          "alt": "Page de contact - diapositive 7 de 8",
+          "heading": "Banana Designs",
+          "text": "Page de contact"
+        },
+        {
+          "path": "../images/projects/bananadesigns/008_bananaMobile.webp",
+          "alt": "Vues mobiles - diapositive 8 de 8",
+          "heading": "Banana Designs",
+          "text": "Vues mobiles"
+        }
+      ],
+      "website": "https://dev-banana-designs.pantheonsite.io/",
+      "github": ""
+    },
     {
-			"id": "16",
-			"date": "2022-11-17",
-			"title": "Food Wishes",
-			"description": "Créer une solution Full stack - PHP & MYSQL.",
-			"cover": "../images/projects/foodwishes/foodwishes-3.webp",
-			"alt": "Food Wishes - Recipe Page",
-			"textColor": "white",
-			"slides": [
-				{
-					"path": "../images/projects/foodwishes/foodwishes-1.webp",
-					"alt": "Food Wishes S'inscrire - diapositive 1 of 8",
-					"heading": "Food Wishes",
-					"text": "S'inscrire"
-				},
-				{
-					"path": "../images/projects/foodwishes/foodwishes-2.webp",
-					"alt": "Food Wishes Login - diapositive 2 of 8",
-					"heading": "Food Wishes",
-					"text": "Login"
-				},
-				{
-					"path": "../images/projects/foodwishes/foodwishes-3.webp",
-					"alt": "Page des recettes - diapositive 3 of 8",
-					"heading": "Food Wishes",
-					"text": "Page des recettes"
-				},
-				{
-					"path": "../images/projects/foodwishes/foodwishes-4.webp",
-					"alt": "Recette et ajout d'un commentaire - diapositive 4 of 8",
-					"heading": "Food Wishes",
-					"text": "Recette et ajout d'un commentaire"
-				},
-				{
-					"path": "../images/projects/foodwishes/foodwishes-5.webp",
-					"alt": "Mettre à jour une recette - diapositive 5 of 8",
-					"heading": "Food Wishes",
-					"text": "Mettre à jour une recette"
-				},
-				{
-					"path": "../images/projects/foodwishes/foodwishes-6.webp",
-					"alt": "Mise à jour d'une recette à succès - diapositive 6 of 8",
-					"heading": "Food Wishes",
-					"text": "Mise à jour réussie"
-				},
-				{
-					"path": "../images/projects/foodwishes/foodwishes-7.webp",
-					"alt": "Page de contact - diapositive 7 of 8",
-					"heading": "Food Wishes",
-					"text": "Page de contact"
-				},
-				{
-					"path": "../images/projects/foodwishes/foodwishes-8.webp",
-					"alt": "Vues mobiles - diapositive 8 of 8",
-					"heading": "Food Wishes",
-					"text": "Vues mobiles"
-				}
-			],
-			"website": "https://stevensmark.infinityfreeapp.com/index.php",
-			"github": "https://github.com/Stevens-Mark/FoodWishes"
-		},
+      "id": "16",
+      "date": "2022-11-17",
+      "title": "Food Wishes",
+      "description": "Créer une solution Full stack - PHP & MYSQL.",
+      "cover": "../images/projects/foodwishes/foodwishes-3.webp",
+      "alt": "Food Wishes - Recipe Page",
+      "textColor": "white",
+      "slides": [
+        {
+          "path": "../images/projects/foodwishes/foodwishes-1.webp",
+          "alt": "Food Wishes S'inscrire - diapositive 1 of 8",
+          "heading": "Food Wishes",
+          "text": "S'inscrire"
+        },
+        {
+          "path": "../images/projects/foodwishes/foodwishes-2.webp",
+          "alt": "Food Wishes Login - diapositive 2 of 8",
+          "heading": "Food Wishes",
+          "text": "Login"
+        },
+        {
+          "path": "../images/projects/foodwishes/foodwishes-3.webp",
+          "alt": "Page des recettes - diapositive 3 of 8",
+          "heading": "Food Wishes",
+          "text": "Page des recettes"
+        },
+        {
+          "path": "../images/projects/foodwishes/foodwishes-4.webp",
+          "alt": "Recette et ajout d'un commentaire - diapositive 4 of 8",
+          "heading": "Food Wishes",
+          "text": "Recette et ajout d'un commentaire"
+        },
+        {
+          "path": "../images/projects/foodwishes/foodwishes-5.webp",
+          "alt": "Mettre à jour une recette - diapositive 5 of 8",
+          "heading": "Food Wishes",
+          "text": "Mettre à jour une recette"
+        },
+        {
+          "path": "../images/projects/foodwishes/foodwishes-6.webp",
+          "alt": "Mise à jour d'une recette à succès - diapositive 6 of 8",
+          "heading": "Food Wishes",
+          "text": "Mise à jour réussie"
+        },
+        {
+          "path": "../images/projects/foodwishes/foodwishes-7.webp",
+          "alt": "Page de contact - diapositive 7 of 8",
+          "heading": "Food Wishes",
+          "text": "Page de contact"
+        },
+        {
+          "path": "../images/projects/foodwishes/foodwishes-8.webp",
+          "alt": "Vues mobiles - diapositive 8 of 8",
+          "heading": "Food Wishes",
+          "text": "Vues mobiles"
+        }
+      ],
+      "website": "https://stevensmark.infinityfreeapp.com/index.php",
+      "github": "https://github.com/Stevens-Mark/FoodWishes"
+    },
     {
-			"id": "17",
-			"date": "2023-002-22",
-			"title": "Best Dives",
-			"description": "Construisez un prototype de site Web - WordPress.",
-			"cover": "../images/projects/bestdives/bestdives-1.webp",
-			"alt": "Best Dives - Hero",
-			"textColor": "white",
-			"slides": [
-				{
-					"path": "../images/projects/bestdives/bestdives-1.webp",
-					"alt": "Best Dives - Hero - diapositive 1 of 5",
-					"heading": "Best Dives",
-					"text": "Best Dives - Hero"
-				},
-				{
-					"path": "../images/projects/bestdives/bestdives-2.webp",
-					"alt": "Best Dives Section des activités - diapositive 2 of 5",
-					"heading": "Best Dives",
-					"text": "Section des activités"
-				},
-				{
-					"path": "../images/projects/bestdives/bestdives-3.webp",
-					"alt": "Best Dives Section des activités - diapositive 3 of 5",
-					"heading": "Best Dives",
-					"text": "Section des activités"
-				},
-				{
-					"path": "../images/projects/bestdives/bestdives-4.webp",
-					"alt": "Best Dives Localisation et contact - diapositive 4 of 5",
-					"heading": "Best Dives",
-					"text": "Localisation et contact"
-				},
-				{
-					"path": "../images/projects/bestdives/bestdives-5.webp",
-					"alt": "Vues mobiles - diapositive 5 of 5",
-					"heading": "Best Dives",
-					"text": "Vues mobiles"
-				}
-			],
-			"website": "https://live-bestdives.pantheonsite.io/",
-			"github": ""
-		}
+      "id": "17",
+      "date": "2023-002-22",
+      "title": "Best Dives",
+      "description": "Construisez un prototype de site Web - WordPress.",
+      "cover": "../images/projects/bestdives/bestdives-1.webp",
+      "alt": "Best Dives - Hero",
+      "textColor": "white",
+      "slides": [
+        {
+          "path": "../images/projects/bestdives/bestdives-1.webp",
+          "alt": "Best Dives - Hero - diapositive 1 of 5",
+          "heading": "Best Dives",
+          "text": "Best Dives - Hero"
+        },
+        {
+          "path": "../images/projects/bestdives/bestdives-2.webp",
+          "alt": "Best Dives Section des activités - diapositive 2 of 5",
+          "heading": "Best Dives",
+          "text": "Section des activités"
+        },
+        {
+          "path": "../images/projects/bestdives/bestdives-3.webp",
+          "alt": "Best Dives Section des activités - diapositive 3 of 5",
+          "heading": "Best Dives",
+          "text": "Section des activités"
+        },
+        {
+          "path": "../images/projects/bestdives/bestdives-4.webp",
+          "alt": "Best Dives Localisation et contact - diapositive 4 of 5",
+          "heading": "Best Dives",
+          "text": "Localisation et contact"
+        },
+        {
+          "path": "../images/projects/bestdives/bestdives-5.webp",
+          "alt": "Vues mobiles - diapositive 5 of 5",
+          "heading": "Best Dives",
+          "text": "Vues mobiles"
+        }
+      ],
+      "website": "https://bestdives.infinityfreeapp.com/",
+      "github": ""
+    },
+    {
+      "id": "18",
+      "date": "2023-08-02",
+      "title": "Musicontrol",
+      "description": "Créer un contrôleur de musique Spotify - Next.js.",
+      "cover": "../images/projects/musicontrol/thumbMusic.webp",
+      "alt": "Musicontrol - Résultats",
+      "textColor": "white",
+      "slides": [
+        {
+          "path": "../images/projects/musicontrol/music1.webp",
+          "alt": "Musicontrol - Welcome- diapositive 1 of 9",
+          "heading": "Musicontrol",
+          "text": "Musicontrol - Accueil"
+        },
+        {
+          "path": "../images/projects/musicontrol/music2.webp",
+          "alt": "Musicontrol Page de recherche - diapositive 2 of 9",
+          "heading": "Musicontrol",
+          "text": "Page de recherche"
+        },
+        {
+          "path": "../images/projects/musicontrol/music3.webp",
+          "alt": "Musicontrol Résultats de la recherche - diapositive 3 of 9",
+          "heading": "Musicontrol",
+          "text": "Résultats de la recherche"
+        },
+        {
+          "path": "../images/projects/musicontrol/music4.webp",
+          "alt": "Musicontrol Playlist - diapositive 4 of 9",
+          "heading": "Musicontrol",
+          "text": "Playlist"
+        },
+        {
+          "path": "../images/projects/musicontrol/music5.webp",
+          "alt": "Album - diapositive 5 of 9",
+          "heading": "Musicontrol",
+          "text": "Album"
+        },
+        {
+          "path": "../images/projects/musicontrol/music6.webp",
+          "alt": "Musicontrol Podcasts et épisodess - diapositive 6 of 9",
+          "heading": "Musicontrol",
+          "text": "Podcasts et épisodes"
+        },
+        {
+          "path": "../images/projects/musicontrol/music7.webp",
+          "alt": "Musicontrol Podcast - diapositive 7 of 9",
+          "heading": "Musicontrol",
+          "text": "Podcast"
+        },
+        {
+          "path": "../images/projects/musicontrol/music8.webp",
+          "alt": "Musicontrol Chansons favorites - diapositive 8 of 9",
+          "heading": "Musicontrol",
+          "text": "Chansons favorites"
+        },
+        {
+          "path": "../images/projects/musicontrol/music9.webp",
+          "alt": "Musicontrol Vues mobiles - slide 9 of 9",
+          "heading": "Musicontrol",
+          "text": "Vues mobiles"
+        }
+      ],
+      "website": "https://musicontrol2023.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/Spotify-app.git"
+    }
   ]
 }
